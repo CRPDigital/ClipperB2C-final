@@ -46,7 +46,7 @@
 <div
   class="
     section
-    section--{{ section.settings.section_width }}
+    section--{{ section.settings.section_width }}{% if section.settings.mobile_section_width_enabled %} section--mobile-{{ section.settings.mobile_section_width }}{% endif %}
     color-{{ section.settings.color_scheme }}
     section-resource-list
     spacing-style
@@ -189,7 +189,10 @@
     }
   ],
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "settings": [
     {
@@ -395,6 +398,29 @@
       "default": "page-width"
     },
     {
+      "type": "checkbox",
+      "id": "mobile_section_width_enabled",
+      "label": "t:settings.mobile_section_width_enabled",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "mobile_section_width",
+      "label": "t:settings.mobile_section_width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:options.page"
+        },
+        {
+          "value": "full-width",
+          "label": "t:options.full"
+        }
+      ],
+      "default": "full-width",
+      "visible_if": "{{ section.settings.mobile_section_width_enabled }}"
+    },
+    {
       "type": "range",
       "id": "gap",
       "label": "t:settings.gap",
@@ -433,6 +459,34 @@
       "step": 1,
       "unit": "px",
       "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_padding_enabled",
+      "label": "t:settings.mobile_padding_enabled",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-block-start",
+      "label": "t:settings.top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.mobile_padding_enabled }}"
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-block-end",
+      "label": "t:settings.bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.mobile_padding_enabled }}"
     }
   ],
   "presets": [
@@ -502,7 +556,9 @@
               }
             }
           },
-          "block_order": ["text_bc98Wh"]
+          "block_order": [
+            "text_bc98Wh"
+          ]
         },
         "static-collection-card": {
           "type": "_collection-card",
@@ -551,10 +607,14 @@
               }
             }
           },
-          "block_order": ["collection-title"]
+          "block_order": [
+            "collection-title"
+          ]
         }
       },
-      "block_order": ["group_Lg9LkF"]
+      "block_order": [
+        "group_Lg9LkF"
+      ]
     },
     {
       "name": "t:names.collections_grid",
@@ -614,7 +674,9 @@
               }
             }
           },
-          "block_order": ["text_bc98Wh"]
+          "block_order": [
+            "text_bc98Wh"
+          ]
         },
         "static-collection-card": {
           "type": "_collection-card",
@@ -663,10 +725,14 @@
               }
             }
           },
-          "block_order": ["collection-title"]
+          "block_order": [
+            "collection-title"
+          ]
         }
       },
-      "block_order": ["group_Lg9LkF"],
+      "block_order": [
+        "group_Lg9LkF"
+      ],
       "settings": {
         "collection_list": [],
         "layout_type": "grid",
@@ -742,7 +808,9 @@
               }
             }
           },
-          "block_order": ["text_nQEaGV"]
+          "block_order": [
+            "text_nQEaGV"
+          ]
         },
         "static-collection-card": {
           "type": "_collection-card",
@@ -789,10 +857,14 @@
               }
             }
           },
-          "block_order": ["collection-title"]
+          "block_order": [
+            "collection-title"
+          ]
         }
       },
-      "block_order": ["group_EYUh3J"],
+      "block_order": [
+        "group_EYUh3J"
+      ],
       "settings": {
         "collection_list": [],
         "layout_type": "carousel",
@@ -880,7 +952,9 @@
               "blocks": {}
             }
           },
-          "block_order": ["text"]
+          "block_order": [
+            "text"
+          ]
         },
         "static-collection-card": {
           "type": "_collection-card",
@@ -942,10 +1016,14 @@
               "blocks": {}
             }
           },
-          "block_order": ["collection-title"]
+          "block_order": [
+            "collection-title"
+          ]
         }
       },
-      "block_order": ["group"],
+      "block_order": [
+        "group"
+      ],
       "settings": {
         "collection_list": [],
         "layout_type": "editorial",

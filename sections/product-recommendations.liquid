@@ -40,7 +40,7 @@
   <div
     class="
       section
-      section--{{ section.settings.section_width }}
+      section--{{ section.settings.section_width }}{% if section.settings.mobile_section_width_enabled %} section--mobile-{{ section.settings.mobile_section_width }}{% endif %}
       color-{{ section.settings.color_scheme }}
       section-resource-list
       spacing-style
@@ -191,7 +191,10 @@
 {
   "name": "t:names.product_recommendations",
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "blocks": [
     {
@@ -411,6 +414,29 @@
       "default": "page-width"
     },
     {
+      "type": "checkbox",
+      "id": "mobile_section_width_enabled",
+      "label": "t:settings.mobile_section_width_enabled",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "mobile_section_width",
+      "label": "t:settings.mobile_section_width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:options.page"
+        },
+        {
+          "value": "full-width",
+          "label": "t:options.full"
+        }
+      ],
+      "default": "full-width",
+      "visible_if": "{{ section.settings.mobile_section_width_enabled }}"
+    },
+    {
       "type": "range",
       "id": "gap",
       "label": "t:settings.gap",
@@ -449,6 +475,34 @@
       "step": 1,
       "unit": "px",
       "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_padding_enabled",
+      "label": "t:settings.mobile_padding_enabled",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-block-start",
+      "label": "t:settings.top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.mobile_padding_enabled }}"
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-block-end",
+      "label": "t:settings.bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.mobile_padding_enabled }}"
     }
   ],
   "presets": [
@@ -551,10 +605,16 @@
               }
             }
           },
-          "block_order": ["product-card-gallery", "product_title", "price"]
+          "block_order": [
+            "product-card-gallery",
+            "product_title",
+            "price"
+          ]
         }
       },
-      "block_order": ["header"]
+      "block_order": [
+        "header"
+      ]
     }
   ]
 }

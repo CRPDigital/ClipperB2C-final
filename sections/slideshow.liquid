@@ -32,7 +32,7 @@
 %}
 
 <div
-  class="spacing-style section section--{{ section.settings.section_width }} color-{{ section.settings.color_scheme }} disable-section-top-offset"
+  class="spacing-style section section--{{ section.settings.section_width }}{% if section.settings.mobile_section_width_enabled %} section--mobile-{{ section.settings.mobile_section_width }}{% endif %} color-{{ section.settings.color_scheme }} disable-section-top-offset"
   style="{% render 'spacing-padding', settings: section.settings %}"
 >
   {% render 'slideshow',
@@ -58,7 +58,10 @@
     }
   ],
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "settings": [
     {
@@ -149,6 +152,29 @@
       "default": "full-width"
     },
     {
+      "type": "checkbox",
+      "id": "mobile_section_width_enabled",
+      "label": "t:settings.mobile_section_width_enabled",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "mobile_section_width",
+      "label": "t:settings.mobile_section_width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:options.page"
+        },
+        {
+          "value": "full-width",
+          "label": "t:options.full"
+        }
+      ],
+      "default": "full-width",
+      "visible_if": "{{ section.settings.mobile_section_width_enabled }}"
+    },
+    {
       "type": "select",
       "id": "slide_height",
       "options": [
@@ -195,6 +221,34 @@
       "step": 1,
       "unit": "px",
       "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_padding_enabled",
+      "label": "t:settings.mobile_padding_enabled",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-block-start",
+      "label": "t:settings.top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.mobile_padding_enabled }}"
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-block-end",
+      "label": "t:settings.bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.mobile_padding_enabled }}"
     }
   ],
   "presets": [
@@ -245,10 +299,16 @@
                   }
                 }
               },
-              "block_order": ["heading", "text", "button"]
+              "block_order": [
+                "heading",
+                "text",
+                "button"
+              ]
             }
           },
-          "block_order": ["group"]
+          "block_order": [
+            "group"
+          ]
         },
         "slide_2": {
           "type": "_slide",
@@ -293,13 +353,22 @@
                   }
                 }
               },
-              "block_order": ["heading", "text", "button"]
+              "block_order": [
+                "heading",
+                "text",
+                "button"
+              ]
             }
           },
-          "block_order": ["group"]
+          "block_order": [
+            "group"
+          ]
         }
       },
-      "block_order": ["slide_1", "slide_2"]
+      "block_order": [
+        "slide_1",
+        "slide_2"
+      ]
     }
   ]
 }

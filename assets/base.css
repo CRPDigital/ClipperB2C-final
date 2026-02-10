@@ -410,6 +410,17 @@ p:empty {
   grid-column: 1 / -1;
 }
 
+/* Mobile section width overrides */
+@media screen and (max-width: 989px) {
+  .section.section--mobile-page-width > * {
+    grid-column: 2;
+  }
+
+  .section.section--mobile-full-width > * {
+    grid-column: 1 / -1;
+  }
+}
+
 /* Some page-width sections should still extend all the way to the right edge of the page, e.g. collection carousel */
 .section--page-width.section--full-width-right > * {
   grid-column: 2 / 4;
@@ -2187,6 +2198,21 @@ deferred-media[class] :is(.deferred-media__poster-button img, .deferred-media__p
   padding-inline: var(--padding-inline-start) var(--padding-inline-end);
   margin-block: var(--margin-block-start) var(--margin-block-end);
   margin-inline: var(--margin-inline-start) var(--margin-inline-end);
+}
+
+/* Mobile-specific padding overrides — uses --mobile-* variables set by spacing-style/spacing-padding snippets */
+@media screen and (max-width: 989px) {
+  .spacing-style,
+  .inherit-spacing {
+    padding-block: calc(var(--mobile-padding-block-start, var(--padding-block-start)) + var(--section-top-offset, 0px))
+      var(--mobile-padding-block-end, var(--padding-block-end));
+    padding-inline: var(--mobile-padding-inline-start, var(--padding-inline-start))
+      var(--mobile-padding-inline-end, var(--padding-inline-end));
+    margin-block: var(--mobile-margin-block-start, var(--margin-block-start))
+      var(--mobile-margin-block-end, var(--margin-block-end));
+    margin-inline: var(--mobile-margin-inline-start, var(--margin-inline-start))
+      var(--mobile-margin-inline-end, var(--margin-inline-end));
+  }
 }
 
 /* Size style */
