@@ -1,0 +1,346 @@
+{%- doc -%}
+  Intended for use in a block similar to the text block.
+
+  @param {string} [class] - custom class to define in addition to text-block classes
+  @param {string} [fallback_text] - fallback text if settings.text does not exist
+  @param {string} [width] - width of the text block
+{%- enddoc -%}
+
+{% liquid
+  assign plain_text = block.settings.text | strip_newlines | strip_html | strip
+  assign text_width = width | default: block.settings.width
+
+  if block.settings.font_size contains 'heading-lg' or block.settings.font_size contains 'heading-xl'
+    assign type = 'display'
+  elsif block.settings.font_size contains 'heading'
+    assign type = 'heading'
+  else
+    assign type = 'body'
+  endif
+
+  if block.settings.type_preset == 'rte' or block.settings.type_preset == 'paragraph'
+    assign is_rte = true
+  endif
+
+  # Mobile preset: blank => inherit desktop preset
+  assign mobile_preset = block.settings.type_preset_mobile
+  if mobile_preset == blank
+    assign mobile_preset = block.settings.type_preset
+  endif
+
+  # Mobile custom fallbacks (blank => inherit desktop custom)
+  assign mobile_font = block.settings.font_mobile
+  if mobile_font == blank
+    assign mobile_font = block.settings.font
+  endif
+
+  assign mobile_font_size = block.settings.font_size_mobile
+  if mobile_font_size == blank
+    assign mobile_font_size = block.settings.font_size
+  endif
+
+  assign mobile_line_height = block.settings.line_height_mobile
+  if mobile_line_height == blank
+    assign mobile_line_height = block.settings.line_height
+  endif
+
+  assign mobile_letter_spacing = block.settings.letter_spacing_mobile
+  if mobile_letter_spacing == blank
+    assign mobile_letter_spacing = block.settings.letter_spacing
+  endif
+
+  assign mobile_case = block.settings.case_mobile
+  if mobile_case == blank
+    assign mobile_case = block.settings.case
+  endif
+
+  assign mobile_wrap = block.settings.wrap_mobile
+  if mobile_wrap == blank
+    assign mobile_wrap = block.settings.wrap
+  endif
+
+  assign mobile_color = block.settings.color_mobile
+  if mobile_color == blank
+    assign mobile_color = block.settings.color
+  endif
+
+  capture text_block_classes
+    if text_width == '100%'
+      echo 'text-block--align-' | append: block.settings.alignment
+      if block.settings.max_width == 'none'
+        echo ' text-block--full-width '
+      endif
+    endif
+
+    # Desktop custom classes (som før)
+    if block.settings.type_preset == 'custom'
+      echo ' custom-typography '
+      if block.settings.font_size != ''
+        echo ' custom-font-size '
+      endif
+      if block.settings.color != ''
+        echo ' custom-color '
+      endif
+    endif
+
+    # Mobile custom helper class (kun til CSS målretning)
+    if mobile_preset == 'custom'
+      echo ' m-custom-typography '
+    endif
+
+    if block.settings.background
+      echo ' text-block--background '
+    endif
+    if is_rte
+      echo ' rte '
+    endif
+  endcapture
+%}
+
+{% capture attributes %}
+  class="{{ class }} spacing-style text-block text-block--{{ block.id }} {{ block.settings.type_preset }} m-{{ mobile_preset }}
+    {{ text_block_classes }}
+  "
+
+  style="
+    {% render 'spacing-padding', settings: block.settings %}
+    {% render 'typography-style', settings: block.settings %}
+    --width: {{ text_width }};
+    --max-width: var(--max-width--{{ type }}-{{ block.settings.max_width }});
+
+    {% if text_width == "100%" %}
+      --text-align: {{ block.settings.alignment }};
+    {% endif %}
+
+    {% if block.settings.background %}
+      --text-background-color: {{ block.settings.background_color | default: 'rgb(255 255 255 / 1.0)' }};
+      --text-corner-radius: {{ block.settings.corner_radius }}px;
+      --text-padding: max(var(--padding-2xs), calc((var(--text-corner-radius) + var(--padding-xs)) * (1 - cos(45deg))));
+    {% endif %}
+
+    {%- comment -%}
+      Mobile custom vars (bruges kun når m-custom / type_preset_mobile = custom)
+      Alle felter kan være blank => arver desktop custom.
+    {%- endcomment -%}
+    --m-font-family: {{ mobile_font }};
+    {% if mobile_font_size != blank %}
+      --m-font-size: {{ mobile_font_size }};
+    {% endif %}
+    {% if mobile_line_height != blank %}
+      --m-line-height: var(--line-height-{{ mobile_line_height }});
+    {% endif %}
+    {% if mobile_letter_spacing != blank %}
+      --m-letter-spacing: var(--letter-spacing-{{ mobile_letter_spacing }});
+    {% endif %}
+    {% if mobile_case == 'uppercase' %}
+      --m-text-transform: uppercase;
+    {% else %}
+      --m-text-transform: none;
+    {% endif %}
+    {% if mobile_wrap != blank %}
+      --m-text-wrap: {{ mobile_wrap }};
+    {% endif %}
+    {% if mobile_color != blank %}
+      --m-color: {{ mobile_color }};
+    {% endif %}
+  "
+
+  {{ block.shopify_attributes }}
+{% endcapture %}
+
+{% liquid
+  # {{ attributes }} must be on the immediate HTML parent of the text to preserve
+  # the click-to-edit connection in the theme editor. Any break between the text,
+  # including if-statements, will break the connection.
+
+  assign element = 'div'
+  if is_rte
+    assign element = 'rte-formatter'
+  endif
+%}
+
+{% if fallback_text != blank and plain_text == blank %}
+  <div {{ attributes }}>
+    {{ fallback_text }}
+  </div>
+{% elsif plain_text != blank %}
+  <{{ element }} {{ attributes }}>
+    {{ block.settings.text }}
+  </{{ element }}>
+{% endif %}
+
+{% stylesheet %}
+  :root {
+    --text-align-default: left;
+  }
+
+  [style*='--horizontal-alignment: center'] .text-block {
+    --text-align-default: center;
+  }
+
+  [style*='--horizontal-alignment: flex-end'] .text-block {
+    --text-align-default: right;
+  }
+
+  [style*='--horizontal-alignment: flex-start'] > .text-block {
+    --text-align-default: left;
+  }
+
+  [style*='--horizontal-alignment: center'] > .text-block {
+    --text-align-default: center;
+  }
+
+  [style*='--horizontal-alignment: flex-end'] > .text-block {
+    --text-align-default: right;
+  }
+
+  .text-block {
+    width: var(--width);
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: var(--horizontal-alignment);
+  }
+
+  .text-block > * {
+    width: var(--width);
+    max-width: var(--max-width, 100%);
+    text-align: var(--text-align, var(--text-align-default));
+    text-wrap: var(--text-wrap);
+  }
+
+  .text-block:not(.text-block--full-width).rte,
+  .text-block:not(.text-block--full-width).paragraph {
+    /* Safari doesn't support pretty, so fallback to balance */
+    text-wrap: balance;
+    text-wrap: pretty;
+  }
+
+  .text-block:not(.text-block--full-width):is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    text-wrap: balance;
+  }
+
+  /* Hide underline unless text is using paragraph styles. */
+  .text-block:is(.h1, .h2, .h3, .h4, .h5, .h6) a {
+    text-decoration-color: transparent;
+  }
+
+  .text-block h1,
+  .text-block.h1 > * {
+    margin-block: var(--font-h1--spacing);
+  }
+
+  .text-block h2,
+  .text-block.h2 > * {
+    margin-block: var(--font-h2--spacing);
+  }
+
+  .text-block h3,
+  .text-block.h3 > * {
+    margin-block: var(--font-h3--spacing);
+  }
+
+  .text-block h4,
+  .text-block.h4 > * {
+    margin-block: var(--font-h4--spacing);
+  }
+
+  .text-block h5,
+  .text-block.h5 > * {
+    margin-block: var(--font-h5--spacing);
+  }
+
+  .text-block h6,
+  .text-block.h6 > * {
+    margin-block: var(--font-h6--spacing);
+  }
+
+  .text-block p,
+  .text-block.p > * {
+    margin-block: var(--font-paragraph--spacing);
+  }
+
+  .text-block > *:first-child {
+    margin-block-start: 0;
+  }
+
+  .text-block > *:last-child {
+    margin-block-end: 0;
+  }
+
+  .text-block--align-center,
+  .text-block--align-center > * {
+    margin-inline: auto;
+  }
+
+  .text-block--align-right,
+  .text-block--align-right > * {
+    margin-inline-start: auto;
+  }
+
+  .text-block--background {
+    background-color: var(--text-background-color);
+    border-radius: var(--text-corner-radius);
+
+    /* To avoid text being cropped when using a border radius we add a minimum padding. */
+    padding-block-start: max(var(--text-padding), var(--padding-block-start, 0));
+    padding-block-end: max(var(--text-padding), var(--padding-block-end, 0));
+    padding-inline-start: max(var(--text-padding), var(--padding-inline-start, 0));
+    padding-inline-end: max(var(--text-padding), var(--padding-inline-end, 0));
+  }
+
+  .custom-color,
+  .custom-color > :is(h1, h2, h3, h4, h5, h6, p, *) {
+    color: var(--color);
+  }
+
+  /* --------------------------------
+     MOBILE PRESET OVERRIDES (m-*)
+     -------------------------------- */
+  @media screen and (max-width: 749px) {
+    /* Wrap behaviour */
+    .text-block:not(.text-block--full-width).m-rte,
+    .text-block:not(.text-block--full-width).m-paragraph {
+      text-wrap: balance;
+      text-wrap: pretty;
+    }
+
+    .text-block:not(.text-block--full-width):is(.m-h1, .m-h2, .m-h3, .m-h4, .m-h5, .m-h6) {
+      text-wrap: balance;
+    }
+
+    /* Underline behaviour */
+    .text-block:is(.m-h1, .m-h2, .m-h3, .m-h4, .m-h5, .m-h6) a {
+      text-decoration-color: transparent;
+    }
+
+    /* Spacing on mobile preset */
+    .text-block.m-h1 > * { margin-block: var(--font-h1--spacing); }
+    .text-block.m-h2 > * { margin-block: var(--font-h2--spacing); }
+    .text-block.m-h3 > * { margin-block: var(--font-h3--spacing); }
+    .text-block.m-h4 > * { margin-block: var(--font-h4--spacing); }
+    .text-block.m-h5 > * { margin-block: var(--font-h5--spacing); }
+    .text-block.m-h6 > * { margin-block: var(--font-h6--spacing); }
+    .text-block.m-paragraph > * { margin-block: var(--font-paragraph--spacing); }
+
+    /* Force actual typography change (det du manglede) */
+    .text-block.m-h1 > * { font-size: var(--font-h1--size); line-height: var(--font-h1--line-height); font-family: var(--font-heading--family); }
+    .text-block.m-h2 > * { font-size: var(--font-h2--size); line-height: var(--font-h2--line-height); font-family: var(--font-heading--family); }
+    .text-block.m-h3 > * { font-size: var(--font-h3--size); line-height: var(--font-h3--line-height); font-family: var(--font-heading--family); }
+    .text-block.m-h4 > * { font-size: var(--font-h4--size); line-height: var(--font-h4--line-height); font-family: var(--font-heading--family); }
+    .text-block.m-h5 > * { font-size: var(--font-h5--size); line-height: var(--font-h5--line-height); font-family: var(--font-heading--family); }
+    .text-block.m-h6 > * { font-size: var(--font-h6--size); line-height: var(--font-h6--line-height); font-family: var(--font-heading--family); }
+    .text-block.m-paragraph > * { font-size: var(--font-paragraph--size); line-height: var(--font-paragraph--line-height); font-family: var(--font-body--family); }
+
+    /* Mobile CUSTOM preset: brug mobile vars (med fallback til desktop custom via Liquid) */
+    .text-block.m-custom > * {
+      font-family: var(--m-font-family);
+      font-size: var(--m-font-size);
+      line-height: var(--m-line-height);
+      letter-spacing: var(--m-letter-spacing);
+      text-transform: var(--m-text-transform);
+      text-wrap: var(--m-text-wrap);
+      color: var(--m-color);
+    }
+  }
+{% endstylesheet %}

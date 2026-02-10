@@ -1,0 +1,135 @@
+{%- doc -%}
+  Renders block content for all blocks that extend the group block.
+
+  @param {string} children - The DOM content of the group block.
+  @param {object} settings - The settings of the group block.
+  @param {string} shopify_attributes - String with Shopify attributes for the editor.
+  @param {string} [class] - Custom classes for the group block.
+  @param {string} [style] - Custom inline styles for the group block.
+{%- enddoc -%}
+
+{%- liquid
+  assign mobile_media_custom = false
+  if settings.media_height_mobile == 'custom'
+    assign mobile_media_custom = true
+  endif
+-%}
+
+<div
+  class="
+    group-block
+    group-block--height-{{ settings.height }}
+    group-block--width-{{ settings.width }}
+    border-style
+    spacing-style
+    size-style
+    {% if settings.inherit_color_scheme == false %} color-{{ settings.color_scheme }}{% endif %}
+    {% if mobile_media_custom %} group-block--media-height-mobile-custom{% endif %}
+    {{ class }}
+  "
+  style="
+    {% render 'border-override', settings: settings %}
+    {% render 'spacing-style', settings: settings %}
+    {% render 'size-style', settings: settings %}
+    {% if mobile_media_custom %}--group-media-height-mobile: {{ settings.media_height_mobile_custom }}svh;{% endif %}
+    {{ style }}
+  "
+  {{ shopify_attributes }}
+  data-testid="group-block"
+>
+  {%- if settings.link != blank -%}
+    <a
+      href="{{ settings.link }}"
+      class="group-block__link"
+      {% if settings.open_in_new_tab %}
+        target="_blank" rel="noopener"
+      {% endif %}
+    ></a>
+  {%- endif -%}
+
+  <div class="group-block__media-wrapper">
+    {% render 'background-media',
+      background_media: settings.background_media,
+      background_video: settings.video,
+      background_video_position: settings.video_position,
+      background_image: settings.background_image,
+      background_image_position: settings.background_image_position,
+      placeholder: settings.placeholder
+    %}
+    {% if settings.toggle_overlay %}
+      {% render 'overlay', settings: settings, layer: '0' %}
+    {% endif %}
+  </div>
+
+  <div
+    class="
+      group-block-content
+      {% if request.design_mode %}group-block-content--design-mode{% endif %}
+      layout-panel-flex
+      layout-panel-flex--{{ settings.content_direction | default: 'column' }}
+      {% if settings.vertical_on_mobile %} mobile-column{% endif %}
+    "
+    style="{% render 'layout-panel-style', settings: settings %}"
+  >
+    {{- children -}}
+  </div>
+</div>
+
+{% stylesheet %}
+  .group-block {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .group-block__link {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+  }
+
+  /* Baggrundslag: ALDRIG med i layout */
+  .group-block__media-wrapper {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  /* Content lag over baggrund */
+  .group-block-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Når der er link, skal kun interaktive elementer kunne klikkes */
+  .group-block__link ~ :is(.group-block-content, .group-block__media-wrapper) {
+    pointer-events: none;
+
+    :is(a, button, input, textarea, select) {
+      pointer-events: auto;
+    }
+  }
+
+  .group-block__link ~ .group-block-content--design-mode {
+    pointer-events: auto;
+  }
+
+  /* Mobil: brugerdefineret baggrundshøjde uden at flytte content */
+  @media screen and (max-width: 749px) {
+    .group-block--media-height-mobile-custom .group-block__media-wrapper {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: auto;
+      height: var(--group-media-height-mobile);
+      overflow: hidden;
+    }
+
+    /* VIGTIGT: hvis du vil have “canvas” så baggrunden ikke bare bliver beskåret ovenpå et for lavt element,
+       kan du give group-block en minimumshøjde der matcher baggrunden – men KUN hvis du ønsker det.
+       Fjern linjen herunder hvis du vil have, at group-højden kun bestemmes af content/size-style. */
+    .group-block--media-height-mobile-custom {
+      min-height: var(--group-media-height-mobile);
+    }
+  }
+{% endstylesheet %}
