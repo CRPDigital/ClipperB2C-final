@@ -1,0 +1,373 @@
+{%- doc -%}
+  Renders an inline text block.
+
+  @param {string} suffix
+{%- enddoc -%}
+
+{% assign plain_text = block.settings.text | strip_newlines | strip_html | strip %}
+
+{% liquid
+  # Mobile preset: blank => inherit desktop preset
+  assign mobile_preset = block.settings.type_preset_mobile
+  if mobile_preset == blank
+    assign mobile_preset = block.settings.type_preset
+  endif
+
+  # Mobile custom fallbacks (blank => inherit desktop custom)
+  assign mobile_font = block.settings.font_mobile
+  if mobile_font == blank
+    assign mobile_font = block.settings.font
+  endif
+
+  assign mobile_weight = block.settings.weight_mobile
+  if mobile_weight == blank
+    assign mobile_weight = block.settings.weight
+  endif
+
+  assign mobile_font_size = block.settings.font_size_mobile
+  if mobile_font_size == blank
+    assign mobile_font_size = block.settings.font_size
+  endif
+
+  assign mobile_line_height = block.settings.line_height_mobile
+  if mobile_line_height == blank
+    assign mobile_line_height = block.settings.line_height
+  endif
+
+  assign mobile_letter_spacing = block.settings.letter_spacing_mobile
+  if mobile_letter_spacing == blank
+    assign mobile_letter_spacing = block.settings.letter_spacing
+  endif
+
+  assign mobile_case = block.settings.case_mobile
+  if mobile_case == blank
+    assign mobile_case = block.settings.case
+  endif
+%}
+
+{% # We need to make sure the wrapper is rendered even if the text element is empty in the theme editor to allow live text editing %}
+{%- if plain_text != '' or request.design_mode -%}
+  <span
+    class="
+      text-block
+      {{ block.settings.type_preset }}
+      m-{{ mobile_preset }}
+      {% if block.settings.type_preset == 'custom' %}custom-typography{% endif %}
+      {% if block.settings.type_preset == 'custom' and block.settings.weight != blank %}custom-font-weight{% endif %}
+      {% if block.settings.type_preset == 'custom' and block.settings.font_size != blank %}custom-font-size{% endif %}
+      {% if mobile_preset == 'custom' %}m-custom-typography{% endif %}
+    "
+    style="
+      {%- comment -%}
+        Desktop: brug 'custom' preset variabler via typography-style.
+        Hvis desktop preset ikke er custom, er det ok at vi stadig har typografi-style på wrapperen,
+        men styling styres primært af preset-klasserne (h1/h2/paragraph etc.) i CSS.
+      {%- endcomment -%}
+      {% render 'typography-style', preset: 'custom', settings: block.settings, type: 'heading' %}
+
+      {%- comment -%}
+        Mobile custom vars (bruges kun hvis m-custom)
+      {%- endcomment -%}
+      --m-font-family: {{ mobile_font }};
+      {% if mobile_weight != blank %}
+        --m-font-weight: {{ mobile_weight }};
+      {% endif %}
+      {% if mobile_font_size != blank %}
+        --m-font-size: {{ mobile_font_size }};
+      {% endif %}
+      {% if mobile_line_height != blank %}
+        --m-line-height: var(--line-height-{{ mobile_line_height }});
+      {% endif %}
+      {% if mobile_letter_spacing != blank %}
+        --m-letter-spacing: var(--letter-spacing-{{ mobile_letter_spacing }});
+      {% endif %}
+      {% if mobile_case == 'uppercase' %}
+        --m-text-transform: uppercase;
+      {% else %}
+        --m-text-transform: none;
+      {% endif %}
+    "
+    {{ block.shopify_attributes }}
+  >
+    <span class="inline-text__content">{{ block.settings.text }}</span>{{ suffix }}
+  </span>
+{%- endif -%}
+
+{% stylesheet %}
+  /* --------------------------------
+     MOBILE PRESET OVERRIDES (inline)
+     -------------------------------- */
+  @media screen and (max-width: 749px) {
+    /* Headings */
+    .text-block.m-h1 .inline-text__content { font-size: var(--font-h1--size); line-height: var(--font-h1--line-height); font-family: var(--font-heading--family); }
+    .text-block.m-h2 .inline-text__content { font-size: var(--font-h2--size); line-height: var(--font-h2--line-height); font-family: var(--font-heading--family); }
+    .text-block.m-h3 .inline-text__content { font-size: var(--font-h3--size); line-height: var(--font-h3--line-height); font-family: var(--font-heading--family); }
+    .text-block.m-h4 .inline-text__content { font-size: var(--font-h4--size); line-height: var(--font-h4--line-height); font-family: var(--font-heading--family); }
+    .text-block.m-h5 .inline-text__content { font-size: var(--font-h5--size); line-height: var(--font-h5--line-height); font-family: var(--font-heading--family); }
+    .text-block.m-h6 .inline-text__content { font-size: var(--font-h6--size); line-height: var(--font-h6--line-height); font-family: var(--font-heading--family); }
+
+    /* Paragraph */
+    .text-block.m-paragraph .inline-text__content { font-size: var(--font-paragraph--size); line-height: var(--font-paragraph--line-height); font-family: var(--font-body--family); }
+
+    /* Mobile CUSTOM (override via mobile vars) */
+    .text-block.m-custom .inline-text__content {
+      font-family: var(--m-font-family);
+      font-size: var(--m-font-size);
+      line-height: var(--m-line-height);
+      letter-spacing: var(--m-letter-spacing);
+      text-transform: var(--m-text-transform);
+      font-weight: var(--m-font-weight);
+    }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "t:names.text",
+  "tag": null,
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "t:settings.text"
+    },
+    {
+      "type": "header",
+      "content": "t:content.typography"
+    },
+
+    {
+      "type": "select",
+      "id": "type_preset",
+      "label": "Preset (desktop)",
+      "options": [
+        { "value": "paragraph", "label": "t:options.paragraph" },
+        { "value": "h1", "label": "t:options.h1" },
+        { "value": "h2", "label": "t:options.h2" },
+        { "value": "h3", "label": "t:options.h3" },
+        { "value": "h4", "label": "t:options.h4" },
+        { "value": "h5", "label": "t:options.h5" },
+        { "value": "h6", "label": "t:options.h6" },
+        { "value": "custom", "label": "t:options.custom" }
+      ],
+      "default": "paragraph"
+    },
+    {
+      "type": "select",
+      "id": "type_preset_mobile",
+      "label": "Preset (mobile)",
+      "options": [
+        { "value": "", "label": "Same as desktop" },
+        { "value": "paragraph", "label": "t:options.paragraph" },
+        { "value": "h1", "label": "t:options.h1" },
+        { "value": "h2", "label": "t:options.h2" },
+        { "value": "h3", "label": "t:options.h3" },
+        { "value": "h4", "label": "t:options.h4" },
+        { "value": "h5", "label": "t:options.h5" },
+        { "value": "h6", "label": "t:options.h6" },
+        { "value": "custom", "label": "t:options.custom" }
+      ],
+      "default": ""
+    },
+
+    /* -------------------------
+       Desktop custom (fold-out)
+       ------------------------- */
+    {
+      "type": "select",
+      "id": "font",
+      "label": "t:settings.font",
+      "options": [
+        { "value": "var(--font-body--family)", "label": "t:options.body" },
+        { "value": "var(--font-subheading--family)", "label": "t:options.subheading" },
+        { "value": "var(--font-heading--family)", "label": "t:options.heading" },
+        { "value": "var(--font-accent--family)", "label": "t:options.accent" }
+      ],
+      "default": "var(--font-body--family)",
+      "visible_if": "{{ block.settings.type_preset == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "weight",
+      "label": "t:settings.weight",
+      "options": [
+        { "value": "", "label": "t:options.default" },
+        { "value": "100", "label": "t:options.thin" },
+        { "value": "300", "label": "t:options.light" },
+        { "value": "400", "label": "t:options.regular" },
+        { "value": "500", "label": "t:options.medium" },
+        { "value": "600", "label": "t:options.semibold" },
+        { "value": "700", "label": "t:options.bold" },
+        { "value": "900", "label": "t:options.black" }
+      ],
+      "default": "",
+      "visible_if": "{{ block.settings.type_preset == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "font_size",
+      "label": "t:settings.size",
+      "options": [
+        { "value": "", "label": "t:options.default" },
+        { "value": "0.625rem", "label": "10px" },
+        { "value": "0.75rem", "label": "12px" },
+        { "value": "0.875rem", "label": "14px" },
+        { "value": "1rem", "label": "16px" },
+        { "value": "1.125rem", "label": "18px" },
+        { "value": "1.25rem", "label": "20px" },
+        { "value": "1.5rem", "label": "24px" },
+        { "value": "2rem", "label": "32px" },
+        { "value": "2.5rem", "label": "40px" },
+        { "value": "3rem", "label": "48px" },
+        { "value": "3.5rem", "label": "56px" },
+        { "value": "4.5rem", "label": "72px" },
+        { "value": "5.5rem", "label": "88px" },
+        { "value": "7.5rem", "label": "120px" },
+        { "value": "9.5rem", "label": "152px" },
+        { "value": "11.5rem", "label": "184px" }
+      ],
+      "default": "",
+      "visible_if": "{{ block.settings.type_preset == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "line_height",
+      "label": "t:settings.line_height",
+      "options": [
+        { "value": "tight", "label": "t:options.tight" },
+        { "value": "normal", "label": "t:options.normal" },
+        { "value": "loose", "label": "t:options.loose" }
+      ],
+      "default": "normal",
+      "visible_if": "{{ block.settings.type_preset == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "letter_spacing",
+      "label": "t:settings.letter_spacing",
+      "options": [
+        { "value": "tight", "label": "t:options.tight" },
+        { "value": "normal", "label": "t:options.normal" },
+        { "value": "loose", "label": "t:options.loose" }
+      ],
+      "default": "normal",
+      "visible_if": "{{ block.settings.type_preset == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "case",
+      "label": "t:settings.case",
+      "options": [
+        { "value": "none", "label": "t:options.default" },
+        { "value": "uppercase", "label": "t:options.uppercase" }
+      ],
+      "default": "none",
+      "visible_if": "{{ block.settings.type_preset == 'custom' }}"
+    },
+
+    /* -------------------------
+       Mobile custom (fold-out)
+       ------------------------- */
+    {
+      "type": "header",
+      "content": "Custom typography (mobile)",
+      "visible_if": "{{ block.settings.type_preset_mobile == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "font_mobile",
+      "label": "Font (mobile)",
+      "options": [
+        { "value": "", "label": "Default (same as desktop)" },
+        { "value": "var(--font-body--family)", "label": "t:options.body" },
+        { "value": "var(--font-subheading--family)", "label": "t:options.subheading" },
+        { "value": "var(--font-heading--family)", "label": "t:options.heading" },
+        { "value": "var(--font-accent--family)", "label": "t:options.accent" }
+      ],
+      "default": "",
+      "visible_if": "{{ block.settings.type_preset_mobile == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "weight_mobile",
+      "label": "Weight (mobile)",
+      "options": [
+        { "value": "", "label": "Default (same as desktop)" },
+        { "value": "100", "label": "t:options.thin" },
+        { "value": "300", "label": "t:options.light" },
+        { "value": "400", "label": "t:options.regular" },
+        { "value": "500", "label": "t:options.medium" },
+        { "value": "600", "label": "t:options.semibold" },
+        { "value": "700", "label": "t:options.bold" },
+        { "value": "900", "label": "t:options.black" }
+      ],
+      "default": "",
+      "visible_if": "{{ block.settings.type_preset_mobile == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "font_size_mobile",
+      "label": "Size (mobile)",
+      "options": [
+        { "value": "", "label": "Default (same as desktop)" },
+        { "value": "0.625rem", "label": "10px" },
+        { "value": "0.75rem", "label": "12px" },
+        { "value": "0.875rem", "label": "14px" },
+        { "value": "1rem", "label": "16px" },
+        { "value": "1.125rem", "label": "18px" },
+        { "value": "1.25rem", "label": "20px" },
+        { "value": "1.5rem", "label": "24px" },
+        { "value": "2rem", "label": "32px" },
+        { "value": "2.5rem", "label": "40px" },
+        { "value": "3rem", "label": "48px" },
+        { "value": "3.5rem", "label": "56px" },
+        { "value": "4.5rem", "label": "72px" },
+        { "value": "5.5rem", "label": "88px" },
+        { "value": "7.5rem", "label": "120px" },
+        { "value": "9.5rem", "label": "152px" },
+        { "value": "11.5rem", "label": "184px" }
+      ],
+      "default": "",
+      "visible_if": "{{ block.settings.type_preset_mobile == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "line_height_mobile",
+      "label": "Line height (mobile)",
+      "options": [
+        { "value": "", "label": "Default (same as desktop)" },
+        { "value": "tight", "label": "t:options.tight" },
+        { "value": "normal", "label": "t:options.normal" },
+        { "value": "loose", "label": "t:options.loose" }
+      ],
+      "default": "",
+      "visible_if": "{{ block.settings.type_preset_mobile == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "letter_spacing_mobile",
+      "label": "Letter spacing (mobile)",
+      "options": [
+        { "value": "", "label": "Default (same as desktop)" },
+        { "value": "tight", "label": "t:options.tight" },
+        { "value": "normal", "label": "t:options.normal" },
+        { "value": "loose", "label": "t:options.loose" }
+      ],
+      "default": "",
+      "visible_if": "{{ block.settings.type_preset_mobile == 'custom' }}"
+    },
+    {
+      "type": "select",
+      "id": "case_mobile",
+      "label": "Case (mobile)",
+      "options": [
+        { "value": "", "label": "Default (same as desktop)" },
+        { "value": "none", "label": "t:options.default" },
+        { "value": "uppercase", "label": "t:options.uppercase" }
+      ],
+      "default": "",
+      "visible_if": "{{ block.settings.type_preset_mobile == 'custom' }}"
+    }
+  ]
+}
+{% endschema %}
