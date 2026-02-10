@@ -191,7 +191,10 @@
 {
   "name": "t:names.product_recommendations",
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "blocks": [
     {
@@ -246,14 +249,6 @@
         }
       ],
       "default": "related"
-    },
-    {
-      "type": "paragraph",
-      "content": "t:content.complementary_products"
-    },
-    {
-      "type": "header",
-      "content": "t:content.cards_layout"
     },
     {
       "type": "select",
@@ -336,11 +331,6 @@
       "visible_if": "{{ section.settings.layout_type == 'grid' }}"
     },
     {
-      "type": "header",
-      "content": "t:content.carousel_navigation",
-      "visible_if": "{{ section.settings.layout_type == 'carousel' or section.settings.carousel_on_mobile == true }}"
-    },
-    {
       "type": "select",
       "id": "icons_style",
       "label": "t:settings.icon",
@@ -392,7 +382,11 @@
     },
     {
       "type": "header",
-      "content": "t:content.section_layout"
+      "content": "t:content.layout"
+    },
+    {
+      "type": "paragraph",
+      "content": "Desktop width"
     },
     {
       "type": "select",
@@ -409,6 +403,33 @@
         }
       ],
       "default": "page-width"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_mobile_section_width",
+      "label": "Change mobile width",
+      "default": false
+    },
+    {
+      "type": "paragraph",
+      "content": "Mobile width (applies when enabled above)"
+    },
+    {
+      "type": "select",
+      "id": "section_width_mobile",
+      "label": "t:settings.width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:options.page"
+        },
+        {
+          "value": "full-width",
+          "label": "t:options.full"
+        }
+      ],
+      "default": "page-width",
+      "info": "Only applies when 'Change mobile width' is enabled"
     },
     {
       "type": "range",
@@ -431,6 +452,10 @@
       "content": "t:content.padding"
     },
     {
+      "type": "paragraph",
+      "content": "Desktop padding"
+    },
+    {
       "type": "range",
       "id": "padding-block-start",
       "label": "t:settings.top",
@@ -449,6 +474,38 @@
       "step": 1,
       "unit": "px",
       "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_mobile_padding",
+      "label": "Change mobile padding",
+      "default": false
+    },
+    {
+      "type": "paragraph",
+      "content": "Mobile padding (applies when enabled above)"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-start-mobile",
+      "label": "t:settings.top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "info": "Only applies when 'Change mobile padding' is enabled"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-end-mobile",
+      "label": "t:settings.bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "info": "Only applies when 'Change mobile padding' is enabled"
     }
   ],
   "presets": [
@@ -551,10 +608,16 @@
               }
             }
           },
-          "block_order": ["product-card-gallery", "product_title", "price"]
+          "block_order": [
+            "product-card-gallery",
+            "product_title",
+            "price"
+          ]
         }
       },
-      "block_order": ["header"]
+      "block_order": [
+        "header"
+      ]
     }
   ]
 }

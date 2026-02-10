@@ -91,7 +91,10 @@
 {
   "name": "t:names.marquee",
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "blocks": [
     {
@@ -135,6 +138,10 @@
       "content": "t:content.padding"
     },
     {
+      "type": "paragraph",
+      "content": "Desktop padding"
+    },
+    {
       "type": "range",
       "id": "padding-block-start",
       "label": "t:settings.top",
@@ -153,6 +160,38 @@
       "step": 1,
       "unit": "px",
       "default": 24
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_mobile_padding",
+      "label": "Change mobile padding",
+      "default": false
+    },
+    {
+      "type": "paragraph",
+      "content": "Mobile padding (applies when enabled above)"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-start-mobile",
+      "label": "t:settings.top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 24,
+      "info": "Only applies when 'Change mobile padding' is enabled"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-end-mobile",
+      "label": "t:settings.bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 24,
+      "info": "Only applies when 'Change mobile padding' is enabled"
     },
     {
       "type": "range",
@@ -185,7 +224,9 @@
           }
         }
       },
-      "block_order": ["text"]
+      "block_order": [
+        "text"
+      ]
     }
   ]
 }

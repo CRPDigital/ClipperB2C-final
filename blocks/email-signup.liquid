@@ -288,10 +288,6 @@
   "tag": null,
   "settings": [
     {
-      "type": "paragraph",
-      "content": "t:content.email_signups_create_customer_profiles"
-    },
-    {
       "type": "select",
       "id": "width",
       "label": "t:settings.width",
@@ -330,10 +326,6 @@
       "label": "t:settings.color_scheme",
       "default": "primary",
       "visible_if": "{{ block.settings.inherit_color_scheme == false }}"
-    },
-    {
-      "type": "header",
-      "content": "t:content.input"
     },
     {
       "type": "select",
@@ -417,10 +409,6 @@
       ],
       "default": "paragraph",
       "info": "t:info.edit_presets_in_theme_settings"
-    },
-    {
-      "type": "header",
-      "content": "t:content.submit_button"
     },
     {
       "type": "select",
@@ -519,6 +507,10 @@
       "content": "t:content.padding"
     },
     {
+      "type": "paragraph",
+      "content": "Desktop padding"
+    },
+    {
       "type": "range",
       "id": "padding-block-start",
       "label": "t:settings.top",
@@ -557,6 +549,60 @@
       "step": 1,
       "unit": "px",
       "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_mobile_padding",
+      "label": "Change mobile padding",
+      "default": false
+    },
+    {
+      "type": "paragraph",
+      "content": "Mobile padding (applies when enabled above)"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-start-mobile",
+      "label": "t:settings.top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "info": "Only applies when 'Change mobile padding' is enabled"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-end-mobile",
+      "label": "t:settings.bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "info": "Only applies when 'Change mobile padding' is enabled"
+    },
+    {
+      "type": "range",
+      "id": "padding-inline-start-mobile",
+      "label": "t:settings.left",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "info": "Only applies when 'Change mobile padding' is enabled"
+    },
+    {
+      "type": "range",
+      "id": "padding-inline-end-mobile",
+      "label": "t:settings.right",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "info": "Only applies when 'Change mobile padding' is enabled"
     }
   ],
   "presets": [

@@ -141,8 +141,30 @@
   "tag": "section",
   "class": "section-stats-counters",
   "settings": [
-    { "type": "text", "id": "heading", "label": "Heading", "default": "Our achievements" },
-    { "type": "range", "id": "pad_y", "label": "Vertical padding", "min": 0, "max": 120, "step": 4, "unit": "px", "default": 40 },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Our achievements"
+    },
+    {
+      "type": "range",
+      "id": "pad_y",
+      "label": "Vertical padding",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "t:content.layout"
+    },
+    {
+      "type": "paragraph",
+      "content": "Desktop width"
+    },
     {
       "type": "select",
       "id": "section_width",
@@ -159,16 +181,86 @@
       ],
       "default": "page-width"
     },
-    { "type": "select", "id": "columns_desktop", "label": "Columns (desktop)", "default": "4", "options": [
-      { "value": "2", "label": "2" },
-      { "value": "3", "label": "3" },
-      { "value": "4", "label": "4" }
-    ]},
-    { "type": "color", "id": "bg_color", "label": "Background", "default": "#ffffff" },
-    { "type": "color", "id": "text_color", "label": "Text color", "default": "#111111" },
-    { "type": "color", "id": "border_color", "label": "Card border", "default": "#e5e5e5" },
-    { "type": "checkbox", "id": "thousand_separator", "label": "Use thousand separator", "default": true },
-    { "type": "range", "id": "animation_duration", "label": "Animation duration (s)", "min": 0, "max": 5, "step": 0.1, "default": 1.2 }
+    {
+      "type": "checkbox",
+      "id": "enable_mobile_section_width",
+      "label": "Change mobile width",
+      "default": false
+    },
+    {
+      "type": "paragraph",
+      "content": "Mobile width (applies when enabled above)"
+    },
+    {
+      "type": "select",
+      "id": "section_width_mobile",
+      "label": "t:settings.width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:options.page"
+        },
+        {
+          "value": "full-width",
+          "label": "t:options.full"
+        }
+      ],
+      "default": "page-width",
+      "info": "Only applies when 'Change mobile width' is enabled"
+    },
+    {
+      "type": "select",
+      "id": "columns_desktop",
+      "label": "Columns (desktop)",
+      "default": "4",
+      "options": [
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        },
+        {
+          "value": "4",
+          "label": "4"
+        }
+      ]
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#111111"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Card border",
+      "default": "#e5e5e5"
+    },
+    {
+      "type": "checkbox",
+      "id": "thousand_separator",
+      "label": "Use thousand separator",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "animation_duration",
+      "label": "Animation duration (s)",
+      "min": 0,
+      "max": 5,
+      "step": 0.1,
+      "default": 1.2
+    }
   ],
   "blocks": [
     {
@@ -176,10 +268,30 @@
       "name": "Stat",
       "limit": 12,
       "settings": [
-        { "type": "text", "id": "label", "label": "Label", "default": "Years of knitting experience" },
-        { "type": "number", "id": "value", "label": "Value", "default": 90 },
-        { "type": "text", "id": "prefix", "label": "Prefix (optional)", "default": "-" },
-        { "type": "text", "id": "suffix", "label": "Suffix (optional)", "default": "-" }
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Label",
+          "default": "Years of knitting experience"
+        },
+        {
+          "type": "number",
+          "id": "value",
+          "label": "Value",
+          "default": 90
+        },
+        {
+          "type": "text",
+          "id": "prefix",
+          "label": "Prefix (optional)",
+          "default": "-"
+        },
+        {
+          "type": "text",
+          "id": "suffix",
+          "label": "Suffix (optional)",
+          "default": "-"
+        }
       ]
     }
   ],
@@ -187,10 +299,42 @@
     {
       "name": "Stats counters",
       "blocks": [
-        { "type": "stat", "settings": { "label": "Years of knitting experience", "value": 90, "prefix": "-", "suffix": "-" } },
-        { "type": "stat", "settings": { "label": "Brands", "value": 3, "prefix": "-", "suffix": "-" } },
-        { "type": "stat", "settings": { "label": "Countries", "value": 28, "prefix": "-", "suffix": "-" } },
-        { "type": "stat", "settings": { "label": "Tonnes of yarn per year.", "value": 167, "prefix": "-", "suffix": "-" } }
+        {
+          "type": "stat",
+          "settings": {
+            "label": "Years of knitting experience",
+            "value": 90,
+            "prefix": "-",
+            "suffix": "-"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "label": "Brands",
+            "value": 3,
+            "prefix": "-",
+            "suffix": "-"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "label": "Countries",
+            "value": 28,
+            "prefix": "-",
+            "suffix": "-"
+          }
+        },
+        {
+          "type": "stat",
+          "settings": {
+            "label": "Tonnes of yarn per year.",
+            "value": 167,
+            "prefix": "-",
+            "suffix": "-"
+          }
+        }
       ]
     }
   ]
