@@ -76,6 +76,10 @@
       "visible_if": "{{ block.settings.inherit_color_scheme == false }}"
     },
     {
+      "type": "header",
+      "content": "t:content.borders"
+    },
+    {
       "type": "select",
       "id": "border",
       "label": "t:settings.style",
@@ -127,10 +131,6 @@
       "content": "t:content.padding"
     },
     {
-      "type": "paragraph",
-      "content": "Desktop padding"
-    },
-    {
       "type": "range",
       "id": "padding-block-start",
       "label": "t:settings.top",
@@ -169,60 +169,6 @@
       "step": 1,
       "unit": "px",
       "default": 0
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_mobile_padding",
-      "label": "Change mobile padding",
-      "default": false
-    },
-    {
-      "type": "paragraph",
-      "content": "Mobile padding (applies when enabled above)"
-    },
-    {
-      "type": "range",
-      "id": "padding-block-start-mobile",
-      "label": "t:settings.top",
-      "min": 0,
-      "max": 50,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
-    },
-    {
-      "type": "range",
-      "id": "padding-block-end-mobile",
-      "label": "t:settings.bottom",
-      "min": 0,
-      "max": 50,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
-    },
-    {
-      "type": "range",
-      "id": "padding-inline-start-mobile",
-      "label": "t:settings.left",
-      "min": 0,
-      "max": 50,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
-    },
-    {
-      "type": "range",
-      "id": "padding-inline-end-mobile",
-      "label": "t:settings.right",
-      "min": 0,
-      "max": 50,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
     }
   ],
   "presets": [
@@ -294,11 +240,7 @@
           }
         }
       },
-      "block_order": [
-        "product-card-gallery",
-        "product_title",
-        "price"
-      ]
+      "block_order": ["product-card-gallery", "product_title", "price"]
     }
   ]
 }

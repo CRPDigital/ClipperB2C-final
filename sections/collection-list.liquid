@@ -189,16 +189,17 @@
     }
   ],
   "disabled_on": {
-    "groups": [
-      "header",
-      "footer"
-    ]
+    "groups": ["header", "footer"]
   },
   "settings": [
     {
       "type": "collection_list",
       "id": "collection_list",
       "label": "t:settings.collection_list"
+    },
+    {
+      "type": "header",
+      "content": "t:content.cards_layout"
     },
     {
       "type": "select",
@@ -319,6 +320,11 @@
       "visible_if": "{{ section.settings.layout_type == 'editorial' }}"
     },
     {
+      "type": "header",
+      "content": "t:content.carousel_navigation",
+      "visible_if": "{{ section.settings.layout_type == 'carousel' or section.settings.carousel_on_mobile == true }}"
+    },
+    {
       "type": "select",
       "id": "icons_style",
       "label": "t:settings.icon",
@@ -370,11 +376,7 @@
     },
     {
       "type": "header",
-      "content": "t:content.layout"
-    },
-    {
-      "type": "paragraph",
-      "content": "Desktop width"
+      "content": "t:content.section_layout"
     },
     {
       "type": "select",
@@ -391,33 +393,6 @@
         }
       ],
       "default": "page-width"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_mobile_section_width",
-      "label": "Change mobile width",
-      "default": false
-    },
-    {
-      "type": "paragraph",
-      "content": "Mobile width (applies when enabled above)"
-    },
-    {
-      "type": "select",
-      "id": "section_width_mobile",
-      "label": "t:settings.width",
-      "options": [
-        {
-          "value": "page-width",
-          "label": "t:options.page"
-        },
-        {
-          "value": "full-width",
-          "label": "t:options.full"
-        }
-      ],
-      "default": "page-width",
-      "info": "Only applies when 'Change mobile width' is enabled"
     },
     {
       "type": "range",
@@ -440,10 +415,6 @@
       "content": "t:content.padding"
     },
     {
-      "type": "paragraph",
-      "content": "Desktop padding"
-    },
-    {
       "type": "range",
       "id": "padding-block-start",
       "label": "t:settings.top",
@@ -462,38 +433,6 @@
       "step": 1,
       "unit": "px",
       "default": 0
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_mobile_padding",
-      "label": "Change mobile padding",
-      "default": false
-    },
-    {
-      "type": "paragraph",
-      "content": "Mobile padding (applies when enabled above)"
-    },
-    {
-      "type": "range",
-      "id": "padding-block-start-mobile",
-      "label": "t:settings.top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
-    },
-    {
-      "type": "range",
-      "id": "padding-block-end-mobile",
-      "label": "t:settings.bottom",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
     }
   ],
   "presets": [
@@ -563,9 +502,7 @@
               }
             }
           },
-          "block_order": [
-            "text_bc98Wh"
-          ]
+          "block_order": ["text_bc98Wh"]
         },
         "static-collection-card": {
           "type": "_collection-card",
@@ -614,14 +551,10 @@
               }
             }
           },
-          "block_order": [
-            "collection-title"
-          ]
+          "block_order": ["collection-title"]
         }
       },
-      "block_order": [
-        "group_Lg9LkF"
-      ]
+      "block_order": ["group_Lg9LkF"]
     },
     {
       "name": "t:names.collections_grid",
@@ -681,9 +614,7 @@
               }
             }
           },
-          "block_order": [
-            "text_bc98Wh"
-          ]
+          "block_order": ["text_bc98Wh"]
         },
         "static-collection-card": {
           "type": "_collection-card",
@@ -732,14 +663,10 @@
               }
             }
           },
-          "block_order": [
-            "collection-title"
-          ]
+          "block_order": ["collection-title"]
         }
       },
-      "block_order": [
-        "group_Lg9LkF"
-      ],
+      "block_order": ["group_Lg9LkF"],
       "settings": {
         "collection_list": [],
         "layout_type": "grid",
@@ -815,9 +742,7 @@
               }
             }
           },
-          "block_order": [
-            "text_nQEaGV"
-          ]
+          "block_order": ["text_nQEaGV"]
         },
         "static-collection-card": {
           "type": "_collection-card",
@@ -864,14 +789,10 @@
               }
             }
           },
-          "block_order": [
-            "collection-title"
-          ]
+          "block_order": ["collection-title"]
         }
       },
-      "block_order": [
-        "group_EYUh3J"
-      ],
+      "block_order": ["group_EYUh3J"],
       "settings": {
         "collection_list": [],
         "layout_type": "carousel",
@@ -959,9 +880,7 @@
               "blocks": {}
             }
           },
-          "block_order": [
-            "text"
-          ]
+          "block_order": ["text"]
         },
         "static-collection-card": {
           "type": "_collection-card",
@@ -1023,14 +942,10 @@
               "blocks": {}
             }
           },
-          "block_order": [
-            "collection-title"
-          ]
+          "block_order": ["collection-title"]
         }
       },
-      "block_order": [
-        "group"
-      ],
+      "block_order": ["group"],
       "settings": {
         "collection_list": [],
         "layout_type": "editorial",

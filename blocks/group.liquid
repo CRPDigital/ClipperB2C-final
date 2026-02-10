@@ -32,6 +32,10 @@
       "default": false
     },
     {
+      "type": "header",
+      "content": "t:content.layout"
+    },
+    {
       "type": "select",
       "id": "content_direction",
       "label": "t:settings.direction",
@@ -164,6 +168,10 @@
       "default": 12
     },
     {
+      "type": "header",
+      "content": "t:content.size"
+    },
+    {
       "type": "select",
       "id": "width",
       "label": "t:settings.width",
@@ -256,6 +264,11 @@
       "default": 100,
       "visible_if": "{{ block.settings.height == 'custom' }}"
     },
+
+    {
+      "type": "header",
+      "content": "t:content.appearance"
+    },
     {
       "type": "checkbox",
       "id": "inherit_color_scheme",
@@ -336,18 +349,16 @@
       "visible_if": "{{ block.settings.background_media == 'image' }}"
     },
     {
+      "type": "header",
+      "content": "Mobil – baggrundsmedie"
+    },
+    {
       "type": "select",
       "id": "media_height_mobile",
       "label": "Højde på baggrundsmedie (mobil)",
       "options": [
-        {
-          "value": "auto",
-          "label": "Auto (fuld højde)"
-        },
-        {
-          "value": "custom",
-          "label": "Brugerdefineret"
-        }
+        { "value": "auto", "label": "Auto (fuld højde)" },
+        { "value": "custom", "label": "Brugerdefineret" }
       ],
       "default": "auto"
     },
@@ -468,10 +479,6 @@
       "content": "t:content.padding"
     },
     {
-      "type": "paragraph",
-      "content": "Desktop padding"
-    },
-    {
       "type": "range",
       "id": "padding-block-start",
       "label": "t:settings.top",
@@ -510,60 +517,6 @@
       "step": 1,
       "unit": "px",
       "default": 0
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_mobile_padding",
-      "label": "Change mobile padding",
-      "default": false
-    },
-    {
-      "type": "paragraph",
-      "content": "Mobile padding (applies when enabled above)"
-    },
-    {
-      "type": "range",
-      "id": "padding-block-start-mobile",
-      "label": "t:settings.top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
-    },
-    {
-      "type": "range",
-      "id": "padding-block-end-mobile",
-      "label": "t:settings.bottom",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
-    },
-    {
-      "type": "range",
-      "id": "padding-inline-start-mobile",
-      "label": "t:settings.left",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
-    },
-    {
-      "type": "range",
-      "id": "padding-inline-end-mobile",
-      "label": "t:settings.right",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
     }
   ],
   "presets": [

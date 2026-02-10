@@ -129,6 +129,10 @@
   "tag": null,
   "settings": [
     {
+      "type": "header",
+      "content": "t:content.size"
+    },
+    {
       "type": "select",
       "id": "width",
       "label": "t:settings.width",
@@ -207,6 +211,10 @@
       "default": "fit"
     },
     {
+      "type": "header",
+      "content": "t:content.layout"
+    },
+    {
       "type": "select",
       "id": "details_position",
       "label": "t:settings.position",
@@ -242,6 +250,10 @@
       "id": "sticky_details_desktop",
       "label": "t:settings.make_details_sticky_desktop",
       "default": false
+    },
+    {
+      "type": "header",
+      "content": "t:content.appearance"
     },
     {
       "type": "checkbox",
@@ -375,10 +387,6 @@
       "content": "t:content.padding"
     },
     {
-      "type": "paragraph",
-      "content": "Desktop padding"
-    },
-    {
       "type": "range",
       "id": "padding-block-start",
       "label": "t:settings.top",
@@ -417,60 +425,6 @@
       "step": 1,
       "unit": "px",
       "default": 0
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_mobile_padding",
-      "label": "Change mobile padding",
-      "default": false
-    },
-    {
-      "type": "paragraph",
-      "content": "Mobile padding (applies when enabled above)"
-    },
-    {
-      "type": "range",
-      "id": "padding-block-start-mobile",
-      "label": "t:settings.top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
-    },
-    {
-      "type": "range",
-      "id": "padding-block-end-mobile",
-      "label": "t:settings.bottom",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
-    },
-    {
-      "type": "range",
-      "id": "padding-inline-start-mobile",
-      "label": "t:settings.left",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
-    },
-    {
-      "type": "range",
-      "id": "padding-inline-end-mobile",
-      "label": "t:settings.right",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
     }
   ],
   "presets": [
@@ -627,10 +581,7 @@
                   }
                 }
               },
-              "block_order": [
-                "icon_bBpnME",
-                "text_83R7CQ"
-              ]
+              "block_order": ["icon_bBpnME", "text_83R7CQ"]
             },
             "group_WbpVdV": {
               "type": "group",
@@ -675,16 +626,10 @@
                   }
                 }
               },
-              "block_order": [
-                "icon_FVd3C4",
-                "text_EmGGUV"
-              ]
+              "block_order": ["icon_FVd3C4", "text_EmGGUV"]
             }
           },
-          "block_order": [
-            "group_Hrq6NU",
-            "group_WbpVdV"
-          ]
+          "block_order": ["group_Hrq6NU", "group_WbpVdV"]
         },
         "accordion": {
           "type": "accordion",
@@ -700,9 +645,7 @@
                   "type": "text"
                 }
               },
-              "block_order": [
-                "text"
-              ]
+              "block_order": ["text"]
             },
             "accordion-row-2": {
               "type": "_accordion-row",
@@ -714,9 +657,7 @@
                   "type": "text"
                 }
               },
-              "block_order": [
-                "text"
-              ]
+              "block_order": ["text"]
             },
             "accordion-row-3": {
               "type": "_accordion-row",
@@ -728,16 +669,10 @@
                   "type": "text"
                 }
               },
-              "block_order": [
-                "text"
-              ]
+              "block_order": ["text"]
             }
           },
-          "block_order": [
-            "accordion-row-1",
-            "accordion-row-2",
-            "accordion-row-3"
-          ]
+          "block_order": ["accordion-row-1", "accordion-row-2", "accordion-row-3"]
         },
         "complementary_products": {
           "type": "product-recommendations",
@@ -753,9 +688,7 @@
               }
             }
           },
-          "block_order": [
-            "recommendations-header"
-          ]
+          "block_order": ["recommendations-header"]
         }
       },
       "block_order": [

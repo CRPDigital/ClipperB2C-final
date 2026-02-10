@@ -22,11 +22,13 @@
     }
   ],
   "disabled_on": {
-    "groups": [
-      "header"
-    ]
+    "groups": ["header"]
   },
   "settings": [
+    {
+      "type": "header",
+      "content": "t:content.layout"
+    },
     {
       "type": "select",
       "id": "content_direction",
@@ -161,11 +163,7 @@
     },
     {
       "type": "header",
-      "content": "t:content.layout"
-    },
-    {
-      "type": "paragraph",
-      "content": "Desktop width"
+      "content": "t:content.size"
     },
     {
       "type": "select",
@@ -182,33 +180,6 @@
         }
       ],
       "default": "page-width"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_mobile_section_width",
-      "label": "Change mobile width",
-      "default": false
-    },
-    {
-      "type": "paragraph",
-      "content": "Mobile width (applies when enabled above)"
-    },
-    {
-      "type": "select",
-      "id": "section_width_mobile",
-      "label": "t:settings.width",
-      "options": [
-        {
-          "value": "page-width",
-          "label": "t:options.page"
-        },
-        {
-          "value": "full-width",
-          "label": "t:options.full"
-        }
-      ],
-      "default": "page-width",
-      "info": "Only applies when 'Change mobile width' is enabled"
     },
     {
       "type": "select",
@@ -252,6 +223,10 @@
       "default": 50,
       "unit": "%",
       "visible_if": "{{ section.settings.section_height == 'custom' }}"
+    },
+    {
+      "type": "header",
+      "content": "t:content.appearance"
     },
     {
       "type": "color_scheme",
@@ -425,10 +400,6 @@
       "content": "t:content.padding"
     },
     {
-      "type": "paragraph",
-      "content": "Desktop padding"
-    },
-    {
       "type": "range",
       "id": "padding-block-start",
       "label": "t:settings.top",
@@ -447,38 +418,6 @@
       "step": 1,
       "unit": "px",
       "default": 0
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_mobile_padding",
-      "label": "Change mobile padding",
-      "default": false
-    },
-    {
-      "type": "paragraph",
-      "content": "Mobile padding (applies when enabled above)"
-    },
-    {
-      "type": "range",
-      "id": "padding-block-start-mobile",
-      "label": "t:settings.top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
-    },
-    {
-      "type": "range",
-      "id": "padding-block-end-mobile",
-      "label": "t:settings.bottom",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "default": 0,
-      "info": "Only applies when 'Change mobile padding' is enabled"
     }
   ],
   "presets": [
@@ -560,9 +499,7 @@
                   }
                 }
               },
-              "block_order": [
-                "text"
-              ]
+              "block_order": ["text"]
             },
             "accordion_row_2": {
               "type": "_accordion-row",
@@ -591,9 +528,7 @@
                   }
                 }
               },
-              "block_order": [
-                "text"
-              ]
+              "block_order": ["text"]
             },
             "accordion_row_3": {
               "type": "_accordion-row",
@@ -624,9 +559,7 @@
                   }
                 }
               },
-              "block_order": [
-                "text"
-              ]
+              "block_order": ["text"]
             },
             "accordion_row_4": {
               "type": "_accordion-row",
@@ -657,9 +590,7 @@
                   }
                 }
               },
-              "block_order": [
-                "text"
-              ]
+              "block_order": ["text"]
             },
             "accordion_row_5": {
               "type": "_accordion-row",
@@ -690,24 +621,13 @@
                   }
                 }
               },
-              "block_order": [
-                "text"
-              ]
+              "block_order": ["text"]
             }
           },
-          "block_order": [
-            "accordion_row_1",
-            "accordion_row_2",
-            "accordion_row_3",
-            "accordion_row_4",
-            "accordion_row_5"
-          ]
+          "block_order": ["accordion_row_1", "accordion_row_2", "accordion_row_3", "accordion_row_4", "accordion_row_5"]
         }
       },
-      "block_order": [
-        "text",
-        "accordion"
-      ],
+      "block_order": ["text", "accordion"],
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -838,16 +758,10 @@
               }
             }
           },
-          "block_order": [
-            "text",
-            "button"
-          ]
+          "block_order": ["text", "button"]
         }
       },
-      "block_order": [
-        "video",
-        "group"
-      ]
+      "block_order": ["video", "group"]
     },
     {
       "name": "t:names.pull_quote",
@@ -872,10 +786,7 @@
           }
         }
       },
-      "block_order": [
-        "text",
-        "button"
-      ],
+      "block_order": ["text", "button"],
       "settings": {
         "horizontal_alignment_flex_direction_column": "center",
         "gap": 16,
@@ -936,10 +847,7 @@
           "block_order": []
         }
       },
-      "block_order": [
-        "text",
-        "contact_form"
-      ],
+      "block_order": ["text", "contact_form"],
       "settings": {
         "content_direction": "column",
         "vertical_on_mobile": true,
@@ -1003,11 +911,7 @@
           }
         }
       },
-      "block_order": [
-        "text_1",
-        "text_2",
-        "email_signup"
-      ]
+      "block_order": ["text_1", "text_2", "email_signup"]
     },
     {
       "name": "t:names.icons_with_text",
@@ -1078,16 +982,10 @@
                   }
                 }
               },
-              "block_order": [
-                "heading",
-                "text"
-              ]
+              "block_order": ["heading", "text"]
             }
           },
-          "block_order": [
-            "icon",
-            "group"
-          ]
+          "block_order": ["icon", "group"]
         },
         "group_2": {
           "type": "group",
@@ -1154,16 +1052,10 @@
                   }
                 }
               },
-              "block_order": [
-                "heading",
-                "text"
-              ]
+              "block_order": ["heading", "text"]
             }
           },
-          "block_order": [
-            "icon",
-            "group"
-          ]
+          "block_order": ["icon", "group"]
         },
         "group_3": {
           "type": "group",
@@ -1230,23 +1122,13 @@
                   }
                 }
               },
-              "block_order": [
-                "heading",
-                "text"
-              ]
+              "block_order": ["heading", "text"]
             }
           },
-          "block_order": [
-            "icon",
-            "group"
-          ]
+          "block_order": ["icon", "group"]
         }
       },
-      "block_order": [
-        "group_1",
-        "group_2",
-        "group_3"
-      ],
+      "block_order": ["group_1", "group_2", "group_3"],
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -1302,11 +1184,7 @@
               }
             }
           },
-          "block_order": [
-            "spacer",
-            "text_1",
-            "button"
-          ]
+          "block_order": ["spacer", "text_1", "button"]
         },
         "group_2": {
           "type": "group",
@@ -1350,17 +1228,10 @@
               }
             }
           },
-          "block_order": [
-            "spacer",
-            "text_1",
-            "button"
-          ]
+          "block_order": ["spacer", "text_1", "button"]
         }
       },
-      "block_order": [
-        "group_1",
-        "group_2"
-      ],
+      "block_order": ["group_1", "group_2"],
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -1416,17 +1287,10 @@
               }
             }
           },
-          "block_order": [
-            "heading",
-            "text",
-            "button"
-          ]
+          "block_order": ["heading", "text", "button"]
         }
       },
-      "block_order": [
-        "image",
-        "group"
-      ]
+      "block_order": ["image", "group"]
     },
     {
       "name": "t:names.large_logo",
@@ -1447,10 +1311,7 @@
           }
         }
       },
-      "block_order": [
-        "text",
-        "logo"
-      ],
+      "block_order": ["text", "logo"],
       "settings": {
         "vertical_alignment_flex_direction_column": "space-between",
         "gap": 16,
