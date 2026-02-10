@@ -7,5 +7,9 @@
       settings: {block.settings || section.settings}
 {%- endcomment -%}
 
---padding-block-start: {{ settings.padding-block-start | default: 0 }}px; --padding-block-end:{{- settings.padding-block-end | default: 0 -}}px; 
---padding-inline-start:{{ settings.padding-inline-start | default: 0 }}px; --padding-inline-end:{{- settings.padding-inline-end | default: 0 -}}px; 
+--padding-block-start: {{ settings.padding-block-start | default: 0 }}px; --padding-block-end:{{- settings.padding-block-end | default: 0 -}}px;
+--padding-inline-start:{{ settings.padding-inline-start | default: 0 }}px; --padding-inline-end:{{- settings.padding-inline-end | default: 0 -}}px;
+{%- if settings.mobile-padding-block-start != blank %} --mobile-padding-block-start: {{ settings.mobile-padding-block-start }}px;{%- endif %}
+{%- if settings.mobile-padding-block-end != blank %} --mobile-padding-block-end: {{ settings.mobile-padding-block-end }}px;{%- endif %}
+{%- if settings.mobile-padding-inline-start != blank %} --mobile-padding-inline-start: {{ settings.mobile-padding-inline-start }}px;{%- endif %}
+{%- if settings.mobile-padding-inline-end != blank %} --mobile-padding-inline-end: {{ settings.mobile-padding-inline-end }}px;{%- endif %}

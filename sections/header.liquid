@@ -902,6 +902,29 @@
       ]
     },
     {
+      "type": "checkbox",
+      "id": "mobile_section_width_enabled",
+      "label": "t:settings.mobile_section_width_enabled",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "mobile_section_width",
+      "label": "t:settings.mobile_section_width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:options.page"
+        },
+        {
+          "value": "full-width",
+          "label": "t:options.full"
+        }
+      ],
+      "default": "full-width",
+      "visible_if": "{{ section.settings.mobile_section_width_enabled }}"
+    },
+    {
       "type": "select",
       "id": "section_height",
       "label": "t:settings.height",

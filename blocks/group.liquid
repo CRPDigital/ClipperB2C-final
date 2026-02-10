@@ -264,7 +264,6 @@
       "default": 100,
       "visible_if": "{{ block.settings.height == 'custom' }}"
     },
-
     {
       "type": "header",
       "content": "t:content.appearance"
@@ -357,8 +356,14 @@
       "id": "media_height_mobile",
       "label": "Højde på baggrundsmedie (mobil)",
       "options": [
-        { "value": "auto", "label": "Auto (fuld højde)" },
-        { "value": "custom", "label": "Brugerdefineret" }
+        {
+          "value": "auto",
+          "label": "Auto (fuld højde)"
+        },
+        {
+          "value": "custom",
+          "label": "Brugerdefineret"
+        }
       ],
       "default": "auto"
     },
@@ -517,6 +522,56 @@
       "step": 1,
       "unit": "px",
       "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_padding_enabled",
+      "label": "t:settings.mobile_padding_enabled",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-block-start",
+      "label": "t:settings.top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ block.settings.mobile_padding_enabled }}"
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-block-end",
+      "label": "t:settings.bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ block.settings.mobile_padding_enabled }}"
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-inline-start",
+      "label": "t:settings.left",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ block.settings.mobile_padding_enabled }}"
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-inline-end",
+      "label": "t:settings.right",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ block.settings.mobile_padding_enabled }}"
     }
   ],
   "presets": [

@@ -14,7 +14,7 @@
 
 <div class="section-background color-{{ section.settings.color_scheme }}"></div>
 <div
-  class="section section--{{ section.settings.section_width }} disable-section-top-offset media-with-content color-{{ section.settings.color_scheme }} spacing-style {{ media_class_modifier }}"
+  class="section section--{{ section.settings.section_width }}{% if section.settings.mobile_section_width_enabled %} section--mobile-{{ section.settings.mobile_section_width }}{% endif %} disable-section-top-offset media-with-content color-{{ section.settings.color_scheme }} spacing-style {{ media_class_modifier }}"
   data-testid="media-with-content"
   style="
     {%- render 'spacing-style', settings: section.settings %}
@@ -201,7 +201,9 @@
 {
   "name": "t:names.media_with_text",
   "disabled_on": {
-    "groups": ["header"]
+    "groups": [
+      "header"
+    ]
   },
   "settings": [
     {
@@ -286,6 +288,29 @@
     },
     {
       "type": "checkbox",
+      "id": "mobile_section_width_enabled",
+      "label": "t:settings.mobile_section_width_enabled",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "mobile_section_width",
+      "label": "t:settings.mobile_section_width",
+      "options": [
+        {
+          "value": "page-width",
+          "label": "t:options.page"
+        },
+        {
+          "value": "full-width",
+          "label": "t:options.full"
+        }
+      ],
+      "default": "full-width",
+      "visible_if": "{{ section.settings.mobile_section_width_enabled }}"
+    },
+    {
+      "type": "checkbox",
       "id": "extend_media",
       "label": "t:settings.extend_media_to_screen_edge",
       "default": true,
@@ -320,6 +345,34 @@
       "step": 1,
       "unit": "px",
       "default": 0
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_padding_enabled",
+      "label": "t:settings.mobile_padding_enabled",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-block-start",
+      "label": "t:settings.top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.mobile_padding_enabled }}"
+    },
+    {
+      "type": "range",
+      "id": "mobile-padding-block-end",
+      "label": "t:settings.bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 0,
+      "visible_if": "{{ section.settings.mobile_padding_enabled }}"
     }
   ],
   "presets": [
@@ -375,7 +428,10 @@
                   }
                 }
               },
-              "block_order": ["heading", "text"]
+              "block_order": [
+                "heading",
+                "text"
+              ]
             },
             "button": {
               "type": "button",
@@ -386,7 +442,11 @@
               }
             }
           },
-          "block_order": ["caption", "group", "button"]
+          "block_order": [
+            "caption",
+            "group",
+            "button"
+          ]
         }
       }
     },
@@ -425,7 +485,9 @@
               }
             }
           },
-          "block_order": ["caption"]
+          "block_order": [
+            "caption"
+          ]
         }
       }
     }
