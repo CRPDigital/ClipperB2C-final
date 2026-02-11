@@ -43,13 +43,15 @@
           {%- endif -%}
         {%- endif -%}
 
-        {%- comment -%} Mobile-specific override {%- endcomment -%}
-        {%-liquid
-          assign mobile_setting_id = 'mobile-' | append: setting_id
-          assign mobile_value = settings[mobile_setting_id]
-        -%}
-        {%- if mobile_value != blank -%}
-          --mobile-{{ name }}: {{ mobile_value }}px;
+        {%- comment -%} Mobile-specific override — only output when toggle is on {%- endcomment -%}
+        {%- if settings.mobile_padding_enabled -%}
+          {%-liquid
+            assign mobile_setting_id = 'mobile-' | append: setting_id
+            assign mobile_value = settings[mobile_setting_id]
+          -%}
+          {%- if mobile_value != blank -%}
+            --mobile-{{ name }}: {{ mobile_value }}px;
+          {%- endif -%}
         {%- endif -%}
       {%- endfor -%}
     {%- endfor -%}
