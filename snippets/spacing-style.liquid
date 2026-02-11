@@ -36,20 +36,22 @@
          -%}
 
         {%- if value != blank -%}
-          {%- if disable_scaling != true and value > min -%}
+          {%- if property == 'margin' and disable_scaling != true and value > min -%}
             --{{ name }}: max({{ min }}px, calc(var(--spacing-scale) * {{ value }}px));
           {%- else -%}
             --{{ name }}: {{ value }}px;
           {%- endif -%}
         {%- endif -%}
 
-        {%- comment -%} Mobile-specific override {%- endcomment -%}
-        {%-liquid
-          assign mobile_setting_id = 'mobile-' | append: setting_id
-          assign mobile_value = settings[mobile_setting_id]
-        -%}
-        {%- if mobile_value != blank -%}
-          --mobile-{{ name }}: {{ mobile_value }}px;
+        {%- comment -%} Mobile-specific override — only output when toggle is on {%- endcomment -%}
+        {%- if settings.mobile_padding_enabled -%}
+          {%-liquid
+            assign mobile_setting_id = 'mobile-' | append: setting_id
+            assign mobile_value = settings[mobile_setting_id]
+          -%}
+          {%- if mobile_value != blank -%}
+            --mobile-{{ name }}: {{ mobile_value }}px;
+          {%- endif -%}
         {%- endif -%}
       {%- endfor -%}
     {%- endfor -%}
