@@ -36,7 +36,7 @@
          -%}
 
         {%- if value != blank -%}
-          {%- if disable_scaling != true and value > min -%}
+          {%- if property == 'margin' and disable_scaling != true and value > min -%}
             --{{ name }}: max({{ min }}px, calc(var(--spacing-scale) * {{ value }}px));
           {%- else -%}
             --{{ name }}: {{ value }}px;
