@@ -1364,11 +1364,11 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 48,
-        "padding-block-end": 48,
+        "padding-block-start": 58,
+        "padding-block-end": 58,
         "mobile_padding_enabled": true,
-        "mobile-padding-block-start": 0,
-        "mobile-padding-block-end": 0
+        "mobile-padding-block-start": 10,
+        "mobile-padding-block-end": 10
       }
     },
     "section_JdYezh": {
