@@ -175,7 +175,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h1>Profilbeklædning til alle brancher og private label til alle ideer</h1>",
+                    "text": "<h1>Profilbeklædning til alle brancher og Private Label til alle ideer</h1>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -309,7 +309,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Profilbeklædning er mere end et logo på en trøje.</h2>",
+            "text": "<h2>Profilbeklædning er mere end et logo på en trøje</h2>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -1438,7 +1438,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3><strong>Profilbeklædning</strong></h3>",
+                "text": "<h3><strong>PROFILBEKLÆDNING</strong></h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1582,7 +1582,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3><strong>Workwear</strong></h3>",
+                "text": "<h3><strong>WORKWEAR</strong></h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1726,7 +1726,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3><strong>Uniform</strong></h3>",
+                "text": "<h3><strong>UNIFORM</strong></h3>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -2085,7 +2085,7 @@
                 "text_FVf9kz": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Med private label og custom made vælger I præcis de farver, der matcher jeres brand. Tilpasset identitet, udtryk og anvendelse.</p>",
+                    "text": "<p>Med Private Label vælger I præcis de farver, der matcher jeres brand. Tilpasset identitet, udtryk og anvendelse.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -2248,7 +2248,7 @@
                 "text_HcJTVU": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Med private label og custom made integreres jeres logo i strik, labels og detaljer. Tilpasset jeres brand, udtryk og behov.</p>",
+                    "text": "<p>Med Private Label integreres jeres logo i strik, labels og detaljer. Tilpasset jeres brand, udtryk og behov.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
