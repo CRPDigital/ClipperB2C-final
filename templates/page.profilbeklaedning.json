@@ -1371,6 +1371,85 @@
         "mobile-padding-block-end": 0
       }
     },
+    "section_JdYezh": {
+      "type": "section",
+      "blocks": {
+        "text_tG9QQw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alle styles er velegnede til virksomheder, teams og organisationer, der ønsker et professionelt og ensartet udtryk på tværs af medarbejdere og funktioner. CLIPPER leverer strik til corporate wear, workwear og uniformsløsninger, udviklet til daglig brug i både kontor-, service- og driftsmiljøer</p>",
+            "width": "100%",
+            "max_width": "narrow",
+            "alignment": "center",
+            "type_preset": "h3",
+            "type_preset_mobile": "h4",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "font_mobile": "",
+            "font_size_mobile": "",
+            "line_height_mobile": "",
+            "letter_spacing_mobile": "",
+            "case_mobile": "",
+            "wrap_mobile": "",
+            "color_mobile": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "mobile_padding_enabled": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_tG9QQw"
+      ],
+      "name": "t:names.pull_quote",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "mobile_section_width_enabled": false,
+        "mobile_section_width": "full-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-4",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 64,
+        "padding-block-end": 64,
+        "mobile_padding_enabled": false,
+        "mobile-padding-block-start": 0,
+        "mobile-padding-block-end": 0
+      }
+    },
     "section_TTraNG": {
       "type": "section",
       "blocks": {
@@ -1839,7 +1918,7 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 45,
+        "padding-block-start": 25,
         "padding-block-end": 45,
         "mobile_padding_enabled": false,
         "mobile-padding-block-start": 0,
@@ -1891,7 +1970,7 @@
         "text_HGMr7e": {
           "type": "text",
           "settings": {
-            "text": "<p>Vi ser profilbeklædning som et langsigtet samarbejde. Derfor inviterer vi også vores kunder til at stille krav, dele erfaringer og være med i processen. Det er sådan, vi udvikler løsninger, der skaber reel værdi, for både virksomhed og medarbejdere.</p>",
+            "text": "<p>Vi ser profilbeklædning som et langsigtet samarbejde. Derfor inviterer vi også vores kunder til at stille krav, dele erfaringer og være med i processen. Det er sådan, vi udvikler løsninger, der skaber reel værdi, for både virksomhed og medarbejdere. Vi ser os ikke som en traditionel leverandør, men som en forlængelse af jeres organisation. Jeres behov, struktur og visuelle identitet er udgangspunktet. Vores rolle er at understøtte med viden, processer og stabilitet hele vejen fra idé til færdigt produkt.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -2504,6 +2583,7 @@
     "section_97aVDx",
     "media_with_content_GHAg6w",
     "section_7YfRWB",
+    "section_JdYezh",
     "section_TTraNG",
     "section_g86EeV",
     "slideshow_P9Vtm4"
