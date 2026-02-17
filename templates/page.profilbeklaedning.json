@@ -497,7 +497,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Private label - fleksibilitet uden kompromis</h2>",
+                    "text": "<h2>Private Label - fleksibilitet uden kompromis</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -535,7 +535,7 @@
                 "text_GXbnd7": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Ud over vores eksisterende NOOS-program tilbyder vi også private label-løsninger. Her udvikler vi styles fra bunden i tæt dialog med jer. Det giver mulighed for, tilpasning af design og snit, farver, materialer og detaljer efter jeres brand samt funktionelle løsninger tilpasset specifikke behov.</p><p>Uanset om der er tale om få styles eller et større program, arbejder vi med samme tilgang: ordentlighed, kvalitet og respekt for håndværket.</p>",
+                    "text": "<p>Ud over vores eksisterende NOOS-program tilbyder vi også Private Label-løsninger. Her udvikler vi styles fra bunden i tæt dialog med jer. Det giver mulighed for, tilpasning af design og snit, farver, materialer og detaljer efter jeres brand samt funktionelle løsninger tilpasset specifikke behov.</p><p>Uanset om der er tale om få styles eller et større program, arbejder vi med samme tilgang: ordentlighed, kvalitet og respekt for håndværket.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
