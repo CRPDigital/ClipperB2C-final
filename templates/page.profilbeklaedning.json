@@ -429,7 +429,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Design_uden_navn_5.jpg",
+            "image": "shopify://shop_images/billeder_b2c_1920_x_1080_px_1.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -1925,11 +1925,27 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {}
+        },
+        "button_GiTHnk": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "skal vi hjælpe dig?",
+            "link": "shopify://pages/contact",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
         }
       },
       "block_order": [
         "text_8JGe3C",
-        "text_HGMr7e"
+        "text_HGMr7e",
+        "button_GiTHnk"
       ],
       "name": "t:names.pull_quote",
       "settings": {
