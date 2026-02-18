@@ -445,7 +445,7 @@
             "padding-inline-end": 40,
             "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
+            "mobile-padding-block-end": 25,
             "mobile-padding-inline-start": 0,
             "mobile-padding-inline-end": 0
           },
@@ -576,9 +576,9 @@
             "padding-block-end": 40,
             "padding-inline-start": 40,
             "padding-inline-end": 40,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
+            "mobile-padding-block-end": 25,
             "mobile-padding-inline-start": 0,
             "mobile-padding-inline-end": 0
           },
@@ -1161,7 +1161,7 @@
                 "label": "Se alle vores nyheder",
                 "link": "{{ closest.collection.url }}",
                 "open_in_new_tab": false,
-                "style_class": "button-secondary",
+                "style_class": "button",
                 "width": "fit-content",
                 "custom_width": 100,
                 "width_mobile": "fit-content",
@@ -1243,8 +1243,8 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": false,
-                "mobile-padding-block-start": 0,
+                "mobile_padding_enabled": true,
+                "mobile-padding-block-start": 15,
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
@@ -1547,9 +1547,9 @@
         "horizontal_alignment": "flex-start",
         "gap": 28,
         "color_scheme": "scheme-1",
-        "padding-block-start": 84,
+        "padding-block-start": 0,
         "padding-block-end": 45,
-        "mobile_padding_enabled": false,
+        "mobile_padding_enabled": true,
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
       }
