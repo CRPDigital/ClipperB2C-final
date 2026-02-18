@@ -1493,11 +1493,11 @@
             "padding-block-end": 40,
             "padding-inline-start": 40,
             "padding-inline-end": 40,
-            "mobile_padding_enabled": false,
-            "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0
+            "mobile_padding_enabled": true,
+            "mobile-padding-block-start": 40,
+            "mobile-padding-block-end": 40,
+            "mobile-padding-inline-start": 15,
+            "mobile-padding-inline-end": 15
           },
           "blocks": {
             "spacer_QeF8Ue": {
@@ -1620,7 +1620,7 @@
             "color_scheme": "scheme-5",
             "background_media": "image",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/profil_WORKWEAR_1.jpg",
+            "background_image": "shopify://shop_images/profil_WORKWEAR_2.jpg",
             "background_image_position": "cover",
             "media_height_mobile": "auto",
             "media_height_mobile_custom": 40,
@@ -1637,11 +1637,11 @@
             "padding-block-end": 40,
             "padding-inline-start": 40,
             "padding-inline-end": 40,
-            "mobile_padding_enabled": false,
-            "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0
+            "mobile_padding_enabled": true,
+            "mobile-padding-block-start": 40,
+            "mobile-padding-block-end": 40,
+            "mobile-padding-inline-start": 15,
+            "mobile-padding-inline-end": 15
           },
           "blocks": {
             "spacer_KrjDq6": {
@@ -1726,7 +1726,7 @@
                 "padding-block-end": 100,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": false,
+                "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
@@ -1764,7 +1764,7 @@
             "color_scheme": "scheme-5",
             "background_media": "image",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/profil_UNIFORMS.jpg",
+            "background_image": "shopify://shop_images/profil_UNIFORMS_2.jpg",
             "background_image_position": "cover",
             "media_height_mobile": "auto",
             "media_height_mobile_custom": 40,
@@ -1781,11 +1781,11 @@
             "padding-block-end": 40,
             "padding-inline-start": 40,
             "padding-inline-end": 40,
-            "mobile_padding_enabled": false,
-            "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0
+            "mobile_padding_enabled": true,
+            "mobile-padding-block-start": 40,
+            "mobile-padding-block-end": 40,
+            "mobile-padding-inline-start": 15,
+            "mobile-padding-inline-end": 15
           },
           "blocks": {
             "spacer_9WDYze": {
@@ -1920,7 +1920,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 0,
         "padding-block-end": 0,
-        "mobile_padding_enabled": false,
+        "mobile_padding_enabled": true,
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
       }
@@ -1997,7 +1997,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -2055,9 +2055,9 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64,
-        "mobile_padding_enabled": false,
-        "mobile-padding-block-start": 0,
-        "mobile-padding-block-end": 0
+        "mobile_padding_enabled": true,
+        "mobile-padding-block-start": 15,
+        "mobile-padding-block-end": 15
       }
     },
     "slideshow_P9Vtm4": {
