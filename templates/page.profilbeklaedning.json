@@ -336,7 +336,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -374,7 +374,7 @@
             "padding-block-end": 25,
             "padding-inline-start": 25,
             "padding-inline-end": 25,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -416,9 +416,9 @@
         "gradient_direction": "to top",
         "padding-block-start": 45,
         "padding-block-end": 45,
-        "mobile_padding_enabled": false,
-        "mobile-padding-block-start": 0,
-        "mobile-padding-block-end": 0
+        "mobile_padding_enabled": true,
+        "mobile-padding-block-start": 15,
+        "mobile-padding-block-end": 15
       }
     },
     "media_with_content_GHAg6w": {
@@ -562,7 +562,7 @@
                     "padding-block-end": 25,
                     "padding-inline-start": 25,
                     "padding-inline-end": 25,
-                    "mobile_padding_enabled": false,
+                    "mobile_padding_enabled": true,
                     "mobile-padding-block-start": 0,
                     "mobile-padding-block-end": 0,
                     "mobile-padding-inline-start": 0,
@@ -1959,7 +1959,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
