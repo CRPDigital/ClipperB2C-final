@@ -1804,8 +1804,7 @@
                 "icon_fMitLR": {
                   "type": "icon",
                   "settings": {
-                    "icon": "shirt",
-                    "image_upload": "shopify://shop_images/1.profil.png",
+                    "icon": "truck",
                     "width": 100,
                     "link": "",
                     "open_in_new_tab": false
@@ -1861,7 +1860,7 @@
                     "text_CKagKB": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Profilbeklædning i dansk design </strong><br/>Der styrker jeres visuelle identitet</p>",
+                        "text": "<p><strong>Dag-til-dag levering</strong><br/>bestil inden kl. 14:00 på hverdage</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -2009,8 +2008,7 @@
                 "icon_ECReRq": {
                   "type": "icon",
                   "settings": {
-                    "icon": "silhouette",
-                    "image_upload": "shopify://shop_images/4._team.png",
+                    "icon": "return",
                     "width": 100,
                     "link": "",
                     "open_in_new_tab": false
@@ -2066,7 +2064,7 @@
                     "text_PxxGry": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Tøj påvirker trivsel og identitet</strong><br/>Styrker professionalisme & arbejdsmiljøet</p>",
+                        "text": "<p><strong>Fri fragt</strong><br/>ved køb DKK 499,-</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -2161,8 +2159,7 @@
                 "icon_h4qWAz": {
                   "type": "icon",
                   "settings": {
-                    "icon": "return",
-                    "image_upload": "shopify://shop_images/3._holdbar.png",
+                    "icon": "stopwatch",
                     "width": 100,
                     "link": "",
                     "open_in_new_tab": false
@@ -2218,7 +2215,7 @@
                     "text_k9pkJw": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Komfort, pasform og holdbarhed</strong><br/>Som fungerer i hverdagen, vask efter vask</p>",
+                        "text": "<p><strong>120-dages retur</strong><br/>fra modtagelse</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
