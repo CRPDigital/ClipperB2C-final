@@ -286,7 +286,7 @@
         "section_width": "page-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
-        "section_height": "medium",
+        "section_height": "large",
         "section_height_custom": 50,
         "color_scheme": "scheme-6",
         "toggle_overlay": true,
@@ -1377,12 +1377,12 @@
         "text_tG9QQw": {
           "type": "text",
           "settings": {
-            "text": "<p>Alle styles er velegnede til virksomheder, teams og organisationer, der ønsker et professionelt og ensartet udtryk på tværs af medarbejdere og funktioner. CLIPPER leverer strik til corporate wear, workwear og uniformsløsninger, udviklet til daglig brug i både kontor-, service- og driftsmiljøer</p>",
+            "text": "<h4>Alle styles er velegnede til virksomheder, teams og organisationer, der ønsker et professionelt og ensartet udtryk på tværs af medarbejdere og funktioner. CLIPPER leverer strik til corporate wear, workwear og uniformsløsninger, udviklet til daglig brug i både kontor-, service- og driftsmiljøer</h4>",
             "width": "100%",
             "max_width": "narrow",
             "alignment": "center",
             "type_preset": "h3",
-            "type_preset_mobile": "h4",
+            "type_preset_mobile": "paragraph",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -1404,11 +1404,11 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0
+            "mobile-padding-inline-start": 15,
+            "mobile-padding-inline-end": 15
           },
           "blocks": {}
         }
@@ -1443,8 +1443,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 64,
-        "padding-block-end": 64,
+        "padding-block-start": 50,
+        "padding-block-end": 50,
         "mobile_padding_enabled": false,
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
@@ -1544,8 +1544,8 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": false,
-                "mobile-padding-block-start": 0,
+                "mobile_padding_enabled": true,
+                "mobile-padding-block-start": 100,
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
@@ -1579,7 +1579,7 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 0,
-                "padding-block-end": 100,
+                "padding-block-end": 99,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
                 "mobile_padding_enabled": false,
@@ -1650,10 +1650,10 @@
                 "size": "pixel",
                 "percent_size": 100,
                 "pixel_size": 16,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
+                "custom_mobile_size": true,
+                "size_mobile": "pixel",
                 "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
+                "pixel_size_mobile": 72
               },
               "blocks": {}
             },
@@ -1688,8 +1688,8 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": false,
-                "mobile-padding-block-start": 0,
+                "mobile_padding_enabled": true,
+                "mobile-padding-block-start": 100,
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
@@ -1832,8 +1832,8 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": false,
-                "mobile-padding-block-start": 0,
+                "mobile_padding_enabled": true,
+                "mobile-padding-block-start": 100,
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
@@ -2571,7 +2571,7 @@
         "slide_height": "large",
         "padding-block-start": 0,
         "padding-block-end": 0,
-        "mobile_padding_enabled": false,
+        "mobile_padding_enabled": true,
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
       }
