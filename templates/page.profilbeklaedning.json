@@ -206,7 +206,7 @@
                     "mobile-padding-block-start": 0,
                     "mobile-padding-block-end": 0,
                     "mobile-padding-inline-start": 25,
-                    "mobile-padding-inline-end": 0
+                    "mobile-padding-inline-end": 25
                   },
                   "blocks": {}
                 },
