@@ -2226,7 +2226,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h4>For vores B2B-kunder designer og producerer vi profilbeklædning og uniformering, der styrker identitet og fællesskab på tværs af brancher.<br/><br/>Desuden tilbyder vi også Private label-løsninger, der giver fuld fleksibilitet i udviklingen af styles, tilpasset brandidentitet, farver og funktionelle behov.<br/></h4>",
+            "text": "<h4>For vores B2B-kunder designer og producerer vi profilbeklædning og uniformering, der styrker identitet og fællesskab på tværs af brancher.<br/><br/>Desuden tilbyder vi også Private Label-løsninger, der giver fuld fleksibilitet i udviklingen af styles, tilpasset brandidentitet, farver og funktionelle behov.<br/></h4>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -2493,7 +2493,7 @@
                     "text_NY6adY": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Skab egne styles fra blot MOQ 100. </strong>Skræddersyet til jeres brand, farver og behov. </p>",
+                        "text": "<p><strong>Skab egne styles fra blot MOQ 100<br/></strong>Skræddersyet til jeres brand, farver og behov</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -2645,7 +2645,7 @@
                     "text_TtRi36": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Profilbeklædning i tidløst dansk design, </strong><br/>der styrker jeres visuelle identitet.</p>",
+                        "text": "<p><strong>Profilbeklædning i dansk design </strong><br/>Der styrker jeres visuelle identitet</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -2850,7 +2850,7 @@
                     "text_dH8i4T": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Tøj påvirker trivsel og identitet.</strong><br/>Styrker professionalisme og arbejdsmiljøet.</p>",
+                        "text": "<p><strong>Tøj påvirker trivsel og identitet</strong><br/>Styrker professionalisme og arbejdsmiljøet</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -3002,7 +3002,7 @@
                     "text_R9dnhc": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Komfort, pasform og holdbarhed</strong><br/>som fungerer i hverdagen, vask efter vask.</p>",
+                        "text": "<p><strong>Komfort, pasform og holdbarhed</strong><br/>Som fungerer i hverdagen, vask efter vask</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
