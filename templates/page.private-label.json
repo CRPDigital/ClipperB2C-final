@@ -582,7 +582,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Our signature product.</h2>",
+                "text": "<p>En klar proces fra idé til færdigt produkt</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -620,7 +620,7 @@
             "text_P4iQYG": {
               "type": "text",
               "settings": {
-                "text": "<p>Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.</p>",
+                "text": "<p><br/>Hos CLIPPER er strik ikke et supplement – det er vores speciale. Vi fungerer som jeres eksterne strikafdeling og hjælper jer med at udvikle produkter, der matcher jeres identitet, behov og anvendelse.</p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -654,26 +654,11 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {}
-            },
-            "button_iTAiDi": {
-              "type": "button",
-              "settings": {
-                "label": "Shop now",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "text_BhAXAG",
-            "text_P4iQYG",
-            "button_iTAiDi"
+            "text_P4iQYG"
           ]
         }
       },
@@ -699,7 +684,7 @@
         "mobile_section_width": "full-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
