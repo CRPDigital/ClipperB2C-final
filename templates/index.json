@@ -341,7 +341,7 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0,
             "mobile_padding_enabled": true,
-            "mobile-padding-block-start": 0,
+            "mobile-padding-block-start": 25,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
             "mobile-padding-inline-end": 0
@@ -933,7 +933,7 @@
                     "media_height_mobile": "auto",
                     "media_height_mobile_custom": 40,
                     "border": "solid",
-                    "border_width": 1,
+                    "border_width": 0,
                     "border_opacity": 100,
                     "border_radius": 0,
                     "placeholder": "",
