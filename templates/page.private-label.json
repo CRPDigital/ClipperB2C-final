@@ -309,7 +309,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Profilbeklædning er mere end et logo på en trøje.</h2>",
+            "text": "<p>Jeres brand. Vores speciale</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
