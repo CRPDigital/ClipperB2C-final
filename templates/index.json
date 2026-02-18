@@ -2493,7 +2493,7 @@
                     "text_NY6adY": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Skab egne styles fra blot MOQ 100<br/></strong>Skræddersyet til jeres brand, farver og behov</p>",
+                        "text": "<p><strong>Skab egne styles fra blot MOQ 100<br/></strong>Skræddersyet til jeres brand & behov</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -2850,7 +2850,7 @@
                     "text_dH8i4T": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Tøj påvirker trivsel og identitet</strong><br/>Styrker professionalisme og arbejdsmiljøet</p>",
+                        "text": "<p><strong>Tøj påvirker trivsel og identitet</strong><br/>Styrker professionalisme & arbejdsmiljøet</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
