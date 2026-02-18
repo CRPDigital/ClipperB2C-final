@@ -575,7 +575,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Få en løsning til dit brand her",
-                    "link": "shopify://pages/contact",
+                    "link": "shopify://pages/private-label",
                     "open_in_new_tab": false,
                     "style_class": "button-secondary",
                     "width": "fit-content",
