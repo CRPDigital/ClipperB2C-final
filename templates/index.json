@@ -1031,7 +1031,7 @@
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
-                    "video": "shopify://files/videos/Clipper-studie-v2-bred.mp4",
+                    "video": "shopify://files/videos/video forside.mp4",
                     "video_url": "",
                     "video_autoplay": true,
                     "video_loop": true,
