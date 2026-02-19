@@ -400,4 +400,39 @@
     padding: var(--padding-xs) !important;
     font-size: var(--font-size--xs);
   }
+
+  /* === CRP FIX: Ens billede-størrelse uden afskæring (respekter block ratio) === */
+
+/* Card-gallery har allerede --gallery-aspect-ratio fra liquid */
+.card-gallery {
+  aspect-ratio: var(--gallery-aspect-ratio, 1);
+}
+
+/* Sørg for slideshow + slides fylder hele ratio-boksen */
+.card-gallery .slideshow,
+.card-gallery .slideshow__viewport,
+.card-gallery .slideshow__slides,
+.card-gallery .slideshow__slide,
+.card-gallery .product-media-container {
+  height: 100%;
+}
+
+/* Ens “luft/margin” inde i billedboksen (justér px som du vil) */
+.card-gallery .product-media-container {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* VIGTIGT: ingen crop – bevar hele motivet */
+.card-gallery .product-media-container img,
+.card-gallery .product-media-container picture,
+.card-gallery .product-media-container video,
+.card-gallery .product-media-container model-viewer {
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+  object-position: center;
+  display: block;
+}
+
 {% endstylesheet %}
