@@ -313,11 +313,11 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>For os er strik mere end tøj. Det er en fortælling om dansk håndværk, tradition og omtanke, som du kan mærke hver gang, du tager det på</p>",
+            "text": "<p>CLIPPER er strik til dig, der værdsætter kvalitet, du kan stole på</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "center",
-            "type_preset": "h3",
+            "type_preset": "h2",
             "type_preset_mobile": "h4",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
@@ -831,7 +831,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h3>Fordi den bedste strik er den, du bruger igen og igen</h3>",
+                    "text": "<p>Vi designer ikke strik for at følge trends. Vi designer strik, der holder</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "center",
@@ -870,7 +870,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Siden 1955 har vi skabt strik i ærlige materialer, hvor kvalitet, komfort og pasform går hånd i hånd. Hvert design er gennemarbejdet med respekt for håndværket og for det liv tøjet skal bruges i. Strik der holder, ikke kun i form og udtryk, men i følelsen af noget, man vender tilbage til igen og igen.</p>",
+                    "text": "<p>Siden 1955 har vi skabt strik i ærlige materialer, hvor kvalitet, komfort og pasform går hånd i hånd. Strik der er klassisk og tidsløst, skabt til at blive brugt og valgt igen og igen.<br/>Strik der er lavet i materialer der kan holde til at blive brugt, men stadig se nyt ud. CLIPPER er den strik, du tager på og med det samme føler dig tilpas i. Fordi pasform, konstruktion og detaljer er gennemtænkt og testet og fordi vi kun arbejder med garner, der føles lige så godt, som de ser ud.</p><p><br/>For os handler det ikke om mere.<br/>Det handler om bedre.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
