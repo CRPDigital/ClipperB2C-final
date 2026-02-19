@@ -2393,7 +2393,7 @@
           "type": "_slide",
           "settings": {
             "media_type_1": "image",
-            "image_1": "shopify://shop_images/Tilfoj_en_overskrift_2400_x_1200_px_4.png",
+            "image_1": "shopify://shop_images/billeder_karusel.jpg",
             "content_direction": "column",
             "vertical_on_mobile": true,
             "horizontal_alignment": "flex-start",
