@@ -1214,9 +1214,9 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                "text": "<p>For os er kvalitet ikke en ambition. Det er et princip. CLIPPER er skabt med respekt for håndværk, kvalitet, de hænder der laver det og de mennesker, der bærer det.  Vi tror på at skabe produkter, der ikke blot bruges én sæson, men bliver en naturlig del af hverdagen <br/></p>",
                 "width": "100%",
-                "max_width": "none",
+                "max_width": "normal",
                 "alignment": "center",
                 "type_preset": "paragraph",
                 "type_preset_mobile": "",
