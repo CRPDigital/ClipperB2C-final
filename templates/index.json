@@ -110,7 +110,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h1>Strik uden sæsoner </h1>",
+                    "text": "<h1>Strik uden sæsoner</h1>",
                     "width": "fit-content",
                     "max_width": "none",
                     "alignment": "left",
@@ -137,7 +137,7 @@
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 25,
-                    "mobile_padding_enabled": false,
+                    "mobile_padding_enabled": true,
                     "mobile-padding-block-start": 0,
                     "mobile-padding-block-end": 0,
                     "mobile-padding-inline-start": 0,
@@ -176,7 +176,7 @@
                     "padding-block-end": 25,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0,
-                    "mobile_padding_enabled": false,
+                    "mobile_padding_enabled": true,
                     "mobile-padding-block-start": 0,
                     "mobile-padding-block-end": 0,
                     "mobile-padding-inline-start": 0,
@@ -686,7 +686,7 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 12,
+        "gap": 0,
         "section_width": "full-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
@@ -1083,7 +1083,7 @@
         "section_width": "full-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
-        "section_height": "large",
+        "section_height": "",
         "section_height_custom": 50,
         "color_scheme": "",
         "background_media": "none",
@@ -1239,8 +1239,8 @@
                 "background": false,
                 "background_color": "#00000026",
                 "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
+                "padding-block-start": 45,
+                "padding-block-end": 45,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
                 "mobile_padding_enabled": true,
@@ -1654,7 +1654,7 @@
                   "type": "icon",
                   "settings": {
                     "icon": "heart",
-                    "width": 60,
+                    "width": 50,
                     "link": "",
                     "open_in_new_tab": false
                   },
@@ -1805,7 +1805,7 @@
                   "type": "icon",
                   "settings": {
                     "icon": "truck",
-                    "width": 60,
+                    "width": 50,
                     "link": "",
                     "open_in_new_tab": false
                   },
@@ -2009,7 +2009,7 @@
                   "type": "icon",
                   "settings": {
                     "icon": "return",
-                    "width": 60,
+                    "width": 42,
                     "link": "",
                     "open_in_new_tab": false
                   },
@@ -2160,7 +2160,7 @@
                   "type": "icon",
                   "settings": {
                     "icon": "stopwatch",
-                    "width": 60,
+                    "width": 50,
                     "link": "",
                     "open_in_new_tab": false
                   },
@@ -2577,7 +2577,7 @@
                   "settings": {
                     "icon": "truck",
                     "image_upload": "shopify://shop_images/2.private.png",
-                    "width": 100,
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
@@ -2729,7 +2729,7 @@
                   "settings": {
                     "icon": "shirt",
                     "image_upload": "shopify://shop_images/1.profil.png",
-                    "width": 100,
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
@@ -2934,7 +2934,7 @@
                   "settings": {
                     "icon": "silhouette",
                     "image_upload": "shopify://shop_images/4._team.png",
-                    "width": 100,
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
@@ -3086,7 +3086,7 @@
                   "settings": {
                     "icon": "return",
                     "image_upload": "shopify://shop_images/3._holdbar.png",
-                    "width": 100,
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
