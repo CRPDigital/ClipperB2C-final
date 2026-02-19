@@ -870,7 +870,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Siden 1955 har vi skabt strik i ærlige materialer, hvor kvalitet, komfort og pasform går hånd i hånd. Hvert design er gennemarbejdet med respekt for håndværket og for det liv, tøjet skal bruges i. Strik, der holder, ikke kun i form og udtryk, men i følelsen af noget, man vender tilbage til igen og igen.</p>",
+                    "text": "<p>Siden 1955 har vi skabt strik i ærlige materialer, hvor kvalitet, komfort og pasform går hånd i hånd. Hvert design er gennemarbejdet med respekt for håndværket og for det liv tøjet skal bruges i. Strik der holder, ikke kun i form og udtryk, men i følelsen af noget, man vender tilbage til igen og igen.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
