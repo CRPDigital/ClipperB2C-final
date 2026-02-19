@@ -2059,104 +2059,6 @@
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
       }
-    },
-    "hero_66HnkQ": {
-      "type": "hero",
-      "blocks": {
-        "text_Hgt8RV": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Made with care and unconditionally loved by our customers.</p>",
-            "width": "fit-content",
-            "max_width": "normal",
-            "alignment": "left",
-            "type_preset": "rte",
-            "type_preset_mobile": "",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "font_mobile": "",
-            "font_size_mobile": "",
-            "line_height_mobile": "",
-            "letter_spacing_mobile": "",
-            "case_mobile": "",
-            "wrap_mobile": "",
-            "color_mobile": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 32,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
-            "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "button_Vep9KW": {
-          "type": "button",
-          "name": "t:names.button",
-          "settings": {
-            "label": "Shop Now",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "text_Hgt8RV",
-        "button_Vep9KW"
-      ],
-      "name": "t:names.hero",
-      "settings": {
-        "media_layout": "horizontal",
-        "media_type_1": "image",
-        "image_1": "shopify://shop_images/A7R3073-min.jpg",
-        "media_1_show_on_mobile": true,
-        "media_type_2": "image",
-        "media_2_show_on_mobile": true,
-        "link": "",
-        "open_in_new_tab": false,
-        "content_direction": "column",
-        "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
-        "vertical_alignment": "center",
-        "align_baseline": false,
-        "horizontal_alignment_flex_direction_column": "center",
-        "vertical_alignment_flex_direction_column": "center",
-        "gap": 16,
-        "section_width": "page-width",
-        "mobile_section_width_enabled": false,
-        "mobile_section_width": "full-width",
-        "section_height": "small",
-        "section_height_custom": 50,
-        "color_scheme": "scheme-5",
-        "toggle_overlay": true,
-        "overlay_color": "#00000057",
-        "overlay_style": "solid",
-        "gradient_direction": "to top",
-        "blurred_reflection": false,
-        "reflection_opacity": 75,
-        "padding-block-start": 40,
-        "padding-block-end": 40,
-        "mobile_padding_enabled": false,
-        "mobile-padding-block-start": 0,
-        "mobile-padding-block-end": 0
-      }
     }
   },
   "order": [
@@ -2166,7 +2068,6 @@
     "section_jq8xHR",
     "section_DhwkPE",
     "section_AzVz9z",
-    "section_kEjP43",
-    "hero_66HnkQ"
+    "section_kEjP43"
   ]
 }
