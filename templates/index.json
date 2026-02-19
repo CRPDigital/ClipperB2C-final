@@ -317,7 +317,7 @@
             "width": "100%",
             "max_width": "none",
             "alignment": "center",
-            "type_preset": "h2",
+            "type_preset": "h3",
             "type_preset_mobile": "h4",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
