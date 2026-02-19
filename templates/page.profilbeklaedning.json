@@ -1304,10 +1304,10 @@
         "mobile-padding-block-end": 15
       }
     },
-    "section_7YfRWB": {
+    "section_NRnFLY": {
       "type": "section",
       "blocks": {
-        "group_GUMFfw": {
+        "group_hpT7PR": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -1354,7 +1354,7 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "group_FGCYRq": {
+            "group_dNPcAg": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -1400,18 +1400,18 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_UAe7dq": {
+                "icon_86UTKG": {
                   "type": "icon",
                   "settings": {
                     "icon": "truck",
                     "image_upload": "shopify://shop_images/2.private.png",
-                    "width": 100,
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
                   "blocks": {}
                 },
-                "group_xFiAUr": {
+                "group_mEcm3H": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -1457,10 +1457,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_8zqfPT": {
+                    "text_8DJ9WD": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Skab egne styles fra blot MOQ 100. </strong>Skræddersyet til jeres brand, farver og behov. </p>",
+                        "text": "<p><strong>Skab egne styles fra blot MOQ 100<br/></strong>skræddersyet til jeres brand & behov</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -1497,16 +1497,16 @@
                     }
                   },
                   "block_order": [
-                    "text_8zqfPT"
+                    "text_8DJ9WD"
                   ]
                 }
               },
               "block_order": [
-                "icon_UAe7dq",
-                "group_xFiAUr"
+                "icon_86UTKG",
+                "group_mEcm3H"
               ]
             },
-            "group_aPWA7L": {
+            "group_Qmdtnc": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -1552,18 +1552,18 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_yCbJKP": {
+                "icon_nAjpA3": {
                   "type": "icon",
                   "settings": {
                     "icon": "shirt",
                     "image_upload": "shopify://shop_images/1.profil.png",
-                    "width": 100,
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
                   "blocks": {}
                 },
-                "group_iRinCk": {
+                "group_DeVWcL": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -1609,10 +1609,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_4MiU3N": {
+                    "text_aFajXB": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Profilbeklædning i tidløst dansk design, </strong><br/>der styrker jeres visuelle identitet.</p>",
+                        "text": "<p><strong>Profilbeklædning i dansk design </strong><br/>der styrker jeres visuelle identitet</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -1649,22 +1649,22 @@
                     }
                   },
                   "block_order": [
-                    "text_4MiU3N"
+                    "text_aFajXB"
                   ]
                 }
               },
               "block_order": [
-                "icon_yCbJKP",
-                "group_iRinCk"
+                "icon_nAjpA3",
+                "group_DeVWcL"
               ]
             }
           },
           "block_order": [
-            "group_FGCYRq",
-            "group_aPWA7L"
+            "group_dNPcAg",
+            "group_Qmdtnc"
           ]
         },
-        "group_rXnjND": {
+        "group_m46CdT": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -1711,7 +1711,7 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "group_RwzqRt": {
+            "group_n7JUWD": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -1757,18 +1757,18 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_PcLwqB": {
+                "icon_nkt7Ea": {
                   "type": "icon",
                   "settings": {
                     "icon": "silhouette",
                     "image_upload": "shopify://shop_images/4._team.png",
-                    "width": 100,
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
                   "blocks": {}
                 },
-                "group_4rLXLg": {
+                "group_4LpWhz": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -1814,10 +1814,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_DKTCnK": {
+                    "text_n9EFfp": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Tøj påvirker trivsel og identitet.</strong><br/>Styrker professionalisme og arbejdsmiljøet.</p>",
+                        "text": "<p><strong>Tøj påvirker trivsel og identitet</strong><br/>det styrker sammenhæng & arbejdsmiljø</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -1854,16 +1854,16 @@
                     }
                   },
                   "block_order": [
-                    "text_DKTCnK"
+                    "text_n9EFfp"
                   ]
                 }
               },
               "block_order": [
-                "icon_PcLwqB",
-                "group_4rLXLg"
+                "icon_nkt7Ea",
+                "group_4LpWhz"
               ]
             },
-            "group_qfCpLa": {
+            "group_JgwaVM": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -1909,18 +1909,18 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_8AEzYD": {
+                "icon_d4AJHR": {
                   "type": "icon",
                   "settings": {
                     "icon": "return",
                     "image_upload": "shopify://shop_images/3._holdbar.png",
-                    "width": 100,
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
                   "blocks": {}
                 },
-                "group_yMxp3J": {
+                "group_BJpWfN": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -1966,10 +1966,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_HRN3p4": {
+                    "text_AtczfH": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Komfort, pasform og holdbarhed</strong><br/>som fungerer i hverdagen, vask efter vask.</p>",
+                        "text": "<p><strong>Komfort, pasform og holdbarhed</strong><br/>som fungerer i hverdagen, vask efter vask</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -2006,25 +2006,25 @@
                     }
                   },
                   "block_order": [
-                    "text_HRN3p4"
+                    "text_AtczfH"
                   ]
                 }
               },
               "block_order": [
-                "icon_8AEzYD",
-                "group_yMxp3J"
+                "icon_d4AJHR",
+                "group_BJpWfN"
               ]
             }
           },
           "block_order": [
-            "group_RwzqRt",
-            "group_qfCpLa"
+            "group_n7JUWD",
+            "group_JgwaVM"
           ]
         }
       },
       "block_order": [
-        "group_GUMFfw",
-        "group_rXnjND"
+        "group_hpT7PR",
+        "group_m46CdT"
       ],
       "name": "Icons private label",
       "settings": {
@@ -2053,11 +2053,11 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 58,
-        "padding-block-end": 58,
-        "mobile_padding_enabled": true,
-        "mobile-padding-block-start": 10,
-        "mobile-padding-block-end": 10
+        "padding-block-start": 48,
+        "padding-block-end": 48,
+        "mobile_padding_enabled": false,
+        "mobile-padding-block-start": 0,
+        "mobile-padding-block-end": 0
       }
     },
     "slideshow_P9Vtm4": {
@@ -2585,7 +2585,7 @@
     "section_JdYezh",
     "section_TTraNG",
     "section_g86EeV",
-    "section_7YfRWB",
+    "section_NRnFLY",
     "slideshow_P9Vtm4"
   ]
 }
