@@ -4009,6 +4009,11 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
   flex-basis: var(--size-style-width);
 }
 
+/* Prevent groups in row layouts from overflowing the section height */
+.layout-panel-flex--row > .group-block {
+  overflow: hidden;
+}
+
 /* Dimension utilities - Height */
 .group-block--height-fit {
   height: auto;
