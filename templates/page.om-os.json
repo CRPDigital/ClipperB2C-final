@@ -180,7 +180,7 @@
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "h1",
-                    "type_preset_mobile": "",
+                    "type_preset_mobile": "h2",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -268,7 +268,7 @@
       "settings": {
         "media_layout": "horizontal",
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/A7R3093_copy.jpg",
+        "image_1": "shopify://shop_images/1.profil_5.jpg",
         "media_1_show_on_mobile": true,
         "media_type_2": "image",
         "media_2_show_on_mobile": true,
@@ -346,7 +346,7 @@
         "text_BnDpy9": {
           "type": "text",
           "settings": {
-            "text": "<p>I en lille værkstedshal i Herning fyldt med et par maskiner, garnnøgler og en passion for strik. Strik der kunne holde bedre end hvad der ellers blev fremstillet i området. <br/>Grundlæggeren, Bernhard Sørensen, havde én klar vision: at lave strik, som ikke kun var varmt og behageligt, men også holdbart og skabt med respekt for håndværket. </p><p>Den vision lever stadig videre med et stærkt CLIPPER team og Claus Bak Mikkelsen ved roret.</p>",
+            "text": "<p>I en lille værkstedshal i Herning fyldt med et par maskiner, garnnøgler og en passion for strik. Strik der kunne holde bedre end hvad der ellers blev fremstillet i området. Grundlæggeren, Bernhard Sørensen, havde én klar vision: at lave strik, som ikke kun var varmt og behageligt, men også holdbart og skabt med respekt for håndværket. </p><p>Den vision lever stadig videre med et stærkt CLIPPER team og Claus Bak Mikkelsen ved roret.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -373,7 +373,7 @@
             "padding-block-end": 25,
             "padding-inline-start": 25,
             "padding-inline-end": 25,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -428,7 +428,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Design_uden_navn_5.jpg",
+            "image": "shopify://shop_images/1.profil_6.jpg",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
@@ -522,11 +522,11 @@
                     "padding-block-end": 25,
                     "padding-inline-start": 25,
                     "padding-inline-end": 25,
-                    "mobile_padding_enabled": false,
+                    "mobile_padding_enabled": true,
                     "mobile-padding-block-start": 0,
                     "mobile-padding-block-end": 0,
-                    "mobile-padding-inline-start": 0,
-                    "mobile-padding-inline-end": 0
+                    "mobile-padding-inline-start": 10,
+                    "mobile-padding-inline-end": 10
                   },
                   "blocks": {}
                 }
@@ -638,7 +638,7 @@
                 "padding-block-end": 25,
                 "padding-inline-start": 25,
                 "padding-inline-end": 25,
-                "mobile_padding_enabled": false,
+                "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
@@ -676,7 +676,7 @@
                 "padding-block-end": 25,
                 "padding-inline-start": 25,
                 "padding-inline-end": 25,
-                "mobile_padding_enabled": false,
+                "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
@@ -830,11 +830,11 @@
                     "padding-block-end": 25,
                     "padding-inline-start": 25,
                     "padding-inline-end": 25,
-                    "mobile_padding_enabled": false,
+                    "mobile_padding_enabled": true,
                     "mobile-padding-block-start": 0,
                     "mobile-padding-block-end": 0,
-                    "mobile-padding-inline-start": 0,
-                    "mobile-padding-inline-end": 0
+                    "mobile-padding-inline-start": 10,
+                    "mobile-padding-inline-end": 10
                   },
                   "blocks": {}
                 }
@@ -1700,7 +1700,7 @@
         "section_width": "page-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
-        "section_height": "small",
+        "section_height": "medium",
         "section_height_custom": 50,
         "color_scheme": "scheme-5",
         "toggle_overlay": true,
