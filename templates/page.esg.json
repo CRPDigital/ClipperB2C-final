@@ -570,7 +570,7 @@
             "max_width": "normal",
             "alignment": "left",
             "type_preset": "h3",
-            "type_preset_mobile": "",
+            "type_preset_mobile": "h3",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -677,35 +677,59 @@
         "mobile-padding-block-end": 0
       }
     },
-    "media_with_content_GpbwFc": {
-      "type": "media-with-content",
+    "section_44mXf6": {
+      "type": "section",
       "blocks": {
-        "media": {
-          "type": "_media-without-appearance",
-          "static": true,
+        "group_HUYcc9": {
+          "type": "group",
+          "name": "t:names.group",
           "settings": {
-            "media_type": "video",
-            "image": "shopify://shop_images/Design_uden_navn_4.jpg",
             "link": "",
-            "video": "shopify://files/videos/Video 01.mp4",
-            "video_loop": true,
-            "video_autoplay": true,
-            "image_position": "cover",
-            "video_position": "cover"
-          },
-          "blocks": {}
-        },
-        "content": {
-          "type": "_content-without-appearance",
-          "static": true,
-          "settings": {
+            "open_in_new_tab": false,
+            "content_direction": "row",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "center",
+            "vertical_alignment": "center",
+            "align_baseline": false,
             "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "space-between",
-            "gap": 25
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 0,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "media_height_mobile": "auto",
+            "media_height_mobile_custom": 40,
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "placeholder": "",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "mobile_padding_enabled": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "group_KdRH3V": {
+            "group_xf3wLi": {
               "type": "group",
+              "name": "t:names.group",
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
@@ -717,7 +741,7 @@
                 "horizontal_alignment_flex_direction_column": "center",
                 "vertical_alignment_flex_direction_column": "center",
                 "gap": 12,
-                "width": "fill",
+                "width": "custom",
                 "custom_width": 100,
                 "width_mobile": "fill",
                 "custom_width_mobile": 100,
@@ -735,31 +759,31 @@
                 "border_opacity": 100,
                 "border_radius": 0,
                 "placeholder": "",
-                "toggle_overlay": false,
-                "overlay_color": "#00000026",
+                "toggle_overlay": true,
+                "overlay_color": "#69513242",
                 "overlay_style": "solid",
                 "gradient_direction": "to top",
                 "padding-block-start": 0,
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": false,
+                "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
-                "mobile-padding-block-end": 0,
+                "mobile-padding-block-end": 25,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "text_X9UE6C": {
+                "text_9BCTQz": {
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h3>Fra fibre til færdigt produkt.</h3>",
+                    "text": "<h3>Fra fibre til færdigt produkt</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
-                    "alignment": "left",
+                    "alignment": "center",
                     "type_preset": "h3",
-                    "type_preset_mobile": "",
+                    "type_preset_mobile": "h3",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -781,23 +805,24 @@
                     "padding-block-end": 0,
                     "padding-inline-start": 0,
                     "padding-inline-end": 0,
-                    "mobile_padding_enabled": false,
-                    "mobile-padding-block-start": 0,
+                    "mobile_padding_enabled": true,
+                    "mobile-padding-block-start": 25,
                     "mobile-padding-block-end": 0,
-                    "mobile-padding-inline-start": 0,
-                    "mobile-padding-inline-end": 0
+                    "mobile-padding-inline-start": 10,
+                    "mobile-padding-inline-end": 10
                   },
                   "blocks": {}
                 },
-                "text_MB6Xb8": {
+                "text_njf7gW": {
                   "type": "text",
+                  "name": "t:names.text",
                   "settings": {
                     "text": "<p>Vi tror på gennemsigtighed. Ikke fordi vi er i mål, men fordi vi ved, at åbenhed er en forudsætning for at blive bedre. Vores ESG-rapport er vores første samlede skridt i den retning. Et ærligt øjebliksbillede af, hvor vi står og et fundament for det arbejde, der ligger foran os. Vi er bevidste om vores ansvar for miljø, mennesker og dyrevelfærd i hele værdikæden. Derfor stiller vi klare krav til os selv og vores leverandører og vi ved, at det arbejde aldrig bliver færdigt.</p><p>Vi lover ikke perfekte løsninger. Men vi lover at gøre os umage. At tage ansvar. Og at blive klogere undervejs.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "rte",
-                    "type_preset_mobile": "paragraph",
+                    "type_preset": "paragraph",
+                    "type_preset_mobile": "",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -815,10 +840,160 @@
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
-                    "padding-block-start": 25,
+                    "padding-block-start": 0,
                     "padding-block-end": 25,
                     "padding-inline-start": 25,
                     "padding-inline-end": 25,
+                    "mobile_padding_enabled": true,
+                    "mobile-padding-block-start": 0,
+                    "mobile-padding-block-end": 0,
+                    "mobile-padding-inline-start": 15,
+                    "mobile-padding-inline-end": 15
+                  },
+                  "blocks": {}
+                },
+                "group_wTfYDd": {
+                  "type": "group",
+                  "name": "t:names.group",
+                  "settings": {
+                    "link": "",
+                    "open_in_new_tab": false,
+                    "content_direction": "column",
+                    "vertical_on_mobile": true,
+                    "horizontal_alignment": "flex-start",
+                    "vertical_alignment": "center",
+                    "align_baseline": false,
+                    "horizontal_alignment_flex_direction_column": "center",
+                    "vertical_alignment_flex_direction_column": "center",
+                    "gap": 12,
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100,
+                    "height": "fit",
+                    "custom_height": 100,
+                    "inherit_color_scheme": false,
+                    "color_scheme": "scheme-f7e3efc1-863d-40e3-a85c-e718c5ed393c",
+                    "background_media": "none",
+                    "video_position": "cover",
+                    "background_image_position": "cover",
+                    "media_height_mobile": "auto",
+                    "media_height_mobile_custom": 40,
+                    "border": "solid",
+                    "border_width": 0,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "placeholder": "",
+                    "toggle_overlay": false,
+                    "overlay_color": "#00000026",
+                    "overlay_style": "solid",
+                    "gradient_direction": "to top",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0,
+                    "mobile_padding_enabled": false,
+                    "mobile-padding-block-start": 0,
+                    "mobile-padding-block-end": 0,
+                    "mobile-padding-inline-start": 0,
+                    "mobile-padding-inline-end": 0
+                  },
+                  "blocks": {
+                    "button_wNDnNK": {
+                      "type": "button",
+                      "name": "t:names.button",
+                      "settings": {
+                        "label": "læs vores esg rapport",
+                        "link": "",
+                        "open_in_new_tab": true,
+                        "style_class": "button",
+                        "width": "fit-content",
+                        "custom_width": 100,
+                        "width_mobile": "fit-content",
+                        "custom_width_mobile": 100
+                      },
+                      "blocks": {}
+                    }
+                  },
+                  "block_order": [
+                    "button_wNDnNK"
+                  ]
+                }
+              },
+              "block_order": [
+                "text_9BCTQz",
+                "text_njf7gW",
+                "group_wTfYDd"
+              ]
+            },
+            "group_zBCnGK": {
+              "type": "group",
+              "name": "t:names.group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "custom",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fill",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "media_height_mobile": "custom",
+                "media_height_mobile_custom": 45,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "placeholder": "",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile_padding_enabled": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {
+                "video_A6e78P": {
+                  "type": "video",
+                  "name": "t:names.video",
+                  "settings": {
+                    "source": "uploaded",
+                    "video": "shopify://files/videos/Video 01.mp4",
+                    "video_url": "",
+                    "video_autoplay": true,
+                    "video_loop": true,
+                    "alt": "",
+                    "custom_width": 100,
+                    "custom_width_mobile": 100,
+                    "aspect_ratio": "auto",
+                    "border": "none",
+                    "border_width": 1,
+                    "border_opacity": 100,
+                    "border_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0,
                     "mobile_padding_enabled": false,
                     "mobile-padding-block-start": 0,
                     "mobile-padding-block-end": 0,
@@ -826,45 +1001,49 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {}
-                },
-                "button_mMYfyx": {
-                  "type": "button",
-                  "name": "t:names.button",
-                  "settings": {
-                    "label": "Læs vores ESG rapport",
-                    "link": "https://issuu.com/clipper_as/docs/clipper_esg_2024_report?fr=xKAE9_zU1NQ",
-                    "open_in_new_tab": true,
-                    "style_class": "button-secondary",
-                    "width": "fit-content",
-                    "custom_width": 100,
-                    "width_mobile": "fit-content",
-                    "custom_width_mobile": 100
-                  },
-                  "blocks": {}
                 }
               },
               "block_order": [
-                "text_X9UE6C",
-                "text_MB6Xb8",
-                "button_mMYfyx"
+                "video_A6e78P"
               ]
             }
           },
           "block_order": [
-            "group_KdRH3V"
+            "group_xf3wLi",
+            "group_zBCnGK"
           ]
         }
       },
-      "name": "t:names.editorial",
+      "block_order": [
+        "group_HUYcc9"
+      ],
+      "name": "t:names.custom_section",
       "settings": {
-        "media_position": "right",
-        "media_width": "medium",
-        "media_height": "60svh",
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "flex-start",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 12,
         "section_width": "full-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
-        "extend_media": true,
-        "color_scheme": "scheme-3",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
         "padding-block-start": 0,
         "padding-block-end": 0,
         "mobile_padding_enabled": false,
@@ -961,7 +1140,7 @@
     "section_dtGxrh",
     "media_with_content_GHAg6w",
     "section_97aVDx",
-    "media_with_content_GpbwFc",
+    "section_44mXf6",
     "hero_66HnkQ"
   ]
 }
