@@ -287,7 +287,7 @@
             "max_width": "normal",
             "alignment": "left",
             "type_preset": "h2",
-            "type_preset_mobile": "h4",
+            "type_preset_mobile": "h6",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
@@ -350,8 +350,8 @@
         "gradient_direction": "to top",
         "padding-block-start": 55,
         "padding-block-end": 55,
-        "mobile_padding_enabled": false,
-        "mobile-padding-block-start": 0,
+        "mobile_padding_enabled": true,
+        "mobile-padding-block-start": 15,
         "mobile-padding-block-end": 0
       }
     },
