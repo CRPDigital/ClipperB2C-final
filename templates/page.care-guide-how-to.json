@@ -1709,7 +1709,7 @@
             "max_width": "normal",
             "alignment": "left",
             "type_preset": "h3",
-            "type_preset_mobile": "h4",
+            "type_preset_mobile": "h6",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
             "line_height": "normal",
