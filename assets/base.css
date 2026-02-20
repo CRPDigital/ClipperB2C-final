@@ -4009,9 +4009,24 @@ slideshow-arrows .slideshow-control.slideshow-control--style-none {
   flex-basis: var(--size-style-width);
 }
 
-/* Prevent groups in row layouts from overflowing the section height */
+/* Allow groups in row layouts to shrink to fit section height */
 .layout-panel-flex--row > .group-block {
+  min-height: 0;
+}
+
+.layout-panel-flex--row > .group-block > .group-block-content {
+  min-height: 0;
+}
+
+/* Only clip image blocks — text and other content stays unclipped */
+.layout-panel-flex--row .image-block {
+  min-height: 0;
   overflow: hidden;
+}
+
+.layout-panel-flex--row .image-block .image-block__image {
+  height: 100%;
+  max-height: 100%;
 }
 
 /* Dimension utilities - Height */
