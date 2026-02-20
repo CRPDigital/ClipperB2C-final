@@ -371,7 +371,7 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "space-between",
             "gap": 35,
-            "width": "fill",
+            "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
@@ -418,6 +418,19 @@
               },
               "blocks": {}
             },
+            "spacer_6xEiFP": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 52,
+                "custom_mobile_size": true,
+                "size_mobile": "percent",
+                "percent_size_mobile": 0,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
             "button_7xQfaf": {
               "type": "button",
               "name": "t:names.button",
@@ -432,25 +445,12 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
-            },
-            "spacer_6xEiFP": {
-              "type": "spacer",
-              "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 52,
-                "custom_mobile_size": true,
-                "size_mobile": "percent",
-                "percent_size_mobile": 0,
-                "pixel_size_mobile": 120
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "spacer_LfNhWQ",
-            "button_7xQfaf",
-            "spacer_6xEiFP"
+            "spacer_6xEiFP",
+            "button_7xQfaf"
           ]
         },
         "group_9FDb6N": {
@@ -466,7 +466,7 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "space-between",
             "gap": 35,
-            "width": "fill",
+            "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
@@ -514,6 +514,19 @@
               },
               "blocks": {}
             },
+            "spacer_hwiU8f": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 52,
+                "custom_mobile_size": true,
+                "size_mobile": "percent",
+                "percent_size_mobile": 0,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
             "button_iW8Bz7": {
               "type": "button",
               "name": "t:names.button",
@@ -528,25 +541,12 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
-            },
-            "spacer_hwiU8f": {
-              "type": "spacer",
-              "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 52,
-                "custom_mobile_size": true,
-                "size_mobile": "percent",
-                "percent_size_mobile": 0,
-                "pixel_size_mobile": 120
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "spacer_9mNRQy",
-            "button_iW8Bz7",
-            "spacer_hwiU8f"
+            "spacer_hwiU8f",
+            "button_iW8Bz7"
           ]
         },
         "group_QWyyKN": {
@@ -562,7 +562,7 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "space-between",
             "gap": 35,
-            "width": "fill",
+            "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
@@ -610,6 +610,19 @@
               },
               "blocks": {}
             },
+            "spacer_E4twBH": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 52,
+                "custom_mobile_size": true,
+                "size_mobile": "percent",
+                "percent_size_mobile": 0,
+                "pixel_size_mobile": 72
+              },
+              "blocks": {}
+            },
             "button_ganBKD": {
               "type": "button",
               "name": "t:names.button",
@@ -624,25 +637,12 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
-            },
-            "spacer_E4twBH": {
-              "type": "spacer",
-              "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 52,
-                "custom_mobile_size": true,
-                "size_mobile": "percent",
-                "percent_size_mobile": 0,
-                "pixel_size_mobile": 72
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "spacer_yDqAaV",
-            "button_ganBKD",
-            "spacer_E4twBH"
+            "spacer_E4twBH",
+            "button_ganBKD"
           ]
         },
         "group_cNmUKA": {
@@ -658,7 +658,7 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "space-between",
             "gap": 35,
-            "width": "fill",
+            "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
@@ -706,6 +706,19 @@
               },
               "blocks": {}
             },
+            "spacer_ynCLJV": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 52,
+                "custom_mobile_size": true,
+                "size_mobile": "percent",
+                "percent_size_mobile": 0,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
             "button_LPLT3C": {
               "type": "button",
               "name": "t:names.button",
@@ -720,25 +733,12 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
-            },
-            "spacer_ynCLJV": {
-              "type": "spacer",
-              "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 52,
-                "custom_mobile_size": true,
-                "size_mobile": "percent",
-                "percent_size_mobile": 0,
-                "pixel_size_mobile": 120
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "spacer_Fxbnwy",
-            "button_LPLT3C",
-            "spacer_ynCLJV"
+            "spacer_ynCLJV",
+            "button_LPLT3C"
           ]
         }
       },
@@ -752,16 +752,16 @@
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
+        "horizontal_alignment": "center",
         "vertical_alignment": "center",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 40,
-        "section_width": "page-width",
-        "mobile_section_width_enabled": false,
-        "mobile_section_width": "full-width",
-        "section_height": "large",
+        "section_width": "full-width",
+        "mobile_section_width_enabled": true,
+        "mobile_section_width": "page-width",
+        "section_height": "small",
         "section_height_custom": 50,
         "color_scheme": "",
         "background_media": "none",
@@ -798,7 +798,7 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "space-between",
             "gap": 35,
-            "width": "fill",
+            "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
@@ -845,6 +845,19 @@
               },
               "blocks": {}
             },
+            "spacer_YmqAWX": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 52,
+                "custom_mobile_size": true,
+                "size_mobile": "percent",
+                "percent_size_mobile": 0,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
             "button_7bpWP8": {
               "type": "button",
               "name": "t:names.button",
@@ -859,25 +872,12 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
-            },
-            "spacer_YmqAWX": {
-              "type": "spacer",
-              "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 52,
-                "custom_mobile_size": true,
-                "size_mobile": "percent",
-                "percent_size_mobile": 0,
-                "pixel_size_mobile": 120
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "spacer_eiExpJ",
-            "button_7bpWP8",
-            "spacer_YmqAWX"
+            "spacer_YmqAWX",
+            "button_7bpWP8"
           ]
         },
         "group_XxWArT": {
@@ -893,7 +893,7 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "space-between",
             "gap": 35,
-            "width": "fill",
+            "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
@@ -941,6 +941,19 @@
               },
               "blocks": {}
             },
+            "spacer_PBLBbE": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 52,
+                "custom_mobile_size": true,
+                "size_mobile": "percent",
+                "percent_size_mobile": 0,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
             "button_ryz4Ln": {
               "type": "button",
               "name": "t:names.button",
@@ -955,25 +968,12 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
-            },
-            "spacer_PBLBbE": {
-              "type": "spacer",
-              "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 52,
-                "custom_mobile_size": true,
-                "size_mobile": "percent",
-                "percent_size_mobile": 0,
-                "pixel_size_mobile": 120
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "spacer_G64mmN",
-            "button_ryz4Ln",
-            "spacer_PBLBbE"
+            "spacer_PBLBbE",
+            "button_ryz4Ln"
           ]
         },
         "group_CE9Lfk": {
@@ -989,7 +989,7 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "space-between",
             "gap": 35,
-            "width": "fill",
+            "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
@@ -1037,6 +1037,19 @@
               },
               "blocks": {}
             },
+            "spacer_Xe9e8N": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 52,
+                "custom_mobile_size": true,
+                "size_mobile": "percent",
+                "percent_size_mobile": 0,
+                "pixel_size_mobile": 0
+              },
+              "blocks": {}
+            },
             "button_XcFzLa": {
               "type": "button",
               "name": "t:names.button",
@@ -1051,25 +1064,12 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
-            },
-            "spacer_Xe9e8N": {
-              "type": "spacer",
-              "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 52,
-                "custom_mobile_size": true,
-                "size_mobile": "percent",
-                "percent_size_mobile": 0,
-                "pixel_size_mobile": 0
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "spacer_fn8BHP",
-            "button_XcFzLa",
-            "spacer_Xe9e8N"
+            "spacer_Xe9e8N",
+            "button_XcFzLa"
           ]
         },
         "group_H6XnPr": {
@@ -1085,7 +1085,7 @@
             "horizontal_alignment_flex_direction_column": "center",
             "vertical_alignment_flex_direction_column": "space-between",
             "gap": 35,
-            "width": "fill",
+            "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
@@ -1133,6 +1133,19 @@
               },
               "blocks": {}
             },
+            "spacer_kw9Yrj": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 52,
+                "custom_mobile_size": true,
+                "size_mobile": "percent",
+                "percent_size_mobile": 0,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
             "button_JMg79x": {
               "type": "button",
               "name": "t:names.button",
@@ -1147,25 +1160,12 @@
                 "custom_width_mobile": 100
               },
               "blocks": {}
-            },
-            "spacer_kw9Yrj": {
-              "type": "spacer",
-              "settings": {
-                "size": "pixel",
-                "percent_size": 100,
-                "pixel_size": 52,
-                "custom_mobile_size": true,
-                "size_mobile": "percent",
-                "percent_size_mobile": 0,
-                "pixel_size_mobile": 120
-              },
-              "blocks": {}
             }
           },
           "block_order": [
             "spacer_dg6x78",
-            "button_JMg79x",
-            "spacer_kw9Yrj"
+            "spacer_kw9Yrj",
+            "button_JMg79x"
           ]
         }
       },
@@ -1179,16 +1179,16 @@
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
-        "horizontal_alignment": "flex-start",
+        "horizontal_alignment": "center",
         "vertical_alignment": "center",
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 40,
-        "section_width": "page-width",
+        "section_width": "full-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
-        "section_height": "large",
+        "section_height": "small",
         "section_height_custom": 50,
         "color_scheme": "",
         "background_media": "none",
