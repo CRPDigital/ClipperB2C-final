@@ -1301,7 +1301,7 @@
                 "padding-inline-end": 0,
                 "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
-                "mobile-padding-block-end": 25,
+                "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
               },
@@ -1441,7 +1441,7 @@
                         "style_class": "button",
                         "width": "fit-content",
                         "custom_width": 100,
-                        "width_mobile": "fit-content",
+                        "width_mobile": "custom",
                         "custom_width_mobile": 100
                       },
                       "blocks": {}
