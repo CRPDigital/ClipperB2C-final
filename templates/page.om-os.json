@@ -175,7 +175,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h1>Alt hvad vi gør, starter og slutter med kvalitet.</h1>",
+                    "text": "<h1>Alt hvad vi gør, starter og slutter med kvalitet</h1>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -285,7 +285,7 @@
         "section_width": "page-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
-        "section_height": "full-screen",
+        "section_height": "large",
         "section_height_custom": 50,
         "color_scheme": "scheme-6",
         "toggle_overlay": true,
@@ -308,7 +308,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Historien om CLIPPER begyndte i 1955.</h2>",
+            "text": "<h2>Historien om CLIPPER begyndte i 1955</h2>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
