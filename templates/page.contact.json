@@ -333,7 +333,7 @@
             "accordion_row_HkLdzY": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "What is the return policy?",
+                "heading": "Hvornår sender I min pakke?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -342,7 +342,7 @@
                 "text_zxbQdT": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn’t the case, let us know and we’ll do our best to work with you to make it right. </p>",
+                    "text": "<p>Vi sender pakker alle hverdage og hvis du bestiller inden klokken 14, sender vi samme dag. Skulle du have spørgsmål, kan du altid ringe til os på +45 9626 3000<br/></p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -385,7 +385,7 @@
             "accordion_row_zTgLCe": {
               "type": "_accordion-row",
               "settings": {
-                "heading": "Are any purchases final sale?",
+                "heading": "Kan jeg sende retur?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -394,7 +394,7 @@
                 "text_yF6GWW": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>We are unable to accept returns on certain items. These will be carefully marked before purchase.</p>",
+                    "text": "<p>Ja, hos os er du sikret en 100% tilfredshedsgaranti. Hvis du ikke er tilfreds med dit køb, kan du returnere produktet inden for 120 dage, forudsat at det stadig er i sin originale emballage<br/><br/></p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -438,7 +438,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "When will I get my order?",
+                "heading": "Hvad koster levering?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -448,7 +448,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>",
+                    "text": "<p>Vil tilbyder gratis levering i Danmark på alle ordre for minimum DKK 499,-. For ordre derunder koster levering DKK 39,-</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -492,7 +492,7 @@
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
               "settings": {
-                "heading": "Where are your products manufactured?",
+                "heading": "Hvor er jeres produkter fremstillet?",
                 "open_by_default": false,
                 "icon": "none",
                 "width": 20
@@ -502,7 +502,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value. </p>",
+                    "text": "<p>Størstedelen af vores strik er fremstillet på vores egen fabrik i Letland. Det der ikke produceres in-house laves i tæt samarbejde med nøje udvalgte partnere, der lever op til vores kvalitets- og ansvarlighedsstandarder</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
@@ -541,68 +541,13 @@
               "block_order": [
                 "text_KTTMxB"
               ]
-            },
-            "accordion_row_UGk6Lq": {
-              "type": "_accordion-row",
-              "name": "t:names.accordion_dash_row",
-              "settings": {
-                "heading": "How much does shipping cost?",
-                "open_by_default": false,
-                "icon": "none",
-                "width": 20
-              },
-              "blocks": {
-                "text_fEWHrk": {
-                  "type": "text",
-                  "name": "t:names.text",
-                  "settings": {
-                    "text": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>",
-                    "width": "100%",
-                    "max_width": "normal",
-                    "alignment": "left",
-                    "type_preset": "rte",
-                    "type_preset_mobile": "",
-                    "font": "var(--font-body--family)",
-                    "font_size": "1rem",
-                    "line_height": "normal",
-                    "letter_spacing": "normal",
-                    "case": "none",
-                    "wrap": "pretty",
-                    "color": "var(--color-foreground)",
-                    "font_mobile": "",
-                    "font_size_mobile": "",
-                    "line_height_mobile": "",
-                    "letter_spacing_mobile": "",
-                    "case_mobile": "",
-                    "wrap_mobile": "",
-                    "color_mobile": "",
-                    "background": false,
-                    "background_color": "#00000026",
-                    "corner_radius": 0,
-                    "padding-block-start": 0,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0,
-                    "mobile_padding_enabled": false,
-                    "mobile-padding-block-start": 0,
-                    "mobile-padding-block-end": 0,
-                    "mobile-padding-inline-start": 0,
-                    "mobile-padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "text_fEWHrk"
-              ]
             }
           },
           "block_order": [
             "accordion_row_HkLdzY",
             "accordion_row_zTgLCe",
             "accordion_row_8ae6Rd",
-            "accordion_row_AH99dV",
-            "accordion_row_UGk6Lq"
+            "accordion_row_AH99dV"
           ]
         }
       },
