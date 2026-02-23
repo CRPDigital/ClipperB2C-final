@@ -268,6 +268,20 @@
             "gap": 24
           },
           "blocks": {
+            "spacer_Ayjw8c": {
+              "type": "spacer",
+              "name": "t:names.spacer",
+              "settings": {
+                "size": "percent",
+                "percent_size": 28,
+                "pixel_size": 120,
+                "custom_mobile_size": false,
+                "size_mobile": "percent",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
             "text_fUTqc8": {
               "type": "text",
               "name": "t:names.caption",
@@ -362,7 +376,7 @@
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "h2",
-                    "type_preset_mobile": "",
+                    "type_preset_mobile": "h3",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -452,6 +466,7 @@
             }
           },
           "block_order": [
+            "spacer_Ayjw8c",
             "text_fUTqc8",
             "group_6VWMKe",
             "button_Upezrw"
