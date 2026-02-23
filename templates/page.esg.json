@@ -778,7 +778,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h3>Fra fibre til færdigt produkt</h3>",
+                    "text": "<h3>Vi kender vores værdikæde</h3>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "center",
@@ -808,8 +808,8 @@
                     "mobile_padding_enabled": true,
                     "mobile-padding-block-start": 25,
                     "mobile-padding-block-end": 0,
-                    "mobile-padding-inline-start": 10,
-                    "mobile-padding-inline-end": 10
+                    "mobile-padding-inline-start": 15,
+                    "mobile-padding-inline-end": 15
                   },
                   "blocks": {}
                 },
@@ -817,7 +817,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Vi tror på gennemsigtighed. Ikke fordi vi er i mål, men fordi vi ved, at åbenhed er en forudsætning for at blive bedre. Vores ESG-rapport er vores første samlede skridt i den retning. Et ærligt øjebliksbillede af, hvor vi står og et fundament for det arbejde, der ligger foran os. Vi er bevidste om vores ansvar for miljø, mennesker og dyrevelfærd i hele værdikæden. Derfor stiller vi klare krav til os selv og vores leverandører og vi ved, at det arbejde aldrig bliver færdigt.</p><p>Vi lover ikke perfekte løsninger. Men vi lover at gøre os umage. At tage ansvar. Og at blive klogere undervejs.</p>",
+                    "text": "<p>Vi tror på gennemsigtighed fra fibre til færdigt produkt. Ikke fordi vi er i mål, men fordi vi ved, at åbenhed er en forudsætning for at blive bedre. Vores ESG-rapport er vores første samlede skridt i den retning. Et ærligt øjebliksbillede af, hvor vi står og et fundament for det arbejde, der ligger foran os. Vi er bevidste om vores ansvar for miljø, mennesker og dyrevelfærd i hele værdikæden. Derfor stiller vi klare krav til os selv og vores leverandører og vi ved, at det arbejde aldrig bliver færdigt.</p><p>Vi lover ikke perfekte løsninger. Men vi lover at gøre os umage. At tage ansvar. Og at blive klogere undervejs.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -978,7 +978,7 @@
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
-                    "video": "shopify://files/videos/Video 01.mp4",
+                    "video": "shopify://files/videos/esg video (2).mp4",
                     "video_url": "",
                     "video_autoplay": true,
                     "video_loop": true,
@@ -1100,7 +1100,7 @@
       "settings": {
         "media_layout": "horizontal",
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/Norge.jpg",
+        "image_1": "shopify://shop_images/esg_garn.jpg",
         "media_1_show_on_mobile": true,
         "media_type_2": "image",
         "media_2_show_on_mobile": true,
@@ -1117,7 +1117,7 @@
         "section_width": "page-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
-        "section_height": "medium",
+        "section_height": "large",
         "section_height_custom": 50,
         "color_scheme": "scheme-5",
         "toggle_overlay": true,
