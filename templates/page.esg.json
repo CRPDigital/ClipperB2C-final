@@ -928,6 +928,201 @@
         "mobile-padding-block-end": 0
       }
     },
+    "media_with_content_mKdYJc": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "video",
+            "image": "shopify://shop_images/Design_uden_navn_3.jpg",
+            "link": "",
+            "video": "shopify://files/videos/esg video.mp4",
+            "video_loop": true,
+            "video_autoplay": false,
+            "image_position": "cover",
+            "video_position": "cover"
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 25
+          },
+          "blocks": {
+            "group_eWTzPH": {
+              "type": "group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fill",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "media_height_mobile": "auto",
+                "media_height_mobile_custom": 40,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "placeholder": "",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile_padding_enabled": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {
+                "text_pTNYKn": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<h3>Vi kender vores værdikæde</h3>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h2",
+                    "type_preset_mobile": "h3",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "font_mobile": "",
+                    "font_size_mobile": "",
+                    "line_height_mobile": "",
+                    "letter_spacing_mobile": "",
+                    "case_mobile": "",
+                    "wrap_mobile": "",
+                    "color_mobile": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0,
+                    "mobile_padding_enabled": false,
+                    "mobile-padding-block-start": 0,
+                    "mobile-padding-block-end": 0,
+                    "mobile-padding-inline-start": 0,
+                    "mobile-padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_gHfDtX": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Vi tror på gennemsigtighed fra fibre til færdigt produkt. Ikke fordi vi er i mål, men fordi vi ved, at åbenhed er en forudsætning for at blive bedre. Vores ESG-rapport er vores første samlede skridt i den retning. Et ærligt øjebliksbillede af, hvor vi står og et fundament for det arbejde, der ligger foran os. Vi er bevidste om vores ansvar for miljø, mennesker og dyrevelfærd i hele værdikæden. Derfor stiller vi klare krav til os selv og vores leverandører og vi ved, at det arbejde aldrig bliver færdigt.</p><p>Vi lover ikke perfekte løsninger. Men vi lover at gøre os umage. At tage ansvar. Og at blive klogere undervejs.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "paragraph",
+                    "type_preset_mobile": "",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "font_mobile": "",
+                    "font_size_mobile": "",
+                    "line_height_mobile": "",
+                    "letter_spacing_mobile": "",
+                    "case_mobile": "",
+                    "wrap_mobile": "",
+                    "color_mobile": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 25,
+                    "padding-inline-end": 25,
+                    "mobile_padding_enabled": true,
+                    "mobile-padding-block-start": 0,
+                    "mobile-padding-block-end": 0,
+                    "mobile-padding-inline-start": 0,
+                    "mobile-padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "button_UjMmt7": {
+                  "type": "button",
+                  "name": "t:names.button",
+                  "settings": {
+                    "label": "Læs vores esg rapport",
+                    "link": "shopify://collections/all",
+                    "open_in_new_tab": false,
+                    "style_class": "button-secondary",
+                    "width": "fit-content",
+                    "custom_width": 100,
+                    "width_mobile": "fit-content",
+                    "custom_width_mobile": 100
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_pTNYKn",
+                "text_gHfDtX",
+                "button_UjMmt7"
+              ]
+            }
+          },
+          "block_order": [
+            "group_eWTzPH"
+          ]
+        }
+      },
+      "name": "t:names.editorial",
+      "settings": {
+        "media_position": "left",
+        "media_width": "medium",
+        "media_height": "80svh",
+        "section_width": "full-width",
+        "mobile_section_width_enabled": false,
+        "mobile_section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "scheme-3",
+        "padding-block-start": 0,
+        "padding-block-end": 0,
+        "mobile_padding_enabled": false,
+        "mobile-padding-block-start": 0,
+        "mobile-padding-block-end": 0
+      }
+    },
     "section_44mXf6": {
       "type": "section",
       "blocks": {
@@ -1392,6 +1587,7 @@
     "media_with_content_GHAg6w",
     "section_97aVDx",
     "section_9piGqT",
+    "media_with_content_mKdYJc",
     "section_44mXf6",
     "hero_66HnkQ"
   ]
