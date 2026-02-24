@@ -1156,7 +1156,7 @@
                   "type": "icon",
                   "settings": {
                     "icon": "truck",
-                    "image_upload": "shopify://shop_images/2.private.png",
+                    "image_upload": "shopify://shop_images/ikon.jpg",
                     "width": 90,
                     "link": "",
                     "open_in_new_tab": false
@@ -1308,7 +1308,7 @@
                   "type": "icon",
                   "settings": {
                     "icon": "shirt",
-                    "image_upload": "shopify://shop_images/1.profil.png",
+                    "image_upload": "shopify://shop_images/ikon_1.jpg",
                     "width": 90,
                     "link": "",
                     "open_in_new_tab": false
@@ -1513,7 +1513,7 @@
                   "type": "icon",
                   "settings": {
                     "icon": "silhouette",
-                    "image_upload": "shopify://shop_images/4._team.png",
+                    "image_upload": "shopify://shop_images/ikon_2.jpg",
                     "width": 90,
                     "link": "",
                     "open_in_new_tab": false
@@ -1665,7 +1665,7 @@
                   "type": "icon",
                   "settings": {
                     "icon": "return",
-                    "image_upload": "shopify://shop_images/3._holdbar.png",
+                    "image_upload": "shopify://shop_images/ikon_3.jpg",
                     "width": 90,
                     "link": "",
                     "open_in_new_tab": false
