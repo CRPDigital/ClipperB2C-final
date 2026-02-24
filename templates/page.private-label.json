@@ -1771,6 +1771,142 @@
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
       }
+    },
+    "hero_t3mmGD": {
+      "type": "hero",
+      "blocks": {
+        "text_GHD4zQ": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Lad os udvikle jeres næste projekt sammen</h2>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "left",
+            "type_preset": "h1",
+            "type_preset_mobile": "",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "font_mobile": "",
+            "font_size_mobile": "",
+            "line_height_mobile": "",
+            "letter_spacing_mobile": "",
+            "case_mobile": "",
+            "wrap_mobile": "",
+            "color_mobile": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "mobile_padding_enabled": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_EXJKgC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Et Private Label-samarbejde starter altid med en dialog. Vi tager os tid til at forstå jeres ambitioner og finder den løsning, der passer til jeres behov og profil.</p><p>Kontakt os for en uforpligtende samtale om mulighederne.</p>",
+            "width": "fit-content",
+            "max_width": "narrow",
+            "alignment": "left",
+            "type_preset": "rte",
+            "type_preset_mobile": "",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "font_mobile": "",
+            "font_size_mobile": "",
+            "line_height_mobile": "",
+            "letter_spacing_mobile": "",
+            "case_mobile": "",
+            "wrap_mobile": "",
+            "color_mobile": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "mobile_padding_enabled": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "button_NzBxGG": {
+          "type": "button",
+          "name": "t:names.button",
+          "settings": {
+            "label": "lad os snakke sammen",
+            "link": "shopify://pages/contact",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "width": "fit-content",
+            "custom_width": 100,
+            "width_mobile": "fit-content",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_GHD4zQ",
+        "text_EXJKgC",
+        "button_NzBxGG"
+      ],
+      "name": "t:names.hero",
+      "settings": {
+        "media_layout": "horizontal",
+        "media_type_1": "image",
+        "media_1_show_on_mobile": true,
+        "media_type_2": "image",
+        "media_2_show_on_mobile": true,
+        "link": "",
+        "open_in_new_tab": false,
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "mobile_section_width_enabled": false,
+        "mobile_section_width": "full-width",
+        "section_height": "large",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-5",
+        "toggle_overlay": true,
+        "overlay_color": "#00000026",
+        "overlay_style": "gradient",
+        "gradient_direction": "to top",
+        "blurred_reflection": false,
+        "reflection_opacity": 75,
+        "padding-block-start": 40,
+        "padding-block-end": 40,
+        "mobile_padding_enabled": false,
+        "mobile-padding-block-start": 0,
+        "mobile-padding-block-end": 0
+      }
     }
   },
   "order": [
@@ -1780,6 +1916,7 @@
     "section_YRBdwx",
     "media_with_content_GHAg6w",
     "section_g86EeV",
-    "section_jUfWQn"
+    "section_jUfWQn",
+    "hero_t3mmGD"
   ]
 }
