@@ -494,7 +494,7 @@
                 "text_GXbnd7": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Hos CLIPPER arbejder vi hver dag med det, vi kender bedst: kvalitet, håndværk og ansvarlige valg. Det har vi gjort siden 1955 og det forpligter os også i dag. Vi ved godt, at ansvarlighed ikke er noget, man bare skriver sig til. Det er noget, man arbejder med trin for trin. I designet. I materialerne. I produktionen. I de relationer vi bygger med mennesker og samarbejdspartnere.</p>",
+                    "text": "<p>Hos CLIPPER arbejder vi hver dag med det, vi kender bedst, kvalitet, håndværk og ansvarlige valg. Det har vi gjort siden 1955 og det forpligter os også i dag. Vi ved godt, at ansvarlighed ikke er noget, man bare skriver sig til. Det er noget, man arbejder med trin for trin. I designet. I materialerne. I produktionen. I de relationer vi bygger med mennesker og samarbejdspartnere.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -517,7 +517,7 @@
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
-                    "padding-block-start": 25,
+                    "padding-block-start": 0,
                     "padding-block-end": 25,
                     "padding-inline-start": 25,
                     "padding-inline-end": 25,
@@ -626,7 +626,7 @@
             "background": false,
             "background_color": "#00000026",
             "corner_radius": 0,
-            "padding-block-start": 25,
+            "padding-block-start": 0,
             "padding-block-end": 25,
             "padding-inline-start": 25,
             "padding-inline-end": 25,
