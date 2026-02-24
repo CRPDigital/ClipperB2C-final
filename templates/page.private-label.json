@@ -1056,10 +1056,10 @@
         "mobile-padding-block-end": 15
       }
     },
-    "section_7YfRWB": {
+    "section_jUfWQn": {
       "type": "section",
       "blocks": {
-        "group_GUMFfw": {
+        "group_jwm8VR": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -1106,7 +1106,7 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "group_FGCYRq": {
+            "group_b3U8CA": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -1152,17 +1152,18 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_UAe7dq": {
+                "icon_MyHB3n": {
                   "type": "icon",
                   "settings": {
-                    "icon": "shirt",
-                    "width": 100,
+                    "icon": "truck",
+                    "image_upload": "shopify://shop_images/2.private.png",
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
                   "blocks": {}
                 },
-                "group_xFiAUr": {
+                "group_x7NMY9": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -1208,10 +1209,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_8zqfPT": {
+                    "text_R6QzEn": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Materialesammensætninger</strong><br/>Valget af fiber er afgørende for både komfort, udtryk og holdbarhed. Vi rådgiver om garnkvaliteter og sammensætninger, der skaber den rette balance mellem funktion, formstabilitet og prisniveau</p>",
+                        "text": "<p><strong>Materialer<br/></strong>Valget af fiber er afgørende. Vi rådgiver om hvilke kvaliteter, der balancerer komfort, holdbarhed og formstabilitet, tilpasset produktets formål og målgruppe</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -1248,16 +1249,16 @@
                     }
                   },
                   "block_order": [
-                    "text_8zqfPT"
+                    "text_R6QzEn"
                   ]
                 }
               },
               "block_order": [
-                "icon_UAe7dq",
-                "group_xFiAUr"
+                "icon_MyHB3n",
+                "group_x7NMY9"
               ]
             },
-            "group_aPWA7L": {
+            "group_6b8Adc": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -1303,17 +1304,18 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_yCbJKP": {
+                "icon_9piQq6": {
                   "type": "icon",
                   "settings": {
-                    "icon": "fire",
-                    "width": 100,
+                    "icon": "shirt",
+                    "image_upload": "shopify://shop_images/1.profil.png",
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
                   "blocks": {}
                 },
-                "group_iRinCk": {
+                "group_eqegHt": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -1359,10 +1361,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_4MiU3N": {
+                    "text_RT9nm9": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Slidstyrke og funktion</strong><br/>Strik skal kunne holde til daglig brug. Vi arbejder målrettet med konstruktion, garnvalg og forstærkninger, så produkterne bevarer form, struktur og kvalitet – også efter gentagen brug og vask</p>",
+                        "text": "<p><strong>Funktion </strong><br/>Strik skal kunne holde til daglig brug. Vi udvikler konstruktioner, der sikrer, at produkterne holder form, struktur og kvalitet. Også ved daglig brug og gentagen vask</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -1399,22 +1401,22 @@
                     }
                   },
                   "block_order": [
-                    "text_4MiU3N"
+                    "text_RT9nm9"
                   ]
                 }
               },
               "block_order": [
-                "icon_yCbJKP",
-                "group_iRinCk"
+                "icon_9piQq6",
+                "group_eqegHt"
               ]
             }
           },
           "block_order": [
-            "group_FGCYRq",
-            "group_aPWA7L"
+            "group_b3U8CA",
+            "group_6b8Adc"
           ]
         },
-        "group_rXnjND": {
+        "group_ii3VQC": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -1461,7 +1463,7 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "group_RwzqRt": {
+            "group_CtXUmj": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -1507,17 +1509,18 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_PcLwqB": {
+                "icon_33fNqk": {
                   "type": "icon",
                   "settings": {
-                    "icon": "check_box",
-                    "width": 100,
+                    "icon": "silhouette",
+                    "image_upload": "shopify://shop_images/4._team.png",
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
                   "blocks": {}
                 },
-                "group_4rLXLg": {
+                "group_e7zLAK": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -1563,10 +1566,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_DKTCnK": {
+                    "text_FhbPtx": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Farveægthed og finish</strong><br/>Farver og overflade skal fremstå ensartede og stabile i hele produktionen. Vi sikrer gennemtestede processer og kvalitetskontrol, så både nuance, struktur og finish holder over tid</p>",
+                        "text": "<p><strong>Kontrol</strong><br/>Vi arbejder med gennemtestede farveprocesser og kvalitetskontrol, så nuance, overflade og finish fremstår stabile og ensartede. Og holder over tid<br/></p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -1603,16 +1606,16 @@
                     }
                   },
                   "block_order": [
-                    "text_DKTCnK"
+                    "text_FhbPtx"
                   ]
                 }
               },
               "block_order": [
-                "icon_PcLwqB",
-                "group_4rLXLg"
+                "icon_33fNqk",
+                "group_e7zLAK"
               ]
             },
-            "group_qfCpLa": {
+            "group_TRpnQX": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -1658,17 +1661,18 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_8AEzYD": {
+                "icon_qxnepi": {
                   "type": "icon",
                   "settings": {
-                    "icon": "ruler",
-                    "width": 100,
+                    "icon": "return",
+                    "image_upload": "shopify://shop_images/3._holdbar.png",
+                    "width": 90,
                     "link": "",
                     "open_in_new_tab": false
                   },
                   "blocks": {}
                 },
-                "group_yMxp3J": {
+                "group_KqerE7": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -1714,10 +1718,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_HRN3p4": {
+                    "text_DfQW7f": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Pasform og bevægelseskomfort</strong><br/>En gennemtænkt pasform er afgørende for, hvordan produktet opleves. Vi udvikler konstruktioner, der giver naturlig bevægelsesfrihed, komfort og et udtryk, der holder, også i brug</p>",
+                        "text": "<p><strong>Komfort</strong><br/>En gennemtænkt pasform er afgørende for, hvordan produktet opleves. Vi udvikler konstruktioner, der giver naturlig bevægelsesfrihed og komfort</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -1754,25 +1758,25 @@
                     }
                   },
                   "block_order": [
-                    "text_HRN3p4"
+                    "text_DfQW7f"
                   ]
                 }
               },
               "block_order": [
-                "icon_8AEzYD",
-                "group_yMxp3J"
+                "icon_qxnepi",
+                "group_KqerE7"
               ]
             }
           },
           "block_order": [
-            "group_RwzqRt",
-            "group_qfCpLa"
+            "group_CtXUmj",
+            "group_TRpnQX"
           ]
         }
       },
       "block_order": [
-        "group_GUMFfw",
-        "group_rXnjND"
+        "group_jwm8VR",
+        "group_ii3VQC"
       ],
       "name": "Icons private label",
       "settings": {
@@ -1801,9 +1805,9 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 0,
+        "padding-block-start": 48,
         "padding-block-end": 48,
-        "mobile_padding_enabled": true,
+        "mobile_padding_enabled": false,
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
       }
@@ -2332,7 +2336,7 @@
     "section_YRBdwx",
     "media_with_content_GHAg6w",
     "section_g86EeV",
-    "section_7YfRWB",
+    "section_jUfWQn",
     "slideshow_P9Vtm4"
   ]
 }
