@@ -978,7 +978,7 @@
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
-                    "video": "shopify://files/videos/esg video (2).mp4",
+                    "video": "shopify://files/videos/esg video.mp4",
                     "video_url": "",
                     "video_autoplay": true,
                     "video_loop": true,
