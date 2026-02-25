@@ -777,7 +777,7 @@
                 "text_yF6GWW": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Ja, hos os er du sikret en 100% tilfredshedsgaranti. Hvis du ikke er tilfreds med dit køb, kan du returnere produktet inden for 120 dage, forudsat at det stadig er i sin originale emballage<br/><br/></p>",
+                    "text": "<p>Ja, hos os er du sikret en 100% tilfredshedsgaranti. Hvis du ikke er tilfreds med dit køb, kan du returnere produktet inden for 100 dage, forudsat at det stadig er i sin originale emballage</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",

@@ -620,7 +620,7 @@
             "text_P4iQYG": {
               "type": "text",
               "settings": {
-                "text": "<p>Hos CLIPPER er strik ikke et supplement – det er vores speciale. Vi fungerer som jeres eksterne strikafdeling og hjælper jer med at udvikle produkter, der matcher jeres identitet, behov og anvendelse.</p>",
+                "text": "<p>Hos CLIPPER er strik ikke et supplement. Det er vores speciale. Vi fungerer som jeres eksterne strikafdeling og hjælper jer med at udvikle produkter, der matcher jeres identitet, behov og anvendelse.</p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
