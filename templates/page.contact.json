@@ -151,7 +151,7 @@
         "text_YCHEBY": {
           "type": "text",
           "settings": {
-            "text": "<p>Kontakt os, vi er klar til at hjælpe</p>",
+            "text": "<p>Kontakt os, vi er klar til at hjælpe dig</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
