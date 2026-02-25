@@ -535,7 +535,7 @@
                 "text_GXbnd7": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Ud over vores eksisterende NOOS-program tilbyder vi også Private Label-løsninger. Her udvikler vi styles fra bunden i tæt dialog med jer. Det giver mulighed for, tilpasning af design og snit, farver, materialer og detaljer efter jeres brand samt funktionelle løsninger tilpasset specifikke behov.</p><p>Uanset om der er tale om få styles eller et større program, arbejder vi med samme tilgang: ordentlighed, kvalitet og respekt for håndværket.</p>",
+                    "text": "<p>Ud over vores eksisterende NOOS-program tilbyder vi også Private Label-løsninger. Her udvikler vi styles fra bunden i tæt dialog med jer. Det giver mulighed for, tilpasning af design og snit, farver, materialer og detaljer efter jeres ønsker samt funktionelle løsninger tilpasset specifikke behov.</p><p>Uanset om der er tale om få styles eller et større program, arbejder vi med samme tilgang: ordentlighed, kvalitet og respekt for håndværket.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -574,7 +574,7 @@
                   "type": "button",
                   "name": "t:names.button",
                   "settings": {
-                    "label": "Få en løsning til dit brand her",
+                    "label": "Få en løsning til dit behov her",
                     "link": "shopify://pages/private-label",
                     "open_in_new_tab": false,
                     "style_class": "button-secondary",
