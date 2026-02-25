@@ -107,7 +107,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -145,7 +145,7 @@
             "padding-block-end": 25,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -1129,10 +1129,10 @@
         "mobile-padding-block-end": 15
       }
     },
-    "section_y8MHxk": {
+    "section_XNbPGX": {
       "type": "section",
       "blocks": {
-        "group_y6GyKW": {
+        "group_DfqfHG": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -1179,7 +1179,7 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "group_cKnJdX": {
+            "group_JCT97A": {
               "type": "group",
               "name": "t:names.group",
               "settings": {
@@ -1221,12 +1221,12 @@
                 "padding-inline-end": 0,
                 "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
-                "mobile-padding-block-end": 0,
+                "mobile-padding-block-end": 25,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "text_LkNkXP": {
+                "text_wnV37Q": {
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
@@ -1235,7 +1235,7 @@
                     "max_width": "normal",
                     "alignment": "center",
                     "type_preset": "h3",
-                    "type_preset_mobile": "h4",
+                    "type_preset_mobile": "h3",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
                     "line_height": "normal",
@@ -1260,16 +1260,16 @@
                     "mobile_padding_enabled": true,
                     "mobile-padding-block-start": 25,
                     "mobile-padding-block-end": 0,
-                    "mobile-padding-inline-start": 10,
-                    "mobile-padding-inline-end": 10
+                    "mobile-padding-inline-start": 15,
+                    "mobile-padding-inline-end": 15
                   },
                   "blocks": {}
                 },
-                "text_rFzfnF": {
+                "text_6ebe3W": {
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>CLIPPER er skabt med respekt for håndværk, kvalitet, de hænder der laver det og de mennesker, der bærer det.  Vi tror på at skabe produkter, der ikke blot bruges én sæson, men bliver en naturlig del af hverdagen </p>",
+                    "text": "<p>CLIPPER er skabt med respekt for håndværk, kvalitet, de hænder der laver det og de mennesker, der bærer det.  Vi tror på at skabe produkter, der ikke blot bruges én sæson, men bliver en naturlig del af hverdagen.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -1292,7 +1292,7 @@
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
-                    "padding-block-start": 25,
+                    "padding-block-start": 0,
                     "padding-block-end": 25,
                     "padding-inline-start": 25,
                     "padding-inline-end": 25,
@@ -1304,7 +1304,7 @@
                   },
                   "blocks": {}
                 },
-                "group_erxtMr": {
+                "group_Yt9hxd": {
                   "type": "group",
                   "name": "t:names.group",
                   "settings": {
@@ -1351,34 +1351,34 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "button_fCaxnj": {
+                    "button_7LMcyH": {
                       "type": "button",
                       "name": "t:names.button",
                       "settings": {
                         "label": "Find din favorit her",
-                        "link": "shopify://collections/all",
-                        "open_in_new_tab": false,
+                        "link": "",
+                        "open_in_new_tab": true,
                         "style_class": "button",
                         "width": "fit-content",
                         "custom_width": 100,
-                        "width_mobile": "custom",
+                        "width_mobile": "fit-content",
                         "custom_width_mobile": 100
                       },
                       "blocks": {}
                     }
                   },
                   "block_order": [
-                    "button_fCaxnj"
+                    "button_7LMcyH"
                   ]
                 }
               },
               "block_order": [
-                "text_LkNkXP",
-                "text_rFzfnF",
-                "group_erxtMr"
+                "text_wnV37Q",
+                "text_6ebe3W",
+                "group_Yt9hxd"
               ]
             },
-            "group_ir9qAT": {
+            "group_XqN8EG": {
               "type": "group",
               "name": "t:names.group",
               "settings": {
@@ -1425,12 +1425,12 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "video_eyz8wH": {
+                "video_hwQRUp": {
                   "type": "video",
                   "name": "t:names.video",
                   "settings": {
                     "source": "uploaded",
-                    "video": "shopify://files/videos/Hero billede (1200 x 1000 px) (2400 x 1000 px) (1).mp4",
+                    "video": "shopify://files/videos/video forside (2).mp4",
                     "video_url": "",
                     "video_autoplay": true,
                     "video_loop": true,
@@ -1456,18 +1456,18 @@
                 }
               },
               "block_order": [
-                "video_eyz8wH"
+                "video_hwQRUp"
               ]
             }
           },
           "block_order": [
-            "group_cKnJdX",
-            "group_ir9qAT"
+            "group_JCT97A",
+            "group_XqN8EG"
           ]
         }
       },
       "block_order": [
-        "group_y6GyKW"
+        "group_DfqfHG"
       ],
       "name": "t:names.custom_section",
       "settings": {
@@ -2262,7 +2262,7 @@
     "section_97aVDx",
     "section_zwzRck",
     "section_7WXXHB",
-    "section_y8MHxk",
+    "section_XNbPGX",
     "section_kEjP43"
   ]
 }
