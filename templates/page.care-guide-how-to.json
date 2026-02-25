@@ -1744,7 +1744,7 @@
           "name": "t:names.button",
           "settings": {
             "label": "Se vores uld guide her",
-            "link": "shopify://collections/all",
+            "link": "",
             "open_in_new_tab": true,
             "style_class": "button",
             "width": "fit-content",
