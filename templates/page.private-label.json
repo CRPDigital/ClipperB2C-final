@@ -884,7 +884,7 @@
       "settings": {
         "media_position": "left",
         "media_width": "medium",
-        "media_height": "80svh",
+        "media_height": "60svh",
         "section_width": "full-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
@@ -1172,7 +1172,7 @@
                     "text_R6QzEn": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Materialer<br/></strong>Valget af fiber er afgørende. Vi rådgiver om hvilke kvaliteter, der balancerer komfort, holdbarhed og formstabilitet, tilpasset produktets formål og målgruppe</p>",
+                        "text": "<p><strong>Materialer<br/></strong>Valget af fiber er afgørende. Vi rådgiver om kvaliteter, der er tilpasset produktets funktion, målgruppe og anvendelse</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -1324,7 +1324,7 @@
                     "text_RT9nm9": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Funktion </strong><br/>Strik skal kunne holde til daglig brug. Vi udvikler konstruktioner, der sikrer, at produkterne holder form, struktur og kvalitet. Også ved daglig brug og gentagen vask</p>",
+                        "text": "<p><strong>Funktion </strong><br/>Strik skal kunne holde til daglig brug. Vi udvikler konstruktioner, der sikrer, at produkterne holder form, struktur og kvalitet</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -1529,7 +1529,7 @@
                     "text_FhbPtx": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Kontrol</strong><br/>Vi arbejder med gennemtestede farveprocesser og kvalitetskontrol, så nuance, overflade og finish fremstår stabile og ensartede. Og holder over tid<br/></p>",
+                        "text": "<p><strong>Kontrol</strong><br/>Vi arbejder systematisk med kvalitetssikring i hele processen, så produkterne fremstår stabile, ensartede og gennemarbejdede</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -1681,7 +1681,7 @@
                     "text_DfQW7f": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Komfort</strong><br/>En gennemtænkt pasform er afgørende for, hvordan produktet opleves. Vi udvikler konstruktioner, der giver naturlig bevægelsesfrihed og komfort</p>",
+                        "text": "<p><strong>Komfort</strong><br/>En gennemtænkt pasform er afgørende for, hvordan produktet opleves. Vi udvikler konstruktioner for optimal bevægelsesfrihed</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
