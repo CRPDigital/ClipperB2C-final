@@ -2308,7 +2308,7 @@
             "spacer_kXKrBX": {
               "type": "spacer",
               "settings": {
-                "size": "pixel",
+                "size": "percent",
                 "percent_size": 100,
                 "pixel_size": 52,
                 "custom_mobile_size": true,
@@ -2318,16 +2318,16 @@
               },
               "blocks": {}
             },
-            "text_GJiaiV": {
+            "text_zzrnTr": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3><strong>CORPORATE WEAR</strong></h3>",
+                "text": "<h2>NOOS styleoverview</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h2",
-                "type_preset_mobile": "h4",
+                "type_preset": "h1",
+                "type_preset_mobile": "",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -2349,22 +2349,23 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": true,
-                "mobile-padding-block-start": 100,
+                "mobile_padding_enabled": false,
+                "mobile-padding-block-start": 0,
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
               },
               "blocks": {}
             },
-            "text_zhVL3X": {
+            "text_aJLbQ9": {
               "type": "text",
+              "name": "t:names.heading",
               "settings": {
-                "text": "<p>Designet til medarbejdere i detail, kontor og hospitalitybranchen. Vores corporate wear er skabt til at repræsentere jeres brand med et professionelt og stilrent udtryk.</p><p>Med stor fokus på pasform og finish kombinerer vi komfort med et præsentabelt look, der giver tryghed og selvtillid.</p>",
+                "text": "<h2>Wholesale</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "paragraph",
+                "alignment": "left",
+                "type_preset": "h2",
                 "type_preset_mobile": "",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
@@ -2384,7 +2385,46 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 0,
-                "padding-block-end": 100,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile_padding_enabled": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_XyEG9p": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Har kan du se alle vores strik til herrer i et nemt og samlet overblik</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "type_preset_mobile": "",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "font_mobile": "",
+                "font_size_mobile": "",
+                "line_height_mobile": "",
+                "letter_spacing_mobile": "",
+                "case_mobile": "",
+                "wrap_mobile": "",
+                "color_mobile": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
                 "mobile_padding_enabled": false,
@@ -2399,7 +2439,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Køb nu",
+                "label": "se katalog",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
@@ -2417,23 +2457,24 @@
                 "size": "pixel",
                 "percent_size": 66,
                 "pixel_size": 52,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
+                "custom_mobile_size": true,
+                "size_mobile": "pixel",
                 "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
+                "pixel_size_mobile": 52
               },
               "blocks": {}
             }
           },
           "block_order": [
             "spacer_kXKrBX",
-            "text_GJiaiV",
-            "text_zhVL3X",
+            "text_zzrnTr",
+            "text_aJLbQ9",
+            "text_XyEG9p",
             "button_LrHq7M",
             "spacer_iFbDqt"
           ]
         },
-        "group_yRm7Qq": {
+        "group_BXxGTx": {
           "type": "group",
           "settings": {
             "link": "",
@@ -2480,29 +2521,29 @@
             "mobile-padding-inline-end": 15
           },
           "blocks": {
-            "spacer_8z9VWx": {
+            "spacer_K3xNdp": {
               "type": "spacer",
               "settings": {
-                "size": "pixel",
+                "size": "percent",
                 "percent_size": 100,
                 "pixel_size": 52,
-                "custom_mobile_size": false,
-                "size_mobile": "pixel",
+                "custom_mobile_size": true,
+                "size_mobile": "percent",
                 "percent_size_mobile": 100,
-                "pixel_size_mobile": 72
+                "pixel_size_mobile": 120
               },
               "blocks": {}
             },
-            "text_W7ahka": {
+            "text_qaHmh9": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3><strong>WORKWEAR</strong></h3>",
+                "text": "<h2>NOOS styleoverview</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h2",
-                "type_preset_mobile": "h4",
+                "type_preset": "h1",
+                "type_preset_mobile": "",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -2524,22 +2565,23 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": true,
-                "mobile-padding-block-start": 100,
+                "mobile_padding_enabled": false,
+                "mobile-padding-block-start": 0,
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
               },
               "blocks": {}
             },
-            "text_3VBRcX": {
+            "text_hjVNgq": {
               "type": "text",
+              "name": "t:names.heading",
               "settings": {
-                "text": "<p>Udviklet til medarbejdere inden for transport, lager og servicefag. Slidstyrke, komfort og bevægelsesfrihed er i fokus.</p><p>Hver detalje er gennemtænkt med et klart formål. Forstærkede syninger for lang levetid, åndbare materialer til komfort hele dagen og praktiske løsninger som sikre lommer.</p>",
+                "text": "<h2>Corporate wear, workwear & uniforms</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "paragraph",
+                "alignment": "left",
+                "type_preset": "h2",
                 "type_preset_mobile": "",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
@@ -2559,25 +2601,96 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 0,
-                "padding-block-end": 100,
+                "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
                 "mobile_padding_enabled": false,
                 "mobile-padding-block-start": 0,
-                "mobile-padding-block-end": 99,
+                "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text_WFm64d": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Har kan du se alle vores strik til herrer og damer i et nemt og samlet overblik</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "type_preset_mobile": "",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "font_mobile": "",
+                "font_size_mobile": "",
+                "line_height_mobile": "",
+                "letter_spacing_mobile": "",
+                "case_mobile": "",
+                "wrap_mobile": "",
+                "color_mobile": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile_padding_enabled": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_P4naTC": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "se katalog",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "spacer_wRqeqr": {
+              "type": "spacer",
+              "name": "t:names.spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 66,
+                "pixel_size": 52,
+                "custom_mobile_size": true,
+                "size_mobile": "pixel",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 52
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "spacer_8z9VWx",
-            "text_W7ahka",
-            "text_3VBRcX"
+            "spacer_K3xNdp",
+            "text_qaHmh9",
+            "text_hjVNgq",
+            "text_WFm64d",
+            "button_P4naTC",
+            "spacer_wRqeqr"
           ]
         },
-        "group_ihxKbq": {
+        "group_aXbLe7": {
           "type": "group",
           "settings": {
             "link": "",
@@ -2624,29 +2737,29 @@
             "mobile-padding-inline-end": 15
           },
           "blocks": {
-            "spacer_mbGe9j": {
+            "spacer_x8XanW": {
               "type": "spacer",
               "settings": {
-                "size": "pixel",
+                "size": "percent",
                 "percent_size": 100,
-                "pixel_size": 16,
-                "custom_mobile_size": false,
+                "pixel_size": 52,
+                "custom_mobile_size": true,
                 "size_mobile": "percent",
                 "percent_size_mobile": 100,
                 "pixel_size_mobile": 120
               },
               "blocks": {}
             },
-            "text_9GjmDT": {
+            "text_iXaJ3L": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h3><strong>UNIFORM</strong></h3>",
+                "text": "<h2>NOOS catalogue</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h2",
-                "type_preset_mobile": "h4",
+                "type_preset": "h1",
+                "type_preset_mobile": "",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -2668,22 +2781,23 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": true,
-                "mobile-padding-block-start": 100,
+                "mobile_padding_enabled": false,
+                "mobile-padding-block-start": 0,
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
               },
               "blocks": {}
             },
-            "text_3bmQhf": {
+            "text_yNbyjY": {
               "type": "text",
+              "name": "t:names.heading",
               "settings": {
-                "text": "<p>Udviklet til medarbejdere inden for sikkerhed, brand og redning. <br/>Uniformerne er skabt med fokus på autoritet og forener funktionalitet med klar signalværdi.</p><p>Hver style er skabt med fokus på komfort, bevægelighed og en klar visuel identitet, der skaber respekt.</p>",
+                "text": "<h2>Corporate wear & workwear</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "paragraph",
+                "alignment": "left",
+                "type_preset": "h2",
                 "type_preset_mobile": "",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
@@ -2703,7 +2817,7 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 0,
-                "padding-block-end": 100,
+                "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
                 "mobile_padding_enabled": false,
@@ -2713,19 +2827,90 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "text_hrCqVy": {
+              "type": "text",
+              "name": "t:names.text",
+              "settings": {
+                "text": "<p>Har kan du se alle vores strik til herrer og damer i et nemt og samlet overblik</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "type_preset_mobile": "",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "font_mobile": "",
+                "font_size_mobile": "",
+                "line_height_mobile": "",
+                "letter_spacing_mobile": "",
+                "case_mobile": "",
+                "wrap_mobile": "",
+                "color_mobile": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile_padding_enabled": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button_r7HPc4": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "se katalog",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "spacer_4a9det": {
+              "type": "spacer",
+              "name": "t:names.spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 66,
+                "pixel_size": 52,
+                "custom_mobile_size": true,
+                "size_mobile": "pixel",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 52
+              },
+              "blocks": {}
             }
           },
           "block_order": [
-            "spacer_mbGe9j",
-            "text_9GjmDT",
-            "text_3bmQhf"
+            "spacer_x8XanW",
+            "text_iXaJ3L",
+            "text_yNbyjY",
+            "text_hrCqVy",
+            "button_r7HPc4",
+            "spacer_4a9det"
           ]
         }
       },
       "block_order": [
         "group_AjLzPa",
-        "group_yRm7Qq",
-        "group_ihxKbq"
+        "group_BXxGTx",
+        "group_aXbLe7"
       ],
       "name": "t:names.split_showcase",
       "settings": {
