@@ -313,7 +313,7 @@
                 "max_width": "normal",
                 "alignment": "left",
                 "type_preset": "h2",
-                "type_preset_mobile": "h2",
+                "type_preset_mobile": "h3",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -429,14 +429,53 @@
     "section_YNeMhA": {
       "type": "section",
       "blocks": {
+        "text_bqVhEV": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<p>Hos CLIPPER er du altid velkommen</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "type_preset_mobile": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "font_mobile": "",
+            "font_size_mobile": "",
+            "line_height_mobile": "",
+            "letter_spacing_mobile": "",
+            "case_mobile": "",
+            "wrap_mobile": "",
+            "color_mobile": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "mobile_padding_enabled": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0
+          },
+          "blocks": {}
+        },
         "text_3TeG3R": {
           "type": "text",
           "settings": {
-            "text": "<p>Hos CLIPPER  handler det om mere end produkter. Det handler om relationer.<br/><br/>Vi tror på, at de bedste løsninger skabes gennem tæt dialog og gensidig forståelse. </p><p>Har du spørgsmål til vores sortiment, samarbejdsmuligheder eller en konkret forespørgsel? Så tag fat i os. Vi sørger for, at du hurtigt bliver koblet på den rette person i vores team.</p>",
+            "text": "<p>Uanset om du er privatkunde på jagt efter din næste garderobefavorit, om du er en virksomhed der ønsker at klæde medarbejdere professionelt på, eller om du søger en erfaren Private Label partner, der ved, hvad der er ret og vrang.</p>",
             "width": "100%",
-            "max_width": "narrow",
+            "max_width": "normal",
             "alignment": "center",
-            "type_preset": "h4",
+            "type_preset": "paragraph",
             "type_preset_mobile": "h6",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
@@ -469,6 +508,7 @@
         }
       },
       "block_order": [
+        "text_bqVhEV",
         "text_3TeG3R"
       ],
       "name": "t:names.pull_quote",
@@ -500,6 +540,144 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64,
+        "mobile_padding_enabled": false,
+        "mobile-padding-block-start": 0,
+        "mobile-padding-block-end": 0
+      }
+    },
+    "media_with_content_jnJ9pE": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/boks_aflang.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false,
+            "image_position": "cover",
+            "video_position": "cover"
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 24
+          },
+          "blocks": {
+            "group_qBiHyd": {
+              "type": "group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "center",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fill",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "media_height_mobile": "auto",
+                "media_height_mobile_custom": 40,
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "placeholder": "",
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile_padding_enabled": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {
+                "text_izNzHK": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Vi tror på, at det handler om mere end produkter. Det handler om relationer, fordi de bedste løsninger skabes gennem tæt dialog og gensidig forståelse. </p><p>Har du spørgsmål til vores sortiment, samarbejdsmuligheder eller en konkret forespørgsel? Så tag fat i os. Vi sørger for, at du hurtigt bliver koblet på den rette person i vores team.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h3",
+                    "type_preset_mobile": "h6",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "font_mobile": "",
+                    "font_size_mobile": "",
+                    "line_height_mobile": "",
+                    "letter_spacing_mobile": "",
+                    "case_mobile": "",
+                    "wrap_mobile": "",
+                    "color_mobile": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 25,
+                    "padding-inline-end": 25,
+                    "mobile_padding_enabled": true,
+                    "mobile-padding-block-start": 0,
+                    "mobile-padding-block-end": 0,
+                    "mobile-padding-inline-start": 10,
+                    "mobile-padding-inline-end": 10
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_izNzHK"
+              ]
+            }
+          },
+          "block_order": [
+            "group_qBiHyd"
+          ]
+        }
+      },
+      "name": "t:names.editorial",
+      "settings": {
+        "media_position": "right",
+        "media_width": "medium",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "mobile_section_width_enabled": false,
+        "mobile_section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "scheme-3",
+        "padding-block-start": 0,
+        "padding-block-end": 0,
         "mobile_padding_enabled": false,
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
@@ -1047,6 +1225,7 @@
     "hero_exFMzW",
     "section_MLnt6R",
     "section_YNeMhA",
+    "media_with_content_jnJ9pE",
     "form",
     "section_8RhER4"
   ]
