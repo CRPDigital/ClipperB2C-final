@@ -832,6 +832,59 @@
                 "text_yF6GWW"
               ]
             },
+            "accordion_row_dCxK9a": {
+              "type": "_accordion-row",
+              "name": "t:names.accordion_row",
+              "settings": {
+                "heading": "Hvordan returnerer jeg min pakke?",
+                "open_by_default": false,
+                "icon": "none",
+                "width": 20
+              },
+              "blocks": {
+                "text_zrqXGy": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Vi håber, du elsker din strik. Men hvis det alligevel ikke var det helt rigtige, skal det være nemt at sende den retur. Kontakt os på <a><strong>clipper@clipper.dk</strong></a> og meddel din returnering eller benyt vores returportal, hvor du hurtigt og enkelt kan registrere din retur online.</p>",
+                    "width": "100%",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "rte",
+                    "type_preset_mobile": "",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "font_mobile": "",
+                    "font_size_mobile": "",
+                    "line_height_mobile": "",
+                    "letter_spacing_mobile": "",
+                    "case_mobile": "",
+                    "wrap_mobile": "",
+                    "color_mobile": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0,
+                    "mobile_padding_enabled": false,
+                    "mobile-padding-block-start": 0,
+                    "mobile-padding-block-end": 0,
+                    "mobile-padding-inline-start": 0,
+                    "mobile-padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_zrqXGy"
+              ]
+            },
             "accordion_row_8ae6Rd": {
               "type": "_accordion-row",
               "name": "t:names.accordion_dash_row",
@@ -944,6 +997,7 @@
           "block_order": [
             "accordion_row_HkLdzY",
             "accordion_row_zTgLCe",
+            "accordion_row_dCxK9a",
             "accordion_row_8ae6Rd",
             "accordion_row_AH99dV"
           ]
