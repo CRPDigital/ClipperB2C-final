@@ -3146,7 +3146,7 @@
                 "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
                 "mobile-padding-block-end": 0,
-                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-start": 15,
                 "mobile-padding-inline-end": 0
               },
               "blocks": {}
@@ -3154,7 +3154,7 @@
             "text_KHqXdA": {
               "type": "text",
               "settings": {
-                "text": "<p>Der er en  helt særlig følelse i uld. Den måde den varmer uden at føles tung. Den måde den ånder med kroppen. Den måde den falder naturligt og holder sin form, år efter år.</p><p>Hos CLIPPER er uld ikke et tilfældigt valg. Det er fundamentet i størstedelen af vores strik, fordi det forener komfort, funktion og holdbarhed i én og samme fiber.</p><p>Vi arbejder udelukkende med mulesing-fri uld og udvælger vores garner med stor omhu. Flere af vores kvaliteter spindes i Italien hos specialister, vi har samarbejdet med gennem mange år. Nogle garner er specialudviklet til os, så vi får præcis den struktur, blødhed og styrke, vi ønsker.</p><p>For os handler det ikke om at skifte materiale efter trend. Det handler om at vælge rigtigt fra begyndelsen. Om strik, der ikke bare holder én sæson, men som bliver en fast del af garderoben.</p>",
+                "text": "<p>Der er en  helt særlig følelse i uld. Den måde den varmer uden at føles tung. Den måde den ånder med kroppen. Den måde den falder naturligt og holder sin form, år efter år.</p><p>Hos CLIPPER er uld ikke et tilfældigt valg. Det er fundamentet i størstedelen af vores strik, fordi det forener komfort, funktion og holdbarhed i et naturligt fiber.</p><p>Vi arbejder udelukkende med mulesing-fri uld og udvælger vores garner med stor omhu. Flere af vores kvaliteter spindes i Italien hos specialister, vi har samarbejdet med gennem mange år. Nogle garner er specialudviklet til os, så vi får præcis den struktur, blødhed og styrke, vi ønsker.</p><p>For os handler det ikke om at skifte materiale efter trend. Det handler om at vælge rigtigt fra begyndelsen. Om strik, der ikke bare holder én sæson, men som bliver en fast del af garderoben.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -3183,8 +3183,8 @@
                 "padding-inline-end": 0,
                 "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
-                "mobile-padding-block-end": 0,
-                "mobile-padding-inline-start": 0,
+                "mobile-padding-block-end": 25,
+                "mobile-padding-inline-start": 15,
                 "mobile-padding-inline-end": 0
               },
               "blocks": {}
@@ -3212,12 +3212,12 @@
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
         "gap": 25,
-        "section_width": "page-width",
+        "section_width": "full-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -3230,7 +3230,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 0,
-        "padding-block-end": 25,
+        "padding-block-end": 0,
         "mobile_padding_enabled": false,
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
