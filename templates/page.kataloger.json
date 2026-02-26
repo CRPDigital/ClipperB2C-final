@@ -1356,7 +1356,7 @@
                       "name": "t:names.button",
                       "settings": {
                         "label": "Find din favorit her",
-                        "link": "",
+                        "link": "shopify://collections/alle-produkter",
                         "open_in_new_tab": true,
                         "style_class": "button",
                         "width": "fit-content",
