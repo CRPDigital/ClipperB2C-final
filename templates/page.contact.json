@@ -899,7 +899,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>Vil tilbyder gratis levering i Danmark på alle ordre for minimum DKK 499,-. For ordre derunder koster levering DKK 39,-</p>",
+                    "text": "<p>Vil tilbyder gratis levering i Danmark på alle ordre for minimum DKK 499,-. For ordre derunder koster levering DKK 39,- til en pakkeshop og DDK 59,- til en privat adresse.</p>",
                     "width": "100%",
                     "max_width": "normal",
                     "alignment": "left",
