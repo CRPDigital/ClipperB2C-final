@@ -2988,7 +2988,7 @@
         "image_gxeT9f": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/private_label.jpg",
+            "image": "shopify://shop_images/uld.jpg",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
@@ -3015,7 +3015,7 @@
         "image_XJyqwg": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/private_label_8.jpg",
+            "image": "shopify://shop_images/uld_1.jpg",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
@@ -3042,7 +3042,7 @@
         "image_t7XdXd": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/private_label_5.jpg",
+            "image": "shopify://shop_images/uld_2.jpg",
             "link": "",
             "image_ratio": "square",
             "width": "fill",
