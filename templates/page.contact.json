@@ -717,7 +717,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -729,7 +729,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<p>Har du brug for hjælp eller har du en generel henvendelse, kan du altid skrive til os.<br/><strong>Vi har måske allerede svaret på dit spørgsmål gennem vores \"Ofte stillede spørgsmål\" nedenfor.</strong></p>",
+            "text": "<p>Har du brug for hjælp eller har du en generel henvendelse, kan du altid skrive til os. <strong>Vi har måske allerede svaret på dit spørgsmål gennem vores \"Ofte stillede spørgsmål\" nedenfor.</strong></p>",
             "width": "fit-content",
             "max_width": "none",
             "alignment": "left",
@@ -756,7 +756,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -835,9 +835,9 @@
         "gradient_direction": "to top",
         "padding-block-start": 32,
         "padding-block-end": 32,
-        "mobile_padding_enabled": false,
-        "mobile-padding-block-start": 0,
-        "mobile-padding-block-end": 0
+        "mobile_padding_enabled": true,
+        "mobile-padding-block-start": 15,
+        "mobile-padding-block-end": 15
       }
     },
     "section_8RhER4": {
