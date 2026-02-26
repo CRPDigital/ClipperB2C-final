@@ -183,7 +183,7 @@
             "padding-inline-end": 0,
             "mobile_padding_enabled": true,
             "mobile-padding-block-start": 15,
-            "mobile-padding-block-end": 0,
+            "mobile-padding-block-end": 15,
             "mobile-padding-inline-start": 0,
             "mobile-padding-inline-end": 0
           },
@@ -662,8 +662,8 @@
             "mobile_padding_enabled": true,
             "mobile-padding-block-start": 15,
             "mobile-padding-block-end": 35,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0
+            "mobile-padding-inline-start": 10,
+            "mobile-padding-inline-end": 10
           },
           "blocks": {
             "spacer_m3CiMx": {
@@ -714,8 +714,8 @@
                 "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 15,
                 "mobile-padding-block-end": 15,
-                "mobile-padding-inline-start": 0,
-                "mobile-padding-inline-end": 0
+                "mobile-padding-inline-start": 10,
+                "mobile-padding-inline-end": 10
               },
               "blocks": {}
             },
