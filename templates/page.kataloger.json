@@ -2357,6 +2357,21 @@
               },
               "blocks": {}
             },
+            "button_7D484y": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Køb nu",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
             "text_zhVL3X": {
               "type": "text",
               "settings": {
@@ -2399,6 +2414,7 @@
           "block_order": [
             "spacer_kXKrBX",
             "text_GJiaiV",
+            "button_7D484y",
             "text_zhVL3X"
           ]
         },
