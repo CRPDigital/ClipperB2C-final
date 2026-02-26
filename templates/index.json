@@ -182,7 +182,7 @@
             "padding-inline-start": 0,
             "padding-inline-end": 0,
             "mobile_padding_enabled": true,
-            "mobile-padding-block-start": 25,
+            "mobile-padding-block-start": 15,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
             "mobile-padding-inline-end": 0
