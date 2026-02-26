@@ -2096,7 +2096,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h4>For vores B2B-kunder designer og producerer vi profilbeklædning og uniformering, der styrker identitet og fællesskab på tværs af brancher.<br/><br/>Desuden tilbyder vi også Private Label-løsninger, der giver fuld fleksibilitet i udviklingen af styles, tilpasset brandidentitet, farver og funktionelle behov.<br/></h4>",
+            "text": "<h4>For vores B2B-kunder designer og producerer vi profilbeklædning og uniformering, der styrker identitet og fællesskab på tværs af brancher.<br/><br/>Desuden tilbyder vi også Private Label-løsninger, der giver fuld fleksibilitet i udviklingen af styles, tilpasset identitet, farver og funktionelle behov.<br/></h4>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -3165,8 +3165,8 @@
                 "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
                 "mobile-padding-block-end": 25,
-                "mobile-padding-inline-start": 15,
-                "mobile-padding-inline-end": 0
+                "mobile-padding-inline-start": 10,
+                "mobile-padding-inline-end": 10
               },
               "blocks": {}
             }
