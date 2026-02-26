@@ -240,7 +240,7 @@
         "text_BnDpy9": {
           "type": "text",
           "settings": {
-            "text": "<p>Uld er en af naturens mest værdifulde fibre, blød, åndbar og naturligt temperaturregulerende. Når du passer godt på din uld, bevarer den sin form, sin komfort og sit flotte udtryk i mange år.  For at sikre, at din strik holder sæson efter sæson, er det vigtigt at pleje den med omtanke</p><p>Ulden kommer fra farmere, der lever op til høje krav om dyrevelfærd og hvor fårene ikke udsættes for mulesing. Det giver strik, der både føles godt og er produceret med omtanke.</p>",
+            "text": "<p>Uld er en af naturens mest værdifulde fibre, blød, åndbar og naturligt temperaturregulerende. Når du passer godt på din uld, bevarer den sin form, sin komfort og sit flotte udtryk i mange år.  For at sikre, at din strik holder sæson efter sæson, er det vigtigt at pleje den med omtanke.</p><p>Ulden kommer fra farmere, der lever op til høje krav om dyrevelfærd og hvor fårene ikke udsættes for mulesing. Det giver strik, der både føles godt og er produceret med omtanke.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -1602,7 +1602,7 @@
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "h3",
+            "type_preset": "h2",
             "type_preset_mobile": "h6",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
