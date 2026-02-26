@@ -2281,7 +2281,7 @@
             "color_scheme": "scheme-5",
             "background_media": "image",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/CLIPPER800x810_CORPORATE_WEAR.jpg",
+            "background_image": "shopify://shop_images/katalog.jpg",
             "background_image_position": "cover",
             "media_height_mobile": "auto",
             "media_height_mobile_custom": 40,
@@ -2357,21 +2357,6 @@
               },
               "blocks": {}
             },
-            "button_7D484y": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "Køb nu",
-                "link": "shopify://collections/all",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            },
             "text_zhVL3X": {
               "type": "text",
               "settings": {
@@ -2409,13 +2394,43 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "button_LrHq7M": {
+              "type": "button",
+              "name": "t:names.button",
+              "settings": {
+                "label": "Køb nu",
+                "link": "shopify://collections/all",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            },
+            "spacer_iFbDqt": {
+              "type": "spacer",
+              "name": "t:names.spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 66,
+                "pixel_size": 52,
+                "custom_mobile_size": false,
+                "size_mobile": "percent",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "spacer_kXKrBX",
             "text_GJiaiV",
-            "button_7D484y",
-            "text_zhVL3X"
+            "text_zhVL3X",
+            "button_LrHq7M",
+            "spacer_iFbDqt"
           ]
         },
         "group_yRm7Qq": {
@@ -2441,7 +2456,7 @@
             "color_scheme": "scheme-5",
             "background_media": "image",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/profil_WORKWEAR_2.jpg",
+            "background_image": "shopify://shop_images/katalog_1.jpg",
             "background_image_position": "cover",
             "media_height_mobile": "auto",
             "media_height_mobile_custom": 40,
@@ -2585,7 +2600,7 @@
             "color_scheme": "scheme-5",
             "background_media": "image",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/profil_UNIFORMS_2.jpg",
+            "background_image": "shopify://shop_images/katalog_2.jpg",
             "background_image_position": "cover",
             "media_height_mobile": "auto",
             "media_height_mobile_custom": 40,
