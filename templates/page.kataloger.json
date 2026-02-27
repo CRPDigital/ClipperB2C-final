@@ -202,11 +202,11 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>Find det rette katalog til dit behov, fra tidløse NOOS-styles til funktionel profilbeklædning og uniformer<br/></p>",
+            "text": "<p>Kataloger til ethvert behov, lige fra tidløse NOOS-styles til funktionel profilbeklædning og uniformer</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
-            "type_preset": "h2",
+            "type_preset": "h1",
             "type_preset_mobile": "h6",
             "font": "var(--font-body--family)",
             "font_size": "1rem",
