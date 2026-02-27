@@ -558,7 +558,7 @@
         "text_nWQyBb": {
           "type": "text",
           "settings": {
-            "text": "<p>Vi har et klart princip, vi laver kun strik, vi selv har lyst til at tage på. Hvis vi ikke selv ville gå i det, bliver det ikke en del af kollektionen.</p>",
+            "text": "<p>Vi har et klart princip, vi laver kun strik, vi selv har lyst til at tage på. Hvis vi ikke selv ville gå i det, bliver det ikke en del af kollektionen</p>",
             "width": "100%",
             "max_width": "narrow",
             "alignment": "center",
