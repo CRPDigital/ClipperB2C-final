@@ -1130,7 +1130,7 @@
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
-                "content_direction": "row",
+                "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "space-between",
                 "vertical_alignment": "flex-start",
@@ -1168,6 +1168,20 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
+                "product_card_linked_swatches_PF8yQK": {
+                  "type": "_product-card-linked-swatches",
+                  "name": "t:names.color_swatches",
+                  "settings": {
+                    "swatch_size": 20,
+                    "swatch_gap": 8,
+                    "alignment": "flex-start",
+                    "padding-block-start": 4,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "group_KJDaTQ": {
                   "type": "_product-card-group",
                   "name": "t:names.group",
@@ -1339,6 +1353,7 @@
                 }
               },
               "block_order": [
+                "product_card_linked_swatches_PF8yQK",
                 "group_KJDaTQ",
                 "group_cPyTRf"
               ]
@@ -3458,6 +3473,69 @@
               },
               "blocks": {}
             },
+            "product_card_group_kDTXRE": {
+              "type": "_product-card-group",
+              "name": "t:names.group",
+              "settings": {
+                "link": "",
+                "open_in_new_tab": false,
+                "content_direction": "column",
+                "vertical_on_mobile": true,
+                "horizontal_alignment": "flex-start",
+                "vertical_alignment": "center",
+                "align_baseline": false,
+                "horizontal_alignment_flex_direction_column": "flex-start",
+                "vertical_alignment_flex_direction_column": "center",
+                "gap": 12,
+                "width": "fill",
+                "custom_width": 100,
+                "width_mobile": "fill",
+                "custom_width_mobile": 100,
+                "height": "fit",
+                "custom_height": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "background_media": "none",
+                "video_position": "cover",
+                "background_image_position": "cover",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "toggle_overlay": false,
+                "overlay_color": "#00000026",
+                "overlay_style": "solid",
+                "gradient_direction": "to top",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile_padding_enabled": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {
+                "product_card_linked_swatches_Am964A": {
+                  "type": "_product-card-linked-swatches",
+                  "name": "t:names.color_swatches",
+                  "settings": {
+                    "swatch_size": 20,
+                    "swatch_gap": 8,
+                    "alignment": "flex-start",
+                    "padding-block-start": 4,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "product_card_linked_swatches_Am964A"
+              ]
+            },
             "product_title_fmxpN6": {
               "type": "product-title",
               "name": "t:names.product_title",
@@ -3519,6 +3597,7 @@
           },
           "block_order": [
             "product_card_gallery_QMBDQc",
+            "product_card_group_kDTXRE",
             "product_title_fmxpN6",
             "price_LF8Xff"
           ]

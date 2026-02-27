@@ -137,26 +137,12 @@
               },
               "blocks": {}
             },
-            "swatches_y7jNGY": {
-              "type": "swatches",
-              "name": "t:names.swatches",
-              "settings": {
-                "product_swatches_alignment": "flex-start",
-                "product_swatches_alignment_mobile": "flex-start",
-                "hide_padding": false,
-                "product_swatches_padding_top": 4,
-                "product_swatches_padding_bottom": 0,
-                "product_swatches_padding_left": 0,
-                "product_swatches_padding_right": 0
-              },
-              "blocks": {}
-            },
             "group_xPfkmt": {
               "type": "_product-card-group",
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
-                "content_direction": "row",
+                "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "space-between",
                 "vertical_alignment": "flex-start",
@@ -194,6 +180,20 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
+                "product_card_linked_swatches_VDAPPm": {
+                  "type": "_product-card-linked-swatches",
+                  "name": "t:names.color_swatches",
+                  "settings": {
+                    "swatch_size": 20,
+                    "swatch_gap": 8,
+                    "alignment": "flex-start",
+                    "padding-block-start": 4,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "group_TNJF88": {
                   "type": "_product-card-group",
                   "name": "t:names.group",
@@ -365,6 +365,7 @@
                 }
               },
               "block_order": [
+                "product_card_linked_swatches_VDAPPm",
                 "group_TNJF88",
                 "group_EcYnQz"
               ]
@@ -372,7 +373,6 @@
           },
           "block_order": [
             "card-gallery",
-            "swatches_y7jNGY",
             "group_xPfkmt"
           ]
         }
