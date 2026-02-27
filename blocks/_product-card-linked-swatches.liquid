@@ -1,0 +1,176 @@
+
+{%- liquid
+  assign product = closest.product
+  assign linked_products = product.metafields.custom.linked_products.value
+
+  if linked_products == blank
+    break
+  endif
+-%}
+
+<div
+  class="linked-swatches spacing-style"
+  style="
+    {% render 'spacing-style', settings: block.settings %}
+    --linked-swatches-size: {{ block.settings.swatch_size }}px;
+    --linked-swatches-gap: {{ block.settings.swatch_gap }}px;
+    justify-content: {{ block.settings.alignment }};
+  "
+  {{ block.shopify_attributes }}
+>
+  {%- for linked_product in linked_products -%}
+    {%- liquid
+      assign swatch_color = linked_product.metafields.custom.swatch_color.value
+      if swatch_color == blank
+        continue
+      endif
+      assign is_current = false
+      if linked_product.id == product.id
+        assign is_current = true
+      endif
+    -%}
+    <a
+      href="{{ linked_product.url }}"
+      class="linked-swatch{% if is_current %} linked-swatch--active{% endif %}"
+      style="--swatch-bg: {{ swatch_color }};"
+      title="{{ linked_product.title | escape }}"
+      {% if is_current %}aria-current="true"{% endif %}
+    >
+      <span class="visually-hidden">{{ linked_product.title }}</span>
+    </a>
+  {%- endfor -%}
+</div>
+
+{% stylesheet %}
+  .linked-swatches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--linked-swatches-gap, 8px);
+    align-items: center;
+  }
+
+  .linked-swatch {
+    display: block;
+    width: var(--linked-swatches-size, 20px);
+    height: var(--linked-swatches-size, 20px);
+    border-radius: 50%;
+    background-color: var(--swatch-bg);
+    border: 1px solid rgb(var(--color-foreground-rgb) / 0.15);
+    transition: box-shadow 0.15s ease, border-color 0.15s ease;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+
+  .linked-swatch:hover {
+    border-color: rgb(var(--color-foreground-rgb) / 0.4);
+    box-shadow: 0 0 0 1px rgb(var(--color-foreground-rgb) / 0.2);
+  }
+
+  .linked-swatch--active {
+    border-color: var(--color-foreground);
+    box-shadow: 0 0 0 1px var(--color-foreground);
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "t:names.color_swatches",
+  "tag": null,
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:content.linked_swatches_info"
+    },
+    {
+      "type": "range",
+      "id": "swatch_size",
+      "label": "t:settings.swatch_size",
+      "min": 12,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "swatch_gap",
+      "label": "t:settings.gap",
+      "min": 2,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "select",
+      "id": "alignment",
+      "label": "t:settings.alignment",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "t:options.left"
+        },
+        {
+          "value": "center",
+          "label": "t:options.center"
+        },
+        {
+          "value": "flex-end",
+          "label": "t:options.right"
+        }
+      ],
+      "default": "flex-start"
+    },
+    {
+      "type": "header",
+      "content": "t:content.padding"
+    },
+    {
+      "type": "range",
+      "id": "padding-block-start",
+      "label": "t:settings.top",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "range",
+      "id": "padding-block-end",
+      "label": "t:settings.bottom",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-inline-start",
+      "label": "t:settings.left",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding-inline-end",
+      "label": "t:settings.right",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:names.color_swatches",
+      "category": "t:categories.product"
+    }
+  ]
+}
+{% endschema %}
