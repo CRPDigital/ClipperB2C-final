@@ -6,9 +6,20 @@
   if linked_products == blank
     break
   endif
+
+  assign swatch_count = 0
+  for lp in linked_products
+    if lp.metafields.custom.swatch_color.value != blank
+      assign swatch_count = swatch_count | plus: 1
+    endif
+  endfor
+
+  if swatch_count <= 1
+    break
+  endif
 -%}
 
-<div
+<linked-swatches-component
   class="linked-swatches spacing-style"
   style="
     {% render 'spacing-style', settings: block.settings %}
@@ -35,24 +46,25 @@
       style="--swatch-bg: {{ swatch_color }};"
       title="{{ linked_product.title | escape }}"
       {% if is_current %}aria-current="true"{% endif %}
+      data-featured-image-url="{{ linked_product.featured_image | image_url: width: 1000 }}"
     >
       <span class="visually-hidden">{{ linked_product.title }}</span>
     </a>
   {%- endfor -%}
-</div>
+</linked-swatches-component>
 
 {% stylesheet %}
-  .linked-swatches {
+  linked-swatches-component {
     display: flex;
     flex-wrap: wrap;
-    gap: var(--linked-swatches-gap, 8px);
+    gap: var(--linked-swatches-gap, 6px);
     align-items: center;
   }
 
   .linked-swatch {
     display: block;
-    width: var(--linked-swatches-size, 20px);
-    height: var(--linked-swatches-size, 20px);
+    width: var(--linked-swatches-size, 14px);
+    height: var(--linked-swatches-size, 14px);
     border-radius: 50%;
     background-color: var(--swatch-bg);
     border: 1px solid rgb(var(--color-foreground-rgb) / 0.15);
@@ -72,6 +84,54 @@
   }
 {% endstylesheet %}
 
+<script>
+  if (!customElements.get('linked-swatches-component')) {
+    customElements.define('linked-swatches-component', class extends HTMLElement {
+      connectedCallback() {
+        this.querySelectorAll('.linked-swatch').forEach(swatch => {
+          swatch.addEventListener('pointerenter', this.#handlePointerEnter);
+          swatch.addEventListener('pointerleave', this.#handlePointerLeave);
+        });
+      }
+
+      #handlePointerEnter = (event) => {
+        if (event.pointerType !== 'mouse') return;
+        const imageUrl = event.currentTarget.dataset.featuredImageUrl;
+        if (!imageUrl) return;
+
+        const card = this.closest('product-card');
+        if (!card) return;
+
+        const img = card.querySelector('.product-media__image');
+        if (!img) return;
+
+        if (!this._originalSrc) {
+          this._originalSrc = img.src;
+          this._originalSrcset = img.srcset;
+        }
+        img.src = imageUrl;
+        img.srcset = '';
+      };
+
+      #handlePointerLeave = (event) => {
+        if (event.pointerType !== 'mouse') return;
+        if (!this._originalSrc) return;
+
+        const card = this.closest('product-card');
+        if (!card) return;
+
+        const img = card.querySelector('.product-media__image');
+        if (!img) return;
+
+        img.src = this._originalSrc;
+        img.srcset = this._originalSrcset;
+        this._originalSrc = null;
+        this._originalSrcset = null;
+      };
+    });
+  }
+</script>
+
 {% schema %}
 {
   "name": "t:names.color_swatches",
@@ -85,11 +145,11 @@
       "type": "range",
       "id": "swatch_size",
       "label": "t:settings.swatch_size",
-      "min": 12,
+      "min": 8,
       "max": 40,
-      "step": 2,
+      "step": 1,
       "unit": "px",
-      "default": 20
+      "default": 14
     },
     {
       "type": "range",
@@ -99,7 +159,7 @@
       "max": 20,
       "step": 1,
       "unit": "px",
-      "default": 8
+      "default": 6
     },
     {
       "type": "select",
