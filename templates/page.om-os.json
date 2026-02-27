@@ -776,37 +776,10 @@
         "mobile-padding-block-end": 0
       }
     },
-    "section_L38HDq": {
+    "section_yHPwPT": {
       "type": "section",
       "blocks": {
-        "image_CMTYmG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/kontakt_2.jpg",
-            "link": "",
-            "image_ratio": "square",
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fit",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
-            "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "group_rwNKmM": {
+        "group_9jBMer": {
           "type": "group",
           "settings": {
             "link": "",
@@ -816,17 +789,82 @@
             "horizontal_alignment": "flex-start",
             "vertical_alignment": "center",
             "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "flex-start",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 12,
-            "width": "custom",
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 32,
+            "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
             "custom_width_mobile": 100,
-            "height": "fit",
+            "height": "fill",
             "custom_height": 100,
-            "inherit_color_scheme": true,
-            "color_scheme": "",
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-5",
+            "background_media": "image",
+            "video_position": "cover",
+            "background_image": "shopify://shop_images/boks_aflang_1.jpg",
+            "background_image_position": "cover",
+            "media_height_mobile": "custom",
+            "media_height_mobile_custom": 35,
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "placeholder": "hero-apparel-2",
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 40,
+            "padding-block-end": 40,
+            "padding-inline-start": 40,
+            "padding-inline-end": 40,
+            "mobile_padding_enabled": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0
+          },
+          "blocks": {
+            "spacer_kcTtYa": {
+              "type": "spacer",
+              "settings": {
+                "size": "pixel",
+                "percent_size": 100,
+                "pixel_size": 16,
+                "custom_mobile_size": false,
+                "size_mobile": "percent",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "spacer_kcTtYa"
+          ]
+        },
+        "group_VECKjQ": {
+          "type": "group",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "flex-start",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "space-between",
+            "gap": 32,
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fill",
+            "custom_height": 100,
+            "inherit_color_scheme": false,
+            "color_scheme": "scheme-4",
             "background_media": "none",
             "video_position": "cover",
             "background_image_position": "cover",
@@ -836,23 +874,36 @@
             "border_width": 1,
             "border_opacity": 100,
             "border_radius": 0,
-            "placeholder": "",
+            "placeholder": "hero-apparel-1",
             "toggle_overlay": false,
             "overlay_color": "#00000026",
             "overlay_style": "solid",
             "gradient_direction": "to top",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "padding-block-start": 40,
+            "padding-block-end": 40,
+            "padding-inline-start": 40,
+            "padding-inline-end": 40,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
+            "mobile-padding-block-end": 15,
             "mobile-padding-inline-start": 0,
             "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "text_qRKNtb": {
+            "spacer_dcLTLQ": {
+              "type": "spacer",
+              "settings": {
+                "size": "percent",
+                "percent_size": 100,
+                "pixel_size": 16,
+                "custom_mobile_size": false,
+                "size_mobile": "percent",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 120
+              },
+              "blocks": {}
+            },
+            "text_iqgArK": {
               "type": "text",
               "name": "t:names.heading",
               "settings": {
@@ -883,7 +934,7 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": false,
+                "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
                 "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 0,
@@ -891,8 +942,9 @@
               },
               "blocks": {}
             },
-            "text_g8m3Nt": {
+            "text_qDYAjG": {
               "type": "text",
+              "name": "t:names.text",
               "settings": {
                 "text": "<p>På vores eget lager håndteres hver ordre med samme omhu, som vi producerer vores strik. Tusindvis af styles er klar til dag-til-dag afsendelse, effektivt, præcist og uden unødige led.</p><p>Hos CLIPPER skaber vi garderobefavoritter designet til at holde i årevis. Styles der rækker ud over sæsonens skiftende tendenser og som bliver en uundværelig  del af basisgarderoben.</p><p>Tidløst design, ansvarlig produktion og effektiv logistik, fra fiber til færdigt produkt, fra lager til dig.</p>",
                 "width": "fit-content",
@@ -921,26 +973,42 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": false,
+                "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
                 "mobile-padding-block-end": 0,
-                "mobile-padding-inline-start": 0,
-                "mobile-padding-inline-end": 0
+                "mobile-padding-inline-start": 15,
+                "mobile-padding-inline-end": 15
+              },
+              "blocks": {}
+            },
+            "spacer_PieRyz": {
+              "type": "spacer",
+              "name": "t:names.spacer",
+              "settings": {
+                "size": "percent",
+                "percent_size": 100,
+                "pixel_size": 52,
+                "custom_mobile_size": false,
+                "size_mobile": "percent",
+                "percent_size_mobile": 100,
+                "pixel_size_mobile": 120
               },
               "blocks": {}
             }
           },
           "block_order": [
-            "text_qRKNtb",
-            "text_g8m3Nt"
+            "spacer_dcLTLQ",
+            "text_iqgArK",
+            "text_qDYAjG",
+            "spacer_PieRyz"
           ]
         }
       },
       "block_order": [
-        "image_CMTYmG",
-        "group_rwNKmM"
+        "group_9jBMer",
+        "group_VECKjQ"
       ],
-      "name": "t:names.image_with_text",
+      "name": "t:names.split_showcase",
       "settings": {
         "content_direction": "row",
         "vertical_on_mobile": true,
@@ -949,13 +1017,13 @@
         "align_baseline": false,
         "horizontal_alignment_flex_direction_column": "flex-start",
         "vertical_alignment_flex_direction_column": "center",
-        "gap": 32,
-        "section_width": "page-width",
+        "gap": 0,
+        "section_width": "full-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
-        "section_height": "",
-        "section_height_custom": 35,
-        "color_scheme": "scheme-4",
+        "section_height": "large",
+        "section_height_custom": 50,
+        "color_scheme": "",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -967,8 +1035,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 40,
-        "padding-block-end": 40,
+        "padding-block-start": 0,
+        "padding-block-end": 0,
         "mobile_padding_enabled": false,
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
@@ -1734,7 +1802,7 @@
     "media_with_content_GHAg6w",
     "section_c4HpaX",
     "media_with_content_GpbwFc",
-    "section_L38HDq",
+    "section_yHPwPT",
     "section_b8BnDk"
   ]
 }
