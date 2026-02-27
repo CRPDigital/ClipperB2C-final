@@ -1168,20 +1168,6 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "product_card_linked_swatches_PF8yQK": {
-                  "type": "_product-card-linked-swatches",
-                  "name": "t:names.color_swatches",
-                  "settings": {
-                    "swatch_size": 20,
-                    "swatch_gap": 8,
-                    "alignment": "flex-start",
-                    "padding-block-start": 4,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                },
                 "group_KJDaTQ": {
                   "type": "_product-card-group",
                   "name": "t:names.group",
@@ -1226,6 +1212,20 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
+                    "linked_swatches_cxLmzx": {
+                      "type": "linked-swatches",
+                      "name": "t:names.color_swatches",
+                      "settings": {
+                        "swatch_size": 14,
+                        "swatch_gap": 6,
+                        "alignment": "flex-start",
+                        "padding-block-start": 4,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
                     "product_title_iRxawi": {
                       "type": "product-title",
                       "name": "t:names.product_title",
@@ -1285,6 +1285,7 @@
                     }
                   },
                   "block_order": [
+                    "linked_swatches_cxLmzx",
                     "product_title_iRxawi",
                     "price_4XkbjB"
                   ]
@@ -1353,7 +1354,6 @@
                 }
               },
               "block_order": [
-                "product_card_linked_swatches_PF8yQK",
                 "group_KJDaTQ",
                 "group_cPyTRf"
               ]
@@ -3516,25 +3516,7 @@
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
               },
-              "blocks": {
-                "product_card_linked_swatches_Am964A": {
-                  "type": "_product-card-linked-swatches",
-                  "name": "t:names.color_swatches",
-                  "settings": {
-                    "swatch_size": 20,
-                    "swatch_gap": 8,
-                    "alignment": "flex-start",
-                    "padding-block-start": 4,
-                    "padding-block-end": 0,
-                    "padding-inline-start": 0,
-                    "padding-inline-end": 0
-                  },
-                  "blocks": {}
-                }
-              },
-              "block_order": [
-                "product_card_linked_swatches_Am964A"
-              ]
+              "blocks": {}
             },
             "product_title_fmxpN6": {
               "type": "product-title",

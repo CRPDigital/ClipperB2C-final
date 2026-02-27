@@ -175,6 +175,20 @@
               },
               "blocks": {}
             },
+            "linked_swatches_JEYMLJ": {
+              "type": "linked-swatches",
+              "name": "t:names.color_swatches",
+              "settings": {
+                "swatch_size": 22,
+                "swatch_gap": 6,
+                "alignment": "flex-start",
+                "padding-block-start": 4,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "variant_picker_R3rGDr": {
               "type": "variant-picker",
               "settings": {
@@ -455,6 +469,7 @@
             "price_a7krng",
             "divider_HrJgFt",
             "product_inventory_ctgpWR",
+            "linked_swatches_JEYMLJ",
             "variant_picker_R3rGDr",
             "text_pTCnLt",
             "popup_link_ze98w6",
