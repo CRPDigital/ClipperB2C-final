@@ -88,6 +88,7 @@
     {% render 'border-override', settings: block.settings %}
     {% render 'spacing-style', settings: block.settings %}
     --gallery-aspect-ratio: {{ ratio }};
+    {% if block.settings.image_background_color != blank %}--card-gallery-bg: {{ block.settings.image_background_color }};{% endif %}
   "
   data-product-id="{{ product.id }}"
   {% if settings.show_second_image_on_hover %}
@@ -247,6 +248,10 @@
     overflow: hidden;
     container-type: inline-size; /* Make card-gallery a container */
     container-name: card-gallery-container; /* Optional: name the container */
+  }
+
+  .card-gallery .product-media-container {
+    background-color: var(--card-gallery-bg, transparent);
   }
 
   .card-gallery__placeholder svg {
