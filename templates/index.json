@@ -3097,7 +3097,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>Uld er ikke et tilfælde</p>",
+                "text": "<p>Uld er vores guld</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
