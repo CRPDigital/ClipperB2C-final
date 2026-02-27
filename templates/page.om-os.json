@@ -982,7 +982,7 @@
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
         "section_height": "custom",
-        "section_height_custom": 75,
+        "section_height_custom": 70,
         "color_scheme": "scheme-5",
         "background_media": "none",
         "video_position": "cover",
