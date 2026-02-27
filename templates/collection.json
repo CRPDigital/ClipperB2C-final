@@ -260,16 +260,16 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "product_card_linked_swatches_Vq3rYR": {
-                  "type": "_product-card-linked-swatches",
+                "linked_swatches_H8A9iC": {
+                  "type": "linked-swatches",
                   "name": "t:names.color_swatches",
                   "settings": {
-                    "swatch_size": 20,
-                    "swatch_gap": 8,
+                    "swatch_size": 14,
+                    "swatch_gap": 6,
                     "alignment": "flex-start",
                     "padding-block-start": 4,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
+                    "padding-inline-start": 2,
                     "padding-inline-end": 0
                   },
                   "blocks": {}
@@ -445,7 +445,7 @@
                 }
               },
               "block_order": [
-                "product_card_linked_swatches_Vq3rYR",
+                "linked_swatches_H8A9iC",
                 "group_wwVYk6",
                 "group_njW3rP"
               ]

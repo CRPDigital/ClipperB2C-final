@@ -1163,7 +1163,7 @@
                     "alignment": "flex-start",
                     "padding-block-start": 4,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
+                    "padding-inline-start": 2,
                     "padding-inline-end": 0
                   },
                   "blocks": {}
@@ -3511,7 +3511,7 @@
                     "alignment": "flex-start",
                     "padding-block-start": 4,
                     "padding-block-end": 0,
-                    "padding-inline-start": 0,
+                    "padding-inline-start": 2,
                     "padding-inline-end": 0
                   },
                   "blocks": {}
