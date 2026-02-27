@@ -1094,6 +1094,7 @@
               "name": "t:names.product_card_media",
               "settings": {
                 "image_ratio": "portrait",
+                "image_background_color": "#f5f5f5",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
@@ -3425,6 +3426,7 @@
               "name": "t:names.product_card_media",
               "settings": {
                 "image_ratio": "portrait",
+                "image_background_color": "",
                 "border": "none",
                 "border_width": 1,
                 "border_opacity": 100,
