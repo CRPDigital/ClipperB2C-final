@@ -740,7 +740,7 @@
             "padding-inline-end": 40,
             "mobile_padding_enabled": true,
             "mobile-padding-block-start": 15,
-            "mobile-padding-block-end": 35,
+            "mobile-padding-block-end": 40,
             "mobile-padding-inline-start": 5,
             "mobile-padding-inline-end": 5
           },
@@ -826,7 +826,7 @@
                 "background_color": "#00000026",
                 "corner_radius": 0,
                 "padding-block-start": 25,
-                "padding-block-end": 25,
+                "padding-block-end": 30,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
                 "mobile_padding_enabled": true,
@@ -841,7 +841,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Find din favorit her",
+                "label": "Find din favorit strik her",
                 "link": "shopify://collections/all",
                 "open_in_new_tab": false,
                 "style_class": "button",
