@@ -3501,7 +3501,25 @@
                 "mobile-padding-inline-start": 0,
                 "mobile-padding-inline-end": 0
               },
-              "blocks": {}
+              "blocks": {
+                "linked_swatches_YfVEjz": {
+                  "type": "linked-swatches",
+                  "name": "t:names.color_swatches",
+                  "settings": {
+                    "swatch_size": 14,
+                    "swatch_gap": 6,
+                    "alignment": "flex-start",
+                    "padding-block-start": 4,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "linked_swatches_YfVEjz"
+              ]
             },
             "product_title_fmxpN6": {
               "type": "product-title",
