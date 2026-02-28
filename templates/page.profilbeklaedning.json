@@ -322,11 +322,12 @@
           "type": "_media-without-appearance",
           "static": true,
           "settings": {
-            "media_type": "image",
+            "media_type": "video",
             "image": "shopify://shop_images/billeder_b2c_1920_x_1080_px_4.jpg",
             "link": "",
+            "video": "shopify://files/videos/boks.mp4",
             "video_loop": true,
-            "video_autoplay": false,
+            "video_autoplay": true,
             "image_position": "cover",
             "video_position": "cover"
           },
@@ -1268,8 +1269,8 @@
           "type": "_media-without-appearance",
           "static": true,
           "settings": {
-            "media_type": "video",
-            "image": "shopify://shop_images/billeder_b2c_1920_x_1080_px.jpg",
+            "media_type": "image",
+            "image": "shopify://shop_images/billeder_b2c_1920_x_1080_px_4.jpg",
             "link": "",
             "video": "shopify://files/videos/aflang (1920 x 1280 px).mp4",
             "video_loop": true,
