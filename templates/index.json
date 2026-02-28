@@ -2233,7 +2233,7 @@
             "label": "Find din løsning her - fra blot 100 moq",
             "link": "shopify://pages/profilbeklaedning",
             "open_in_new_tab": false,
-            "style_class": "button-secondary",
+            "style_class": "button",
             "width": "fit-content",
             "custom_width": 100,
             "width_mobile": "fit-content",
