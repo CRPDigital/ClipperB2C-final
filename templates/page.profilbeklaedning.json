@@ -391,7 +391,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Private Label - fleksibilitet uden kompromis</h2>",
+                    "text": "<h2>Europas bredeste NOOS-program i strik</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -429,7 +429,7 @@
                 "text_GXbnd7": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Ud over profilbeklædning fra vores eksisterende NOOS-program tilbyder vi også Private Label-løsninger. Her udvikler vi styles fra bunden i tæt dialog med jer. Det giver mulighed for, tilpasning af design og snit, farver, materialer og detaljer efter jeres ønsker samt funktionelle løsninger tilpasset specifikke behov.</p><p>Uanset om der er tale om få styles eller et større program, arbejder vi med samme tilgang: ordentlighed, kvalitet og respekt for håndværket.</p>",
+                    "text": "<p>Hos CLIPPER leverer vi ikke blot strik. Vi leverer et gennemtestet koncept udviklet til professionel profilbeklædning.</p><p>Vores NOOS-program er udviklet til virksomheder, der har brug for forudsigelighed og stabilitet i deres profilbeklædning. Med Europas bredeste og dybeste NOOS-sortiment inden for strik sikrer vi kontinuitet gennem konsistente farver, pasformer og styles over tid. Programmet omfatter branchens største size range samt et omfattende udvalg af uniforms- og NATO styles, hvilket gør det muligt at fastholde et ensartet udtryk uden behov for tvungne alternativer ved genbestilling.</p><p>Den høje lagerkapacitet og hurtige levering betyder, at virksomheder kan reducere både lagerbinding og risiko, samtidig med at den daglige drift bliver mere stabil og forudsigelig. Resultatet er færre uforudsete udfordringer og en løsning, der understøtter langsigtet planlægning.</p><p>Med mere end 70 års erfaring og klare, veldefinerede processer reducerer vi kompleksitet i hverdagen. Resultatet er færre fejl, enklere genbestillinger og et ensartet professionelt udtryk, der holder over tid.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -469,7 +469,7 @@
                   "name": "t:names.button",
                   "settings": {
                     "label": "Få en løsning til dit behov her",
-                    "link": "shopify://pages/private-label",
+                    "link": "shopify://pages/contact",
                     "open_in_new_tab": false,
                     "style_class": "button-secondary",
                     "width": "fit-content",
