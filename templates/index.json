@@ -558,7 +558,7 @@
         "text_nWQyBb": {
           "type": "text",
           "settings": {
-            "text": "<p>Vi har et klart princip, vi laver kun strik, vi selv har lyst til at tage på. Hvis vi ikke selv ville gå i det, bliver det ikke en del af kollektionen</p>",
+            "text": "<h1>Alt hvad vi gør, starter og slutter med kvalitet, fra relationer til råvarer, fra fibre til færdig strik</h1>",
             "width": "100%",
             "max_width": "narrow",
             "alignment": "center",
@@ -624,8 +624,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 64,
-        "padding-block-end": 64,
+        "padding-block-start": 25,
+        "padding-block-end": 40,
         "mobile_padding_enabled": false,
         "mobile-padding-block-start": 0,
         "mobile-padding-block-end": 0
