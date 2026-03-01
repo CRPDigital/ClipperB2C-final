@@ -486,7 +486,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Hos CLIPPER leverer vi ikke blot strik. Vi leverer et gennemtestet koncept udviklet til professionel profilbeklædning. </p><p>Med Europas bredeste og dybeste NOOS-programmer inden for strik tilbyder vi virksomheder en løsning bygget på stabilitet, fleksibilitet og leveringssikkerhed. Sortimentet rummer hundredevis af styles til både herre og dame, konstant på lager i mange farver og størrelser fra XXS til 6XL.</p>",
+                "text": "<p>Hos CLIPPER leverer vi ikke blot strik. Vi leverer et gennemtestet koncept udviklet til professionel profilbeklædning. </p><p>Med Europas bredeste og dybeste NOOS-program inden for strik tilbyder vi virksomheder en løsning bygget på stabilitet, fleksibilitet og leveringssikkerhed. Sortimentet rummer hundredevis af styles til både herre og dame, konstant på lager i mange farver og størrelser fra XXS til 6XL.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
