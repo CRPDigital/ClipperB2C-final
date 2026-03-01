@@ -1374,10 +1374,10 @@
         "gap": 28,
         "color_scheme": "scheme-1",
         "padding-block-start": 0,
-        "padding-block-end": 45,
+        "padding-block-end": 9,
         "mobile_padding_enabled": true,
         "mobile-padding-block-start": 0,
-        "mobile-padding-block-end": 5
+        "mobile-padding-block-end": 0
       }
     },
     "section_FBebrh": {
@@ -1652,7 +1652,7 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 0,
+        "padding-block-start": 10,
         "padding-block-end": 0,
         "mobile_padding_enabled": false,
         "mobile-padding-block-start": 0,
