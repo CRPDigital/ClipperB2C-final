@@ -1733,7 +1733,7 @@
                     "text_RT9nm9": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Funktion </strong><br/>Strik skal holde til hverdagen. Derfor har vi høje krav til vores designs, så du altid kan stole på kvaliteten, selv efter gentagen brug</p>",
+                        "text": "<p><strong>Funktion </strong><br/>Strik skal kunne holde til hverdagen. Derfor har vi høje krav til vores designs, så du altid kan stole på kvaliteten, selv efter gentagen brug</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -1825,7 +1825,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -2176,7 +2176,7 @@
         "gradient_direction": "to top",
         "padding-block-start": 48,
         "padding-block-end": 48,
-        "mobile_padding_enabled": true,
+        "mobile_padding_enabled": false,
         "mobile-padding-block-start": 20,
         "mobile-padding-block-end": 20
       }
