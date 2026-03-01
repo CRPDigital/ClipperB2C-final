@@ -2174,7 +2174,7 @@
             "padding-block-end": 40,
             "padding-inline-start": 40,
             "padding-inline-end": 40,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -2224,11 +2224,11 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": false,
+                "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
                 "mobile-padding-block-end": 0,
-                "mobile-padding-inline-start": 0,
-                "mobile-padding-inline-end": 0
+                "mobile-padding-inline-start": 10,
+                "mobile-padding-inline-end": 10
               },
               "blocks": {}
             },
@@ -2263,11 +2263,11 @@
                 "padding-block-end": 0,
                 "padding-inline-start": 0,
                 "padding-inline-end": 0,
-                "mobile_padding_enabled": false,
+                "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
-                "mobile-padding-block-end": 0,
-                "mobile-padding-inline-start": 0,
-                "mobile-padding-inline-end": 0
+                "mobile-padding-block-end": 10,
+                "mobile-padding-inline-start": 10,
+                "mobile-padding-inline-end": 10
               },
               "blocks": {}
             },
