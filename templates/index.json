@@ -2176,7 +2176,7 @@
             "padding-inline-end": 40,
             "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
+            "mobile-padding-block-end": 20,
             "mobile-padding-inline-start": 0,
             "mobile-padding-inline-end": 0
           },
@@ -2202,7 +2202,7 @@
                 "max_width": "normal",
                 "alignment": "center",
                 "type_preset": "h3",
-                "type_preset_mobile": "",
+                "type_preset_mobile": "h3",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
                 "line_height": "normal",
@@ -2265,7 +2265,7 @@
                 "padding-inline-end": 0,
                 "mobile_padding_enabled": true,
                 "mobile-padding-block-start": 0,
-                "mobile-padding-block-end": 10,
+                "mobile-padding-block-end": 0,
                 "mobile-padding-inline-start": 10,
                 "mobile-padding-inline-end": 10
               },
