@@ -1581,7 +1581,7 @@
             "background_image": "shopify://shop_images/boks.jpg",
             "background_image_position": "cover",
             "media_height_mobile": "custom",
-            "media_height_mobile_custom": 50,
+            "media_height_mobile_custom": 60,
             "border": "none",
             "border_width": 1,
             "border_opacity": 100,
