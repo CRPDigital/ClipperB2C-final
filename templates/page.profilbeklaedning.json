@@ -2259,8 +2259,8 @@
         "padding-block-start": 50,
         "padding-block-end": 25,
         "mobile_padding_enabled": true,
-        "mobile-padding-block-start": 15,
-        "mobile-padding-block-end": 15
+        "mobile-padding-block-start": 25,
+        "mobile-padding-block-end": 35
       }
     },
     "section_NRnFLY": {
