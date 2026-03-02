@@ -57,7 +57,7 @@
             "details_position": "flex-start",
             "gap": 12,
             "sticky_details_desktop": true,
-            "inherit_color_scheme": true,
+            "inherit_color_scheme": false,
             "color_scheme": "",
             "background_media": "none",
             "video_position": "cover",
