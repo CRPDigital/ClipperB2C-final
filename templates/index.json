@@ -1373,7 +1373,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "Se alle vores nyheder",
-                "link": "{{ closest.collection.url }}",
+                "link": "shopify://collections/alle-produkter",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
