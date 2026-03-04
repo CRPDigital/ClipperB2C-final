@@ -2246,7 +2246,7 @@
                     "text_33F3cD": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Dag-til-dag levering</strong><br/>bestil inden kl. 14:00 på hverdage</p>",
+                        "text": "<p><strong>Dag-til-dag afsendelse</strong><br/>bestil inden kl. 14:00 på hverdage</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
