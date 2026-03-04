@@ -230,54 +230,6 @@
     "product_list_36CDXy": {
       "type": "product-list",
       "blocks": {
-        "group_wH8xLb": {
-          "type": "group",
-          "name": "t:names.group",
-          "settings": {
-            "link": "",
-            "open_in_new_tab": false,
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "center",
-            "gap": 0,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fill",
-            "custom_height": 100,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-2",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "media_height_mobile": "auto",
-            "media_height_mobile_custom": 40,
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "placeholder": "",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
-            "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0
-          },
-          "blocks": {}
-        },
         "static-header": {
           "type": "_product-list-content",
           "static": true,
@@ -602,9 +554,6 @@
           ]
         }
       },
-      "block_order": [
-        "group_wH8xLb"
-      ],
       "name": "t:names.products_grid",
       "settings": {
         "collection": "bestsellers",
@@ -1372,7 +1321,7 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Se alle vores strik her",
+                "label": "Se alt vores strik her",
                 "link": "shopify://collections/alle-produkter",
                 "open_in_new_tab": false,
                 "style_class": "button",
