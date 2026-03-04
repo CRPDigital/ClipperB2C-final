@@ -92,7 +92,7 @@
           "type": "button",
           "name": "t:names.button",
           "settings": {
-            "label": "Find din favorit",
+            "label": "se hele vores udvalg af strik",
             "link": "shopify://collections/all",
             "open_in_new_tab": false,
             "style_class": "button",
