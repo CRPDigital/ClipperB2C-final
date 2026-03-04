@@ -154,7 +154,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>CLIPPER er strik til dig, der ikke vil gå på kompromis med kvalitet</p>",
+            "text": "<p>CLIPPER er dansk strik siden 1955, skabt til dig der ikke vil gå på kompromis med kvalitet</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "center",
@@ -1430,7 +1430,7 @@
               "type": "_product-list-text",
               "name": "t:names.collection_title",
               "settings": {
-                "text": "<h2>Kvalitet uden kompromis - dansk design siden 1955</h2>",
+                "text": "<h2>Tidløs strik til både damer og herrer</h2>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
