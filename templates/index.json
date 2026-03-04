@@ -600,7 +600,7 @@
         "group_DU6yeN": {
           "type": "group",
           "settings": {
-            "link": "shopify://collections/dame",
+            "link": "shopify://collections/herre",
             "open_in_new_tab": false,
             "content_direction": "column",
             "vertical_on_mobile": true,
@@ -699,7 +699,7 @@
               "type": "button",
               "settings": {
                 "label": "Shop nu",
-                "link": "shopify://collections/dame",
+                "link": "shopify://collections/herre",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
