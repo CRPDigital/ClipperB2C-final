@@ -1412,6 +1412,45 @@
               },
               "blocks": {}
             },
+            "text_YL4kGr": {
+              "type": "text",
+              "name": "t:names.heading",
+              "settings": {
+                "text": "<p>Strik produceret i Europa</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2",
+                "type_preset_mobile": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "var(--color-foreground)",
+                "font_mobile": "",
+                "font_size_mobile": "",
+                "line_height_mobile": "",
+                "letter_spacing_mobile": "",
+                "case_mobile": "",
+                "wrap_mobile": "",
+                "color_mobile": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0,
+                "mobile_padding_enabled": false,
+                "mobile-padding-block-start": 0,
+                "mobile-padding-block-end": 0,
+                "mobile-padding-inline-start": 0,
+                "mobile-padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "text_HwEK7T": {
               "type": "text",
               "settings": {
@@ -1466,6 +1505,7 @@
           },
           "block_order": [
             "spacer_3t7Bae",
+            "text_YL4kGr",
             "text_HwEK7T",
             "spacer_EKaheM"
           ]
