@@ -627,7 +627,7 @@
         "padding-block-start": 45,
         "padding-block-end": 9,
         "mobile_padding_enabled": true,
-        "mobile-padding-block-start": 0,
+        "mobile-padding-block-start": 10,
         "mobile-padding-block-end": 0
       }
     },
