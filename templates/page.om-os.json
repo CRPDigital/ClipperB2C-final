@@ -152,27 +152,11 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {}
-        },
-        "button_ipWqaC": {
-          "type": "button",
-          "name": "t:names.button",
-          "settings": {
-            "label": "Shop din strik her",
-            "link": "shopify://collections/all",
-            "open_in_new_tab": false,
-            "style_class": "button",
-            "width": "fit-content",
-            "custom_width": 100,
-            "width_mobile": "fit-content",
-            "custom_width_mobile": 100
-          },
-          "blocks": {}
         }
       },
       "block_order": [
         "text_VXyhjf",
-        "text_ABKkNb",
-        "button_ipWqaC"
+        "text_ABKkNb"
       ],
       "name": "t:names.hero",
       "settings": {
@@ -1486,7 +1470,7 @@
                     "text_BPMHKy": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Dag-til-dag levering</strong><br/>bestil inden kl. 14:00 på hverdage</p>",
+                        "text": "<p><strong>Dag-til-dag afsendelse</strong><br/>bestil inden kl. 14:00 på hverdage</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
