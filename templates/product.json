@@ -584,7 +584,7 @@
               "settings": {
                 "link": "",
                 "open_in_new_tab": false,
-                "content_direction": "row",
+                "content_direction": "column",
                 "vertical_on_mobile": true,
                 "horizontal_alignment": "space-between",
                 "vertical_alignment": "flex-start",
@@ -613,7 +613,7 @@
                 "gradient_direction": "to top",
                 "padding-block-start": 2,
                 "padding-block-end": 0,
-                "padding-inline-start": 0,
+                "padding-inline-start": 2,
                 "padding-inline-end": 0,
                 "mobile_padding_enabled": false,
                 "mobile-padding-block-start": 0,
@@ -622,6 +622,20 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
+                "linked_swatches_b6zBxh": {
+                  "type": "linked-swatches",
+                  "name": "t:names.color_swatches",
+                  "settings": {
+                    "swatch_size": 14,
+                    "swatch_gap": 6,
+                    "alignment": "flex-start",
+                    "padding-block-start": 4,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "group_tEHPmM": {
                   "type": "_product-card-group",
                   "name": "t:names.group",
@@ -801,6 +815,7 @@
                 }
               },
               "block_order": [
+                "linked_swatches_b6zBxh",
                 "group_tEHPmM",
                 "group_PihxwT"
               ]
