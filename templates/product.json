@@ -414,10 +414,23 @@
                     "width": 20
                   },
                   "blocks": {
+                    "care_instructions_tUpV6X": {
+                      "type": "care-instructions",
+                      "name": "Care instructions",
+                      "settings": {
+                        "icon_size": 24,
+                        "gap": 8,
+                        "padding-block-start": 0,
+                        "padding-block-end": 0,
+                        "padding-inline-start": 0,
+                        "padding-inline-end": 0
+                      },
+                      "blocks": {}
+                    },
                     "text_VdG98J": {
                       "type": "text",
                       "settings": {
-                        "text": "<p>{{ closest.product.metafields.custom.washing.value }}</p><p>{{ closest.product.metafields.custom.bleaching.value }}</p><p>{{ closest.product.metafields.custom.tumble_dry.value }}</p><p>{{ closest.product.metafields.custom.drying.value }}</p><p>{{ closest.product.metafields.custom.dry_cleaning.value }}</p><p>{{ closest.product.metafields.custom.care_text.value }}</p>",
+                        "text": "<p>{{ closest.product.metafields.custom.care_text.value }}</p>",
                         "width": "100%",
                         "max_width": "normal",
                         "alignment": "left",
@@ -454,6 +467,7 @@
                     }
                   },
                   "block_order": [
+                    "care_instructions_tUpV6X",
                     "text_VdG98J"
                   ]
                 }
