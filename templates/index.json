@@ -3801,7 +3801,7 @@
           "settings": {
             "image": "shopify://shop_images/uld_2.jpg",
             "link": "",
-            "image_ratio": "adapt",
+            "image_ratio": "square",
             "width": "fill",
             "custom_width": 100,
             "width_mobile": "fill",
