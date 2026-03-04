@@ -733,7 +733,7 @@
         "group_kPPDBG": {
           "type": "group",
           "settings": {
-            "link": "shopify://collections/kvinder",
+            "link": "shopify://collections/dame",
             "open_in_new_tab": false,
             "content_direction": "column",
             "vertical_on_mobile": true,
@@ -832,7 +832,7 @@
               "type": "button",
               "settings": {
                 "label": "Shop nu",
-                "link": "shopify://collections/kvinder",
+                "link": "shopify://collections/dame",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
