@@ -276,26 +276,7 @@
             "mobile-padding-inline-start": 0,
             "mobile-padding-inline-end": 0
           },
-          "blocks": {
-            "button_3U9pLq": {
-              "type": "button",
-              "name": "t:names.button",
-              "settings": {
-                "label": "Se alle vores nyheder",
-                "link": "{{ closest.collection.url }}",
-                "open_in_new_tab": false,
-                "style_class": "button",
-                "width": "fit-content",
-                "custom_width": 100,
-                "width_mobile": "fit-content",
-                "custom_width_mobile": 100
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "button_3U9pLq"
-          ]
+          "blocks": {}
         },
         "static-header": {
           "type": "_product-list-content",
@@ -334,50 +315,7 @@
             "mobile-padding-inline-start": 0,
             "mobile-padding-inline-end": 0
           },
-          "blocks": {
-            "product_list_text_D6jbi7": {
-              "type": "_product-list-text",
-              "name": "t:names.collection_title",
-              "settings": {
-                "text": "<h2>Kvalitet uden kompromis - dansk design siden 1955</h2>",
-                "width": "100%",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h2",
-                "type_preset_mobile": "h4",
-                "font": "var(--font-primary--family)",
-                "font_size": "",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "",
-                "font_mobile": "",
-                "font_size_mobile": "",
-                "line_height_mobile": "",
-                "letter_spacing_mobile": "",
-                "case_mobile": "",
-                "wrap_mobile": "",
-                "color_mobile": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 45,
-                "padding-block-end": 45,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0,
-                "mobile_padding_enabled": true,
-                "mobile-padding-block-start": 15,
-                "mobile-padding-block-end": 0,
-                "mobile-padding-inline-start": 0,
-                "mobile-padding-inline-end": 0
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "product_list_text_D6jbi7"
-          ]
+          "blocks": {}
         },
         "static-product-card": {
           "type": "_product-card",
@@ -686,7 +624,7 @@
         "horizontal_alignment": "flex-start",
         "gap": 28,
         "color_scheme": "scheme-1",
-        "padding-block-start": 0,
+        "padding-block-start": 45,
         "padding-block-end": 9,
         "mobile_padding_enabled": true,
         "mobile-padding-block-start": 0,
@@ -1822,7 +1760,7 @@
       ],
       "name": "t:names.products_grid",
       "settings": {
-        "collection": "herre-cardigans-i-kvalitetsgarner-og-tidlost-design",
+        "collection": "herre-og-dame-strik",
         "layout_type": "carousel",
         "carousel_on_mobile": true,
         "max_products": 16,
