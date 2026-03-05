@@ -2175,7 +2175,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Din samarbejdspartner og ikke bare en leverandør</h2>",
+            "text": "<h2>Din samarbejdspartner - ikke bare en leverandør</h2>",
             "width": "fit-content",
             "max_width": "none",
             "alignment": "left",
