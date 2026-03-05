@@ -3688,10 +3688,10 @@
         "mobile-padding-block-end": 0
       }
     },
-    "section_J4XcmT": {
+    "section_Het9eT": {
       "type": "section",
       "blocks": {
-        "group_eKLy8k": {
+        "group_ctKMKQ": {
           "type": "group",
           "settings": {
             "link": "",
@@ -3738,7 +3738,7 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "spacer_yjV7ca": {
+            "spacer_iK69UH": {
               "type": "spacer",
               "settings": {
                 "size": "pixel",
@@ -3753,10 +3753,10 @@
             }
           },
           "block_order": [
-            "spacer_yjV7ca"
+            "spacer_iK69UH"
           ]
         },
-        "group_HhMneC": {
+        "group_GRXn4B": {
           "type": "group",
           "settings": {
             "link": "",
@@ -3803,7 +3803,7 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "spacer_UFHNXh": {
+            "spacer_HxdCBy": {
               "type": "spacer",
               "settings": {
                 "size": "pixel",
@@ -3818,10 +3818,10 @@
             }
           },
           "block_order": [
-            "spacer_UFHNXh"
+            "spacer_HxdCBy"
           ]
         },
-        "group_qBifqM": {
+        "group_LyNWPU": {
           "type": "group",
           "settings": {
             "link": "",
@@ -3852,7 +3852,7 @@
             "border_width": 1,
             "border_opacity": 100,
             "border_radius": 0,
-            "placeholder": "hero-apparel-2",
+            "placeholder": "hero-apparel-1",
             "toggle_overlay": false,
             "overlay_color": "#00000026",
             "overlay_style": "solid",
@@ -3868,7 +3868,7 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "spacer_VwfLKY": {
+            "spacer_t8RAjm": {
               "type": "spacer",
               "settings": {
                 "size": "pixel",
@@ -3883,172 +3883,14 @@
             }
           },
           "block_order": [
-            "spacer_VwfLKY"
-          ]
-        },
-        "group_XgR73N": {
-          "type": "group",
-          "settings": {
-            "link": "",
-            "open_in_new_tab": false,
-            "content_direction": "column",
-            "vertical_on_mobile": true,
-            "horizontal_alignment": "flex-start",
-            "vertical_alignment": "center",
-            "align_baseline": false,
-            "horizontal_alignment_flex_direction_column": "center",
-            "vertical_alignment_flex_direction_column": "space-between",
-            "gap": 32,
-            "width": "fill",
-            "custom_width": 100,
-            "width_mobile": "fill",
-            "custom_width_mobile": 100,
-            "height": "fill",
-            "custom_height": 100,
-            "inherit_color_scheme": false,
-            "color_scheme": "scheme-4",
-            "background_media": "none",
-            "video_position": "cover",
-            "background_image_position": "cover",
-            "media_height_mobile": "auto",
-            "media_height_mobile_custom": 40,
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0,
-            "placeholder": "hero-apparel-1",
-            "toggle_overlay": false,
-            "overlay_color": "#00000026",
-            "overlay_style": "solid",
-            "gradient_direction": "to top",
-            "padding-block-start": 20,
-            "padding-block-end": 20,
-            "padding-inline-start": 40,
-            "padding-inline-end": 40,
-            "mobile_padding_enabled": true,
-            "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 10,
-            "mobile-padding-inline-start": 5,
-            "mobile-padding-inline-end": 5
-          },
-          "blocks": {
-            "spacer_C9B63t": {
-              "type": "spacer",
-              "settings": {
-                "size": "percent",
-                "percent_size": 100,
-                "pixel_size": 16,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
-                "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
-              },
-              "blocks": {}
-            },
-            "text_jU7zqi": {
-              "type": "text",
-              "settings": {
-                "text": "<h3>Uld er vores guld</h3>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "center",
-                "type_preset": "h2",
-                "type_preset_mobile": "",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "font_mobile": "",
-                "font_size_mobile": "",
-                "line_height_mobile": "",
-                "letter_spacing_mobile": "",
-                "case_mobile": "",
-                "wrap_mobile": "",
-                "color_mobile": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0,
-                "mobile_padding_enabled": true,
-                "mobile-padding-block-start": 0,
-                "mobile-padding-block-end": 0,
-                "mobile-padding-inline-start": 7,
-                "mobile-padding-inline-end": 7
-              },
-              "blocks": {}
-            },
-            "text_Nm63VW": {
-              "type": "text",
-              "name": "t:names.text",
-              "settings": {
-                "text": "<p>Der er en  helt særlig følelse i uld. Den måde den varmer uden at føles tung. Den måde den ånder med kroppen. Den måde den falder naturligt og holder sin form år efter år.</p><p>Hos CLIPPER er uld ikke et tilfældigt valg. Det er fundamentet i størstedelen af vores strik, fordi det forener komfort, funktion og holdbarhed i et naturligt fiber.</p><p>Vi arbejder udelukkende med mulesing-fri uld og udvælger vores garner med stor omhu. Flere af vores kvaliteter spindes i Italien hos specialister, vi har samarbejdet med gennem mange år. Nogle garner er specialudviklet til os, så vi får præcis den struktur, blødhed og styrke, vi ønsker.</p>",
-                "width": "fit-content",
-                "max_width": "normal",
-                "alignment": "left",
-                "type_preset": "rte",
-                "type_preset_mobile": "",
-                "font": "var(--font-body--family)",
-                "font_size": "1rem",
-                "line_height": "normal",
-                "letter_spacing": "normal",
-                "case": "none",
-                "wrap": "pretty",
-                "color": "var(--color-foreground)",
-                "font_mobile": "",
-                "font_size_mobile": "",
-                "line_height_mobile": "",
-                "letter_spacing_mobile": "",
-                "case_mobile": "",
-                "wrap_mobile": "",
-                "color_mobile": "",
-                "background": false,
-                "background_color": "#00000026",
-                "corner_radius": 0,
-                "padding-block-start": 0,
-                "padding-block-end": 0,
-                "padding-inline-start": 0,
-                "padding-inline-end": 0,
-                "mobile_padding_enabled": true,
-                "mobile-padding-block-start": 0,
-                "mobile-padding-block-end": 0,
-                "mobile-padding-inline-start": 10,
-                "mobile-padding-inline-end": 10
-              },
-              "blocks": {}
-            },
-            "spacer_BcPwH7": {
-              "type": "spacer",
-              "settings": {
-                "size": "percent",
-                "percent_size": 100,
-                "pixel_size": 16,
-                "custom_mobile_size": false,
-                "size_mobile": "percent",
-                "percent_size_mobile": 100,
-                "pixel_size_mobile": 120
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "spacer_C9B63t",
-            "text_jU7zqi",
-            "text_Nm63VW",
-            "spacer_BcPwH7"
+            "spacer_t8RAjm"
           ]
         }
       },
       "block_order": [
-        "group_eKLy8k",
-        "group_HhMneC",
-        "group_qBifqM",
-        "group_XgR73N"
+        "group_ctKMKQ",
+        "group_GRXn4B",
+        "group_LyNWPU"
       ],
       "name": "t:names.split_showcase",
       "settings": {
@@ -4063,9 +3905,9 @@
         "section_width": "full-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
-        "section_height": "",
+        "section_height": "medium",
         "section_height_custom": 50,
-        "color_scheme": "scheme-3",
+        "color_scheme": "",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -4081,6 +3923,125 @@
         "padding-block-end": 0,
         "mobile_padding_enabled": false,
         "mobile-padding-block-start": 0,
+        "mobile-padding-block-end": 0
+      }
+    },
+    "section_pVUBFq": {
+      "type": "section",
+      "blocks": {
+        "text_XYPbdH": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<h3>Uld er vores guld</h3>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h1",
+            "type_preset_mobile": "h2",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "font_mobile": "",
+            "font_size_mobile": "",
+            "line_height_mobile": "",
+            "letter_spacing_mobile": "",
+            "case_mobile": "",
+            "wrap_mobile": "",
+            "color_mobile": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "mobile_padding_enabled": true,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_yjd3qf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Der er en  helt særlig følelse i uld. Den måde den varmer uden at føles tung. Den måde den ånder med kroppen. Den måde den falder naturligt og holder sin form år efter år.</p><p>Hos CLIPPER er uld ikke et tilfældigt valg. Det er fundamentet i størstedelen af vores strik, fordi det forener komfort, funktion og holdbarhed i et naturligt fiber. Vi arbejder udelukkende med mulesing-fri uld og udvælger vores garner med stor omhu. Flere af vores kvaliteter spindes i Italien hos specialister, vi har samarbejdet med gennem mange år. Nogle garner er specialudviklet til os, så vi får præcis den struktur, blødhed og styrke, vi ønsker.</p>",
+            "width": "fit-content",
+            "max_width": "none",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "type_preset_mobile": "",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "font_mobile": "",
+            "font_size_mobile": "",
+            "line_height_mobile": "",
+            "letter_spacing_mobile": "",
+            "case_mobile": "",
+            "wrap_mobile": "",
+            "color_mobile": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "mobile_padding_enabled": true,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_XYPbdH",
+        "text_yjd3qf"
+      ],
+      "name": "t:names.pull_quote",
+      "settings": {
+        "content_direction": "column",
+        "vertical_on_mobile": true,
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 16,
+        "section_width": "page-width",
+        "mobile_section_width_enabled": false,
+        "mobile_section_width": "full-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 64,
+        "padding-block-end": 0,
+        "mobile_padding_enabled": true,
+        "mobile-padding-block-start": 10,
         "mobile-padding-block-end": 0
       }
     },
@@ -4563,7 +4524,8 @@
     "section_HLHVP9",
     "hero_QFcTbf",
     "section_QfMBWp",
-    "section_J4XcmT",
+    "section_Het9eT",
+    "section_pVUBFq",
     "product_list_nUKz7y"
   ]
 }
