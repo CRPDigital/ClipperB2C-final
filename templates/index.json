@@ -3088,7 +3088,7 @@
                     "text_NY6adY": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Skab egne styles fra MOQ 100<br/></strong>skræddersyet til jeres brand & behov</p>",
+                        "text": "<p><strong>Skab egne styles fra MOQ 100<br/></strong>skræddersyet til jeres behov</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -3445,7 +3445,7 @@
                     "text_dH8i4T": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Tøj påvirker trivsel og identitet</strong><br/>det styrker sammenhæng & arbejdsmiljø</p>",
+                        "text": "<p><strong>Tøj påvirker trivsel og identitet</strong><br/>det styrker arbejdsmiljø</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -3597,7 +3597,7 @@
                     "text_R9dnhc": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Komfort, pasform og holdbarhed</strong><br/>som fungerer i hverdagen, brug efter brug</p>",
+                        "text": "<p><strong>Komfort, pasform og holdbarhed</strong><br/>som fungerer i hverdagen</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
