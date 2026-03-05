@@ -202,7 +202,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>Jeres behov. Vores speciale</p>",
+            "text": "<p>Jeres behov - vores speciale</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -263,7 +263,7 @@
             "background": false,
             "background_color": "#00000026",
             "corner_radius": 0,
-            "padding-block-start": 25,
+            "padding-block-start": 0,
             "padding-block-end": 25,
             "padding-inline-start": 25,
             "padding-inline-end": 25,
