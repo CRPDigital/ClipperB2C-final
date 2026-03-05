@@ -2187,6 +2187,7 @@
       "blocks": {
         "text_GHD4zQ": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h2>Lad os udvikle jeres næste projekt sammen</h2>",
             "width": "fit-content",
