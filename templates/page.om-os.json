@@ -162,7 +162,7 @@
       "settings": {
         "media_layout": "horizontal",
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/1.profil_5.jpg",
+        "image_1": "shopify://shop_images/billeder_b2c_1920_x_1080_px_12.jpg",
         "media_1_show_on_mobile": true,
         "media_type_2": "image",
         "media_2_show_on_mobile": true,
@@ -240,7 +240,7 @@
         "text_BnDpy9": {
           "type": "text",
           "settings": {
-            "text": "<p>I en lille værkstedshal i Herning fyldt med et par maskiner, garnnøgler og en passion for strik. Strik der kunne holde bedre end hvad der ellers blev fremstillet i området. Grundlæggeren, Bernhard Sørensen, havde én klar vision: at lave strik, som ikke kun var varmt og behageligt, men også holdbart og skabt med respekt for håndværket. </p><p>Den vision lever stadig videre med et stærkt CLIPPER team og Claus Bak Mikkelsen ved roret.</p>",
+            "text": "<p>Det hele startede i en lille værkstedshal i Herning med en stor passion for strik og en klar vision om at udvikle strik, der kunne holde bedre end det, man ellers fandt i området.</p><p>Grundlæggeren Bernhard Sørensen arbejdede ud fra en enkel idé. Nemlig at strik ikke kun skulle være varmt og behageligt, men også holdbart i både kvalitet og design samt skabt med respekt for håndværket. Den tanke lever stadig videre i dag i CLIPPER med et stærkt team og Claus Bak Mikkelsen ved roret.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
