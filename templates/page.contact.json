@@ -626,7 +626,7 @@
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
-                    "type_preset": "h3",
+                    "type_preset": "h2",
                     "type_preset_mobile": "",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
@@ -711,7 +711,7 @@
       "settings": {
         "media_position": "right",
         "media_width": "medium",
-        "media_height": "60svh",
+        "media_height": "80svh",
         "section_width": "full-width",
         "mobile_section_width_enabled": false,
         "mobile_section_width": "full-width",
