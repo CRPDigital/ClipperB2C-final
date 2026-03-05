@@ -511,6 +511,7 @@
         "text_bqVhEV",
         "text_3TeG3R"
       ],
+      "disabled": true,
       "name": "t:names.pull_quote",
       "settings": {
         "content_direction": "column",
@@ -617,14 +618,53 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "text_izNzHK": {
+                "text_WwLh6j": {
                   "type": "text",
+                  "name": "t:names.heading",
                   "settings": {
-                    "text": "<p>Vi tror på, at det handler om mere end produkter. Det handler om relationer, fordi de bedste løsninger skabes gennem tæt dialog og gensidig forståelse. </p><p>Har du spørgsmål til vores sortiment, samarbejdsmuligheder eller en konkret forespørgsel? Så tag fat i os. Vi sørger for, at du hurtigt bliver koblet på den rette person i vores team.</p>",
+                    "text": "<p>Hos CLIPPER er du altid velkommen</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
                     "type_preset": "h3",
+                    "type_preset_mobile": "",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "font_mobile": "",
+                    "font_size_mobile": "",
+                    "line_height_mobile": "",
+                    "letter_spacing_mobile": "",
+                    "case_mobile": "",
+                    "wrap_mobile": "",
+                    "color_mobile": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0,
+                    "mobile_padding_enabled": false,
+                    "mobile-padding-block-start": 0,
+                    "mobile-padding-block-end": 0,
+                    "mobile-padding-inline-start": 0,
+                    "mobile-padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
+                "text_izNzHK": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Uanset om du er privatkunde på jagt efter din næste garderobefavorit, om du er en virksomhed der ønsker at klæde medarbejdere professionelt på, eller om du søger en erfaren Private Label partner, der ved, hvad der er ret og vrang.</p><p>Vi tror på, at det handler om mere end produkter. Det handler om relationer, fordi de bedste løsninger skabes gennem tæt dialog og gensidig forståelse. </p><p>Har du spørgsmål til vores sortiment, samarbejdsmuligheder eller en konkret forespørgsel? Så tag fat i os. Vi sørger for, at du hurtigt bliver koblet på den rette person i vores team.</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "paragraph",
                     "type_preset_mobile": "h6",
                     "font": "var(--font-body--family)",
                     "font_size": "1rem",
@@ -657,6 +697,7 @@
                 }
               },
               "block_order": [
+                "text_WwLh6j",
                 "text_izNzHK"
               ]
             }
