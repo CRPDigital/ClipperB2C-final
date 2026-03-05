@@ -113,7 +113,7 @@
         "text_waHcCn": {
           "type": "text",
           "settings": {
-            "text": "<p>Strik med omtanke. Dialog med nærvær</p>",
+            "text": "<p>Strik med omtanke - dialog med nærvær</p>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -147,49 +147,10 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {}
-        },
-        "text_YCHEBY": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Kontakt os, vi er klar til at hjælpe dig</p>",
-            "width": "fit-content",
-            "max_width": "narrow",
-            "alignment": "left",
-            "type_preset": "h4",
-            "type_preset_mobile": "",
-            "font": "var(--font-body--family)",
-            "font_size": "1rem",
-            "line_height": "normal",
-            "letter_spacing": "normal",
-            "case": "none",
-            "wrap": "pretty",
-            "color": "var(--color-foreground)",
-            "font_mobile": "",
-            "font_size_mobile": "",
-            "line_height_mobile": "",
-            "letter_spacing_mobile": "",
-            "case_mobile": "",
-            "wrap_mobile": "",
-            "color_mobile": "",
-            "background": false,
-            "background_color": "#00000026",
-            "corner_radius": 0,
-            "padding-block-start": 0,
-            "padding-block-end": 25,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0,
-            "mobile_padding_enabled": true,
-            "mobile-padding-block-start": 0,
-            "mobile-padding-block-end": 0,
-            "mobile-padding-inline-start": 0,
-            "mobile-padding-inline-end": 0
-          },
-          "blocks": {}
         }
       },
       "block_order": [
-        "text_waHcCn",
-        "text_YCHEBY"
+        "text_waHcCn"
       ],
       "name": "t:names.hero",
       "settings": {
