@@ -4038,8 +4038,8 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 25,
-        "padding-block-end": 25,
+        "padding-block-start": 35,
+        "padding-block-end": 35,
         "mobile_padding_enabled": true,
         "mobile-padding-block-start": 10,
         "mobile-padding-block-end": 0
