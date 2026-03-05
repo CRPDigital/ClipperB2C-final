@@ -711,7 +711,7 @@
                 "text_GXbnd7": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Ud over vores eksisterende NOOS-program tilbyder vi også Private Label-løsninger. Her udvikler vi styles fra bunden i tæt dialog med jer. Det giver mulighed for, tilpasning af design og snit, farver, materialer og detaljer efter jeres brand samt funktionelle løsninger tilpasset specifikke behov.</p><p>Uanset om der er tale om få styles eller et større program, arbejder vi med samme tilgang: ordentlighed, kvalitet og respekt for håndværket.</p>",
+                    "text": "<p>Ud over vores eksisterende NOOS-program tilbyder vi også Private Label-løsninger. Her udvikler vi styles fra bunden i tæt dialog med jer. Det giver mulighed for, tilpasning af design og snit, farver, materialer og detaljer efter jeres brand samt funktionelle løsninger tilpasset specifikke behov.</p><p>Uanset om der er tale om få styles eller et større program, arbejder vi med samme tilgang, ordentlighed, kvalitet og respekt for håndværket.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -913,6 +913,50 @@
     },
     "hero_t3mmGD": {
       "type": "hero",
+      "blocks": {
+        "text_9B8aCV": {
+          "type": "text",
+          "name": "t:names.heading",
+          "settings": {
+            "text": "<p>Gode løsninger begynder med viden og bliver til kvalitet, der kan mærkes</p>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "type_preset_mobile": "h3",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "font_mobile": "",
+            "font_size_mobile": "",
+            "line_height_mobile": "",
+            "letter_spacing_mobile": "",
+            "case_mobile": "",
+            "wrap_mobile": "",
+            "color_mobile": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "mobile_padding_enabled": false,
+            "mobile-padding-block-start": 0,
+            "mobile-padding-block-end": 0,
+            "mobile-padding-inline-start": 0,
+            "mobile-padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_9B8aCV"
+      ],
       "name": "t:names.hero",
       "settings": {
         "media_layout": "horizontal",
