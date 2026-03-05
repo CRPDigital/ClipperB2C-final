@@ -749,6 +749,7 @@
                 "button_NEygBk": {
                   "type": "button",
                   "name": "t:names.button",
+                  "disabled": true,
                   "settings": {
                     "label": "Få en løsning til din virksomhed her",
                     "link": "shopify://pages/contact",
