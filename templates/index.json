@@ -3971,9 +3971,9 @@
         "text_yjd3qf": {
           "type": "text",
           "settings": {
-            "text": "<p>Der er en  helt særlig følelse i uld. Den måde den varmer uden at føles tung. Den måde den ånder med kroppen. Den måde den falder naturligt og holder sin form år efter år.</p><p>Hos CLIPPER er uld ikke et tilfældigt valg. Det er fundamentet i størstedelen af vores strik, fordi det forener komfort, funktion og holdbarhed i et naturligt fiber. Vi arbejder udelukkende med mulesing-fri uld og udvælger vores garner med stor omhu. Flere af vores kvaliteter spindes i Italien hos specialister, vi har samarbejdet med gennem mange år. Nogle garner er specialudviklet til os, så vi får præcis den struktur, blødhed og styrke, vi ønsker.</p>",
+            "text": "<p>Der er en  helt særlig følelse i uld. Den måde den varmer uden at føles tung. Den måde den ånder med kroppen. Den måde den falder naturligt og holder sin form år efter år.</p><p>Hos CLIPPER er uld ikke et tilfældigt valg. Det er fundamentet i størstedelen af vores strik, fordi det forener komfort, funktion og holdbarhed i et naturligt fiber.</p>",
             "width": "fit-content",
-            "max_width": "none",
+            "max_width": "normal",
             "alignment": "left",
             "type_preset": "paragraph",
             "type_preset_mobile": "",
@@ -4038,7 +4038,7 @@
         "overlay_color": "#00000026",
         "overlay_style": "solid",
         "gradient_direction": "to top",
-        "padding-block-start": 64,
+        "padding-block-start": 25,
         "padding-block-end": 0,
         "mobile_padding_enabled": true,
         "mobile-padding-block-start": 10,
