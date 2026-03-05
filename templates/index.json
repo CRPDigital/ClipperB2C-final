@@ -154,7 +154,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>CLIPPER er dansk strik siden 1955, skabt til dig der ikke vil gå på kompromis med kvalitet</p>",
+            "text": "<p>CLIPPER er dansk strik siden 1955 og skabt til dig der ikke vil gå på kompromis med kvalitet</p>",
             "width": "100%",
             "max_width": "none",
             "alignment": "center",
