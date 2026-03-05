@@ -543,7 +543,7 @@
             "text_G4taTW": {
               "type": "text",
               "settings": {
-                "text": "<p>Alle vores styles bærer vores filosofi om tidløst, funktionelt og ansvarligt design. Vi kombinerer traditionelt håndværk med moderne behov og vi går aldrig på kompromis med kvaliteten. Hver eneste strik fortæller historien om vores håndværk og passion.</p>",
+                "text": "<p>Alle vores styles bærer vores filosofi om tidløst, funktionelt og ansvarligt design. Vi kombinerer traditionelt håndværk med moderne behov og vi går aldrig på kompromis med kvaliteten. <br/>Vores uld er OEKO-TEX®- og WOOLMARK®-certificeret samt mulesing-fri. Flere af garnerne spindes i Italien hos specialister, vi har samarbejdet med gennem mange år. Størstedelen af vores strik produceres på vores egen fabrik i Letland, så vi derfor kender vores  værdikæde.</p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "center",
