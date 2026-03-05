@@ -2345,10 +2345,10 @@
         "mobile-padding-block-end": 35
       }
     },
-    "section_NRnFLY": {
+    "section_JKBVyA": {
       "type": "section",
       "blocks": {
-        "group_hpT7PR": {
+        "group_RQbDRp": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -2395,7 +2395,7 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "group_dNPcAg": {
+            "group_mFCGJd": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -2441,7 +2441,7 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_86UTKG": {
+                "icon_aCij4B": {
                   "type": "icon",
                   "settings": {
                     "icon": "truck",
@@ -2452,7 +2452,7 @@
                   },
                   "blocks": {}
                 },
-                "group_mEcm3H": {
+                "group_tzNjA9": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -2498,10 +2498,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_8DJ9WD": {
+                    "text_994qUB": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Skab egne styles fra MOQ 100<br/></strong>skræddersyet til jeres brand & behov</p>",
+                        "text": "<p><strong>Skab egne styles  MOQ 100<br/></strong>skræddersyet til jeres behov</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -2538,16 +2538,16 @@
                     }
                   },
                   "block_order": [
-                    "text_8DJ9WD"
+                    "text_994qUB"
                   ]
                 }
               },
               "block_order": [
-                "icon_86UTKG",
-                "group_mEcm3H"
+                "icon_aCij4B",
+                "group_tzNjA9"
               ]
             },
-            "group_Qmdtnc": {
+            "group_cke8CM": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -2593,7 +2593,7 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_nAjpA3": {
+                "icon_WXdw9A": {
                   "type": "icon",
                   "settings": {
                     "icon": "shirt",
@@ -2604,7 +2604,7 @@
                   },
                   "blocks": {}
                 },
-                "group_DeVWcL": {
+                "group_RXGAwa": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -2650,10 +2650,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_aFajXB": {
+                    "text_JdeD4U": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Corporate wear i dansk design </strong><br/>der styrker jeres visuelle identitet og sammenhold</p>",
+                        "text": "<p><strong>Profilbeklædning i dansk design </strong><br/>der styrker jeres visuelle identitet</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -2690,22 +2690,22 @@
                     }
                   },
                   "block_order": [
-                    "text_aFajXB"
+                    "text_JdeD4U"
                   ]
                 }
               },
               "block_order": [
-                "icon_nAjpA3",
-                "group_DeVWcL"
+                "icon_WXdw9A",
+                "group_RXGAwa"
               ]
             }
           },
           "block_order": [
-            "group_dNPcAg",
-            "group_Qmdtnc"
+            "group_mFCGJd",
+            "group_cke8CM"
           ]
         },
-        "group_m46CdT": {
+        "group_dqyVBC": {
           "type": "group",
           "name": "t:names.group",
           "settings": {
@@ -2752,7 +2752,7 @@
             "mobile-padding-inline-end": 0
           },
           "blocks": {
-            "group_n7JUWD": {
+            "group_bkyDT9": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -2798,7 +2798,7 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_nkt7Ea": {
+                "icon_WgtJHR": {
                   "type": "icon",
                   "settings": {
                     "icon": "silhouette",
@@ -2809,7 +2809,7 @@
                   },
                   "blocks": {}
                 },
-                "group_4LpWhz": {
+                "group_ickRrB": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -2855,10 +2855,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_n9EFfp": {
+                    "text_EkpJYq": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Tøj påvirker trivsel og identitet</strong><br/>det styrker sammenhæng & arbejdsmiljø</p>",
+                        "text": "<p><strong>Tøj påvirker trivsel og identitet</strong><br/>det styrker arbejdsmiljø</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -2895,16 +2895,16 @@
                     }
                   },
                   "block_order": [
-                    "text_n9EFfp"
+                    "text_EkpJYq"
                   ]
                 }
               },
               "block_order": [
-                "icon_nkt7Ea",
-                "group_4LpWhz"
+                "icon_WgtJHR",
+                "group_ickRrB"
               ]
             },
-            "group_JgwaVM": {
+            "group_68agef": {
               "type": "group",
               "settings": {
                 "link": "",
@@ -2950,7 +2950,7 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
-                "icon_d4AJHR": {
+                "icon_W3QBaY": {
                   "type": "icon",
                   "settings": {
                     "icon": "return",
@@ -2961,7 +2961,7 @@
                   },
                   "blocks": {}
                 },
-                "group_BJpWfN": {
+                "group_rPqwyR": {
                   "type": "group",
                   "settings": {
                     "link": "",
@@ -3007,10 +3007,10 @@
                     "mobile-padding-inline-end": 0
                   },
                   "blocks": {
-                    "text_AtczfH": {
+                    "text_tgLYfz": {
                       "type": "text",
                       "settings": {
-                        "text": "<p><strong>Komfort, pasform og holdbarhed</strong><br/>som fungerer i hverdagen, vask efter vask</p>",
+                        "text": "<p><strong>Komfort, pasform og holdbarhed</strong><br/>som fungerer i hverdagen</p>",
                         "width": "100%",
                         "max_width": "narrow",
                         "alignment": "center",
@@ -3047,25 +3047,25 @@
                     }
                   },
                   "block_order": [
-                    "text_AtczfH"
+                    "text_tgLYfz"
                   ]
                 }
               },
               "block_order": [
-                "icon_d4AJHR",
-                "group_BJpWfN"
+                "icon_W3QBaY",
+                "group_rPqwyR"
               ]
             }
           },
           "block_order": [
-            "group_n7JUWD",
-            "group_JgwaVM"
+            "group_bkyDT9",
+            "group_68agef"
           ]
         }
       },
       "block_order": [
-        "group_hpT7PR",
-        "group_m46CdT"
+        "group_RQbDRp",
+        "group_dqyVBC"
       ],
       "name": "Icons private label",
       "settings": {
@@ -3112,6 +3112,6 @@
     "section_tirKq6",
     "section_TTraNG",
     "section_g86EeV",
-    "section_NRnFLY"
+    "section_JKBVyA"
   ]
 }
