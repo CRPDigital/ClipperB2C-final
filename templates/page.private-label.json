@@ -673,7 +673,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Private Label - udvikles i samarbejde</h2>",
+                    "text": "<h2>Private Label udvikles i samarbejde</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
