@@ -1789,11 +1789,11 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<p>For os er kvalitet ikke en ambition<br/>Det er et princip</p>",
+                "text": "<p>For os er kvalitet ikke en ambition - det er et princip</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
-                "type_preset": "h2",
+                "type_preset": "h3",
                 "type_preset_mobile": "h3",
                 "font": "var(--font-body--family)",
                 "font_size": "1rem",
