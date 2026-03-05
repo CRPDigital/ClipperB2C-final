@@ -799,7 +799,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>Kvalitet der kan mærkes</p>",
+            "text": "<p>Fra fiber til færdig strik</p>",
             "width": "fit-content",
             "max_width": "none",
             "alignment": "left",
@@ -837,7 +837,7 @@
         "text_HGMr7e": {
           "type": "text",
           "settings": {
-            "text": "<p>Strik er et håndværk. Det kræver teknisk indsigt, præcision og erfaring at udvikle produkter, der både ser rigtige ud og fungerer i praksis. Fra valg af fiber og garnkonstruktion til strikketeknik, efterbehandling og pasform er der en lang række beslutninger, der har direkte indflydelse på det færdige produkts kvalitet, komfort og levetid.</p><p>Hos CLIPPER arbejder vi systematisk med hver enkelt detalje.</p>",
+            "text": "<p>Strik er et håndværk. Det kræver teknisk indsigt, præcision og erfaring at udvikle produkter, der både ser rigtige ud og fungerer i praksis. Fra valg af fiber og garnkonstruktion til strikketeknik, efterbehandling og pasform er der en lang række beslutninger, der har direkte indflydelse på det færdige produkts kvalitet, design, komfort og levetid.</p><p>Hos CLIPPER arbejder vi systematisk med hver enkelt detalje.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
