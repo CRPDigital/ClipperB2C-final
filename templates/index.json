@@ -2784,7 +2784,7 @@
         "text_gByaxc": {
           "type": "text",
           "settings": {
-            "text": "<h3>Profilbeklædning skaber værdi, både for virksomhed og medarbejdere</h3>",
+            "text": "<h3>Corporate wear skaber værdi, både for virksomhed og medarbejdere</h3>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "center",
@@ -2823,7 +2823,7 @@
           "type": "text",
           "name": "t:names.text",
           "settings": {
-            "text": "<h4>For vores B2B-kunder designer og producerer vi profilbeklædning og uniformering, der styrker identitet og fællesskab på tværs af brancher.<br/><br/>Desuden tilbyder vi også Private Label-løsninger, der giver fuld fleksibilitet i udviklingen af styles, tilpasset identitet, farver og funktionelle behov.<br/></h4>",
+            "text": "<h4>For vores B2B-kunder designer og producerer vi corporate wear og uniformering, der styrker identitet og fællesskab på tværs af brancher.<br/><br/>Desuden tilbyder vi også Private Label-løsninger, der giver fuld fleksibilitet i udviklingen af styles, tilpasset identitet, farver og funktionelle behov.</h4>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
