@@ -80,7 +80,7 @@
         "text_HRNq9h": {
           "type": "text",
           "settings": {
-            "text": "<h1>Profilbeklædning til alle brancher</h1>",
+            "text": "<h1>Corporate wear til alle brancher</h1>",
             "width": "fit-content",
             "max_width": "narrow",
             "alignment": "left",
@@ -203,7 +203,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<h2>Profilbeklædning er mere end et logo på en trøje</h2>",
+            "text": "<h2>Corporate wear er mere end et logo på en trøje</h2>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -241,7 +241,7 @@
         "text_BnDpy9": {
           "type": "text",
           "settings": {
-            "text": "<p>Når profilbeklædning er gennemtænkt, styrker det både virksomhedens identitet og medarbejdernes fællesskab.</p><p>Hos CLIPPER designer og producerer vi profilbeklædning og uniformering til B2B-kunder på tværs af brancher. Løsninger der er skabt til daglig brug, med fokus på komfort, funktion og et udtryk, der holder over tid.</p><p>Vi tror på, at godt arbejdstøj skal kunne mærkes. I kvaliteten. I pasformen. Og i den måde, det repræsenterer virksomheden på.</p>",
+            "text": "<p>Når corporate wear er gennemtænkt, styrker det både virksomhedens identitet og medarbejdernes fællesskab.</p><p>Hos CLIPPER designer og producerer vi corporate wear og uniformering til B2B-kunder på tværs af brancher. Løsninger der er skabt til daglig brug, med fokus på komfort, funktion og et udtryk, der holder over tid.</p><p>Vi tror på, at godt arbejdstøj skal kunne mærkes. I kvaliteten. I pasformen. Og i den måde, det repræsenterer virksomheden på.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
@@ -486,7 +486,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Hos CLIPPER leverer vi ikke blot strik. Vi leverer et gennemtestet koncept udviklet til professionel profilbeklædning. </p><p>Med Europas bredeste og dybeste NOOS-program inden for strik tilbyder vi virksomheder en løsning bygget på stabilitet, fleksibilitet og leveringssikkerhed. Sortimentet rummer hundredevis af styles til både herre og dame, konstant på lager i mange farver og størrelser fra XXS til 6XL.</p>",
+                "text": "<p>Hos CLIPPER leverer vi ikke blot strik. Vi leverer et gennemtestet koncept udviklet til professionel corporate wear. </p><p>Med Europas bredeste og dybeste NOOS-program inden for strik tilbyder vi virksomheder en løsning bygget på stabilitet, fleksibilitet og leveringssikkerhed. Sortimentet rummer hundredevis af styles til både herre og dame, konstant på lager i mange farver og størrelser fra XXS til 6XL.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -525,8 +525,8 @@
               "type": "button",
               "name": "t:names.button",
               "settings": {
-                "label": "Få en løsning til dit behov her",
-                "link": "shopify://pages/contact",
+                "label": "Udforsk de mange muligheder her",
+                "link": "shopify://pages/kataloger",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -1620,7 +1620,7 @@
         "text_JmmNmP": {
           "type": "text",
           "settings": {
-            "text": "<p>Alle styles er velegnede til virksomheder, teams og organisationer, der ønsker et professionelt og ensartet udtryk på tværs af medarbejdere og funktioner. Vores profilbeklædning spænder fra elegant kontorstrik til robuste NATO styles, udviklet til medarbejdere, der har brug for kvalitet og funktion i hverdagen</p>",
+            "text": "<p>Alle styles er velegnede til virksomheder, teams og organisationer, der ønsker et professionelt og ensartet udtryk på tværs af medarbejdere og funktioner. Vores corporate wear spænder fra elegant kontorstrik til robuste NATO styles, udviklet til medarbejdere, der har brug for kvalitet og funktion i hverdagen</p>",
             "width": "100%",
             "max_width": "narrow",
             "alignment": "center",
@@ -2213,7 +2213,7 @@
         "text_HGMr7e": {
           "type": "text",
           "settings": {
-            "text": "<p>Vi ser profilbeklædning som et langsigtet samarbejde. Derfor inviterer vi også vores kunder til at stille krav, dele erfaringer og være med i processen. Det er sådan, vi udvikler løsninger, der skaber reel værdi, for både virksomhed og medarbejdere. Vi ser os ikke som en traditionel leverandør, men som en forlængelse af jeres organisation. Jeres behov, struktur og visuelle identitet er udgangspunktet. Vores rolle er at understøtte med viden, processer og stabilitet hele vejen fra idé til færdigt produkt.</p>",
+            "text": "<p>Vi ser corporate wear som et langsigtet samarbejde. Derfor inviterer vi også vores kunder til at stille krav, dele erfaringer og være med i processen. Det er sådan, vi udvikler løsninger, der skaber reel værdi, for både virksomhed og medarbejdere. Vi ser os ikke som en traditionel leverandør, men som en forlængelse af jeres organisation. Jeres behov, struktur og visuelle identitet er udgangspunktet. Vores rolle er at understøtte med viden, processer og stabilitet hele vejen fra idé til færdigt produkt.</p>",
             "width": "100%",
             "max_width": "normal",
             "alignment": "center",
