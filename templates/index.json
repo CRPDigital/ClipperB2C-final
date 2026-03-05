@@ -4026,7 +4026,7 @@
         "mobile_section_width": "full-width",
         "section_height": "",
         "section_height_custom": 50,
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "background_media": "none",
         "video_position": "cover",
         "background_image_position": "cover",
@@ -4039,7 +4039,7 @@
         "overlay_style": "solid",
         "gradient_direction": "to top",
         "padding-block-start": 25,
-        "padding-block-end": 0,
+        "padding-block-end": 25,
         "mobile_padding_enabled": true,
         "mobile-padding-block-start": 10,
         "mobile-padding-block-end": 0
