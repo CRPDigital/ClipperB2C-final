@@ -673,7 +673,7 @@
                   "type": "text",
                   "name": "t:names.heading",
                   "settings": {
-                    "text": "<h2>Private Label - fleksibilitet uden kompromis</h2>",
+                    "text": "<h2>Private Label - udvikles i samarbejde</h2>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
@@ -711,7 +711,7 @@
                 "text_GXbnd7": {
                   "type": "text",
                   "settings": {
-                    "text": "<p>Ud over vores eksisterende NOOS-program tilbyder vi også Private Label-løsninger. Her udvikler vi styles fra bunden i tæt dialog med jer. Det giver mulighed for, tilpasning af design og snit, farver, materialer og detaljer efter jeres brand samt funktionelle løsninger tilpasset specifikke behov.</p><p>Uanset om der er tale om få styles eller et større program, arbejder vi med samme tilgang, ordentlighed, kvalitet og respekt for håndværket.</p>",
+                    "text": "<p>Sammen kan vi tage udgangspunkt i CLIPPERs eksisterende univers og tilpasse styles til jeres behov, eller udvikle nye modeller fra bunden i tæt dialog med jer. Design, snit, farver, materialer og detaljer kan tilpasses de funktionelle og visuelle krav, produkterne skal opfylde.</p><p>Uanset om der er tale om få styles eller et større program, arbejder vi med samme tilgang, ordentlighed, kvalitet og respekt for håndværket.</p>",
                     "width": "fit-content",
                     "max_width": "normal",
                     "alignment": "left",
