@@ -2045,7 +2045,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>CLIPPER er skabt med respekt for håndværk, kvalitet, de hænder der laver det og de mennesker, der bærer det.  Vi tror på at skabe produkter, der ikke blot bruges én sæson, men bliver en naturlig del af hverdagen.</p>",
+                "text": "<p>CLIPPER er skabt med respekt for håndværk og kvalitet. For de hænder der laver vores strik og for de mennesker, der bærer vores strik.  Vi tror på at skabe produkter, der ikke blot bruges én sæson, men bliver en naturlig del af basisgarderoben.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
