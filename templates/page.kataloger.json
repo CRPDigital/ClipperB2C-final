@@ -1869,7 +1869,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "læs vores esg rapport",
-                "link": "shopify://collections/all",
+                "link": "https://issuu.com/clipper_as/docs/clipper_esg_2024_report?fr=xKAE9_zMzMw",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
