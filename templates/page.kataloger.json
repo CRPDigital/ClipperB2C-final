@@ -1072,7 +1072,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2><strong>Corporate wear & arbejdstøj</strong></h2>",
+                "text": "<h2><strong>Corporate wear</strong></h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -1111,9 +1111,9 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>I dette katalog får du et uddybende indblik i alle vores produkter til corporate wear og arbejdstøj til både mænd og kvinder. Her er der imagebilleder og produkttekster til alle styles</p>",
+                "text": "<p>I dette katalog får du et uddybende indblik i alle vores produkter til corporate wear til både mænd og kvinder. Her er der imagebilleder og produkttekster til alle styles</p>",
                 "width": "fit-content",
-                "max_width": "normal",
+                "max_width": "narrow",
                 "alignment": "left",
                 "type_preset": "h4",
                 "type_preset_mobile": "",
@@ -1151,7 +1151,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "se katalog",
-                "link": "shopify://collections/all",
+                "link": "https://issuu.com/clipper_as/docs/corporate_wear_men_women?fr=sMTk1NjkwODg0NjM",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -1367,7 +1367,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "se katalog",
-                "link": "https://issuu.com/clipper_as/docs/womens_clippercorporate?fr=xKAE9_zU1NQ",
+                "link": "https://issuu.com/clipper_as/docs/clipper_workwear_uniforms_for_men_women?fr=sNTU1NDkwODg0NjM",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
