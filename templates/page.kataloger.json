@@ -342,7 +342,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>NOOS styleoverview</h2>",
+                "text": "<h2>Wholesale</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -381,7 +381,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Wholesale</h2>",
+                "text": "<h2>Styleoverview</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -420,7 +420,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Har kan du se alle vores strik muligheder til herrer i et nemt og samlet overblik</p>",
+                "text": "<p>I dette katalog får du et hurtigt og enkelt overblik, over alt vores strik til herrer.7</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -558,7 +558,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>NOOS styleoverview</h2>",
+                "text": "<h2>Wholesale</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
