@@ -420,7 +420,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>I dette katalog får du et hurtigt og enkelt overblik, over alt vores strik til herrer.7</p>",
+                "text": "<p>I dette katalog får du et hurtigt og enkelt overblik, over alt vores strik til herrer.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -517,7 +517,7 @@
             "color_scheme": "scheme-5",
             "background_media": "image",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/katalog_1.jpg",
+            "background_image": "shopify://shop_images/katalog_6.jpg",
             "background_image_position": "cover",
             "media_height_mobile": "auto",
             "media_height_mobile_custom": 40,
@@ -597,7 +597,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Corporate wear, workwear & uniforms</h2>",
+                "text": "<h2>Katalog</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -636,7 +636,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Har kan du se alle vores strik til herrer og damer i et nemt og samlet overblik</p>",
+                "text": "<p>I dette katalog får du et uddybende indblik ind i alt vores strik til herrer. Her er der imagebilleder og produkttekster til alle styles</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -774,7 +774,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>NOOS katalog</h2>",
+                "text": "<h2>Corporate wear</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -852,7 +852,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>Har kan du se alle vores strik til herrer og damer i et nemt og samlet overblik</p>",
+                "text": "<p>I dette </p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
