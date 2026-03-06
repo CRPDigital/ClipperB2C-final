@@ -904,8 +904,8 @@
                     "mobile_padding_enabled": true,
                     "mobile-padding-block-start": 0,
                     "mobile-padding-block-end": 0,
-                    "mobile-padding-inline-start": 10,
-                    "mobile-padding-inline-end": 10
+                    "mobile-padding-inline-start": 5,
+                    "mobile-padding-inline-end": 5
                   },
                   "blocks": {}
                 }
