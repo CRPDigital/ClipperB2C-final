@@ -268,7 +268,7 @@
                   "type": "page",
                   "name": "t:names.page",
                   "settings": {
-                    "page": "{{ closest.product.metafields.custom.storrelsesguide.value }}",
+                    "page": "storrelsesguide-clipper",
                     "inherit_color_scheme": true,
                     "color_scheme": "",
                     "background": false,
