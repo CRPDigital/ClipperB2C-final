@@ -4153,7 +4153,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>CLIPPER har siden 1955 designet klassisk og tidløs strik med fokus på kvalitet og holdbarhed. Vores kollektioner består af strik i kvalitetsuld og andre specielt udvalgte garner, til både herre og damer, udviklet i Danmark og produceret i Europa. Med respekt for traditionelt håndværk og materialer skaber vi strik, der er designet til at holde,  både i stil og kvalitet.</p>",
+                "text": "<p>CLIPPER har siden 1955 designet klassisk og tidløs strik med fokus på kvalitet og holdbarhed. Vores kollektioner består af strik i kvalitetsuld og andre specielt udvalgte garner, til både <a href=\"/collections/herre\" title=\"Herre strik\">herre</a> og <a href=\"/collections/dame\" title=\"Dame\">damer</a>, udviklet i Danmark og produceret i Europa. Med respekt for traditionelt håndværk og materialer skaber vi strik, der er designet til at holde,  både i stil og kvalitet.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
