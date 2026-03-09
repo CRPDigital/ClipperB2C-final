@@ -485,7 +485,7 @@
             "text_83miEn": {
               "type": "text",
               "settings": {
-                "text": "<p>Har du spørgsmål, er du altid meget velkommen til at kontakte os. Vi er her for at hjælpe dig, så du får den allerbedste oplevelse med CLIPPER.</p><p>Du kan ringe til os på +45 9626 3200 eller sende en mail til <a>clipper@clipper.dk</a>.</p><p>Vi er ved telefonerne fra mandag til torsdag fra kl. 09.00 – 15.30 og fredag fra kl. 09.00 – 13.00.</p><p>Har du brug for at sende en retur eller anden henvendelse med post, kan du benytte følgende adresse: CLIPPER, Nakskovvej 1, 7400 Herning, Danmark.</p>",
+                "text": "<p>Har du spørgsmål, er du altid meget velkommen til at kontakte os. Vi er her for at hjælpe dig, så du får den allerbedste oplevelse med CLIPPER.</p><p>Du kan ringe til os på +45 9626 3200 eller sende en mail til <a href=\"mailto:clipper@clipper.dk\" title=\"mailto:clipper@clipper.dk\">clipper@clipper.dk</a>.</p><p>Vi er ved telefonerne fra mandag til torsdag fra kl. 09.00 – 15.30 og fredag fra kl. 09.00 – 13.00.</p><p>Har du brug for at sende en retur eller anden henvendelse med post, kan du benytte følgende adresse: CLIPPER, Nakskovvej 1, 7400 Herning, Danmark.</p>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
