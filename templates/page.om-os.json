@@ -386,6 +386,45 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
+                "text_fJgqr7": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<p>Kvalitet i hver eneste tråd</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h2",
+                    "type_preset_mobile": "h3",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "font_mobile": "",
+                    "font_size_mobile": "",
+                    "line_height_mobile": "",
+                    "letter_spacing_mobile": "",
+                    "case_mobile": "",
+                    "wrap_mobile": "",
+                    "color_mobile": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0,
+                    "mobile_padding_enabled": false,
+                    "mobile-padding-block-start": 0,
+                    "mobile-padding-block-end": 0,
+                    "mobile-padding-inline-start": 0,
+                    "mobile-padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "text_GXbnd7": {
                   "type": "text",
                   "settings": {
@@ -412,8 +451,8 @@
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
-                    "padding-block-start": 25,
-                    "padding-block-end": 25,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
                     "padding-inline-start": 25,
                     "padding-inline-end": 25,
                     "mobile_padding_enabled": true,
@@ -426,6 +465,7 @@
                 }
               },
               "block_order": [
+                "text_fJgqr7",
                 "text_GXbnd7"
               ]
             }
@@ -694,6 +734,45 @@
                 "mobile-padding-inline-end": 0
               },
               "blocks": {
+                "text_L8DQ6C": {
+                  "type": "text",
+                  "name": "t:names.heading",
+                  "settings": {
+                    "text": "<p>Strik med intention siden 1955</p>",
+                    "width": "fit-content",
+                    "max_width": "normal",
+                    "alignment": "left",
+                    "type_preset": "h2",
+                    "type_preset_mobile": "h3",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1rem",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "font_mobile": "",
+                    "font_size_mobile": "",
+                    "line_height_mobile": "",
+                    "letter_spacing_mobile": "",
+                    "case_mobile": "",
+                    "wrap_mobile": "",
+                    "color_mobile": "",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "corner_radius": 0,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0,
+                    "mobile_padding_enabled": false,
+                    "mobile-padding-block-start": 0,
+                    "mobile-padding-block-end": 0,
+                    "mobile-padding-inline-start": 0,
+                    "mobile-padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "text_MB6Xb8": {
                   "type": "text",
                   "settings": {
@@ -720,8 +799,8 @@
                     "background": false,
                     "background_color": "#00000026",
                     "corner_radius": 0,
-                    "padding-block-start": 25,
-                    "padding-block-end": 25,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
                     "padding-inline-start": 25,
                     "padding-inline-end": 25,
                     "mobile_padding_enabled": true,
@@ -734,6 +813,7 @@
                 }
               },
               "block_order": [
+                "text_L8DQ6C",
                 "text_MB6Xb8"
               ]
             }
