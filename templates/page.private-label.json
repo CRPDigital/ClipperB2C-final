@@ -1921,7 +1921,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -1935,7 +1935,7 @@
           "settings": {
             "text": "<p>CLIPPER har siden 1955 arbejdet med design og produktion af kvalitetsstrik. Vi samarbejder med brands og virksomheder om udvikling af Private Label strik, hvor design, materialer og detaljer tilpasses den enkelte kundes behov.</p><p>Design og produktudvikling foregår i Danmark, mens størstedelen af produktionen finder sted i Europa. Det giver fleksibilitet, høj kvalitet og et tæt samarbejde gennem hele udviklingsprocessen.</p><p>Vi arbejder med nøje udvalgte garner og kvalitetsuld fra specialiserede leverandører, hvilket sikrer strikprodukter med fokus på holdbarhed, komfort og tidløst design. Med mange års erfaring inden for Private Label knitwear er CLIPPER en stærk samarbejdspartner for virksomheder, der ønsker strik i høj kvalitet produceret i Europa.</p>",
             "width": "fit-content",
-            "max_width": "none",
+            "max_width": "normal",
             "alignment": "left",
             "type_preset": "rte",
             "type_preset_mobile": "",
@@ -1960,7 +1960,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -2002,9 +2002,9 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64,
-        "mobile_padding_enabled": false,
-        "mobile-padding-block-start": 0,
-        "mobile-padding-block-end": 0
+        "mobile_padding_enabled": true,
+        "mobile-padding-block-start": 15,
+        "mobile-padding-block-end": 15
       }
     }
   },
