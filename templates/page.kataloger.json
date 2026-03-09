@@ -3007,7 +3007,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -3046,7 +3046,7 @@
             "padding-block-end": 0,
             "padding-inline-start": 0,
             "padding-inline-end": 0,
-            "mobile_padding_enabled": false,
+            "mobile_padding_enabled": true,
             "mobile-padding-block-start": 0,
             "mobile-padding-block-end": 0,
             "mobile-padding-inline-start": 0,
@@ -3104,9 +3104,9 @@
         "gradient_direction": "to top",
         "padding-block-start": 64,
         "padding-block-end": 64,
-        "mobile_padding_enabled": false,
-        "mobile-padding-block-start": 0,
-        "mobile-padding-block-end": 0
+        "mobile_padding_enabled": true,
+        "mobile-padding-block-start": 15,
+        "mobile-padding-block-end": 35
       }
     }
   },
