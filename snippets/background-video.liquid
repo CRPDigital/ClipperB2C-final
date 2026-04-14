@@ -28,13 +28,13 @@
       autoplay
       loop
       ref="videoElement"
-      preload="auto"
     >
       {%- for sourceElement in background_video.sources -%}
           <source
             src="{{ sourceElement.url }}"
             type="{{ sourceElement.mime_type }}"
           >
+        >
       {%- endfor -%}
     </video>
   </video-background-component>
