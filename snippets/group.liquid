@@ -105,7 +105,7 @@
   .group-block__link ~ :is(.group-block-content, .group-block__media-wrapper) {
     pointer-events: none;
 
-    :is(a, button, input, textarea, select) {
+    :is(a, button, input, textarea, select, video, iframe, deferred-media, [role='button'], [tabindex]) {
       pointer-events: auto;
     }
   }

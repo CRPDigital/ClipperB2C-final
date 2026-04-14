@@ -24,16 +24,17 @@
     {{ background_video.preview_image | image_url: width: 3840 | image_tag: width: 1100, widths: widths, sizes: sizes }}
     <video
       playsinline
+      webkit-playsinline
       muted
       autoplay
       loop
       ref="videoElement"
     >
       {%- for sourceElement in background_video.sources -%}
-          <source
-            src="{{ sourceElement.url }}"
-            type="{{ sourceElement.mime_type }}"
-          >
+        <source
+          ref="videoSources[]"
+          data-video-source="{{ sourceElement.url }}"
+          type="{{ sourceElement.mime_type }}"
         >
       {%- endfor -%}
     </video>
