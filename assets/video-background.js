@@ -24,6 +24,12 @@ export class VideoBackgroundComponent extends Component {
     }
 
     videoElement.load();
+    const playPromise = videoElement.play();
+    if (playPromise && typeof playPromise.catch === 'function') {
+      playPromise.catch(() => {
+        // Autoplay can be blocked by browser policies or power-saving mode.
+      });
+    }
   }
 }
 
