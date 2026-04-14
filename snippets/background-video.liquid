@@ -30,10 +30,10 @@
       ref="videoElement"
     >
       {%- for sourceElement in background_video.sources -%}
-          <source
-            src="{{ sourceElement.url }}"
-            type="{{ sourceElement.mime_type }}"
-          >
+        <source
+          ref="videoSources[]"
+          data-video-source="{{ sourceElement.url }}"
+          type="{{ sourceElement.mime_type }}"
         >
       {%- endfor -%}
     </video>
