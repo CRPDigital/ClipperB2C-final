@@ -919,9 +919,9 @@
           "name": "t:names.heading",
           "settings": {
             "text": "<p>Gode løsninger begynder med viden og bliver til kvalitet, der kan mærkes</p>",
-            "width": "fit-content",
+            "width": "100%",
             "max_width": "normal",
-            "alignment": "left",
+            "alignment": "right",
             "type_preset": "h2",
             "type_preset_mobile": "h3",
             "font": "var(--font-body--family)",
