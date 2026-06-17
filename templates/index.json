@@ -116,7 +116,6 @@
         "image_1": "shopify://shop_images/kontakt_2.png",
         "media_1_show_on_mobile": false,
         "media_type_2": "image",
-        "image_2": "shopify://shop_images/kontakt_1.png",
         "video_2": "shopify://files/videos/video forside (1).mp4",
         "media_2_show_on_mobile": true,
         "link": "",
@@ -754,7 +753,7 @@
             "color_scheme": "scheme-5",
             "background_media": "image",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/dame_profil_1.jpg",
+            "background_image": "shopify://shop_images/forside.png",
             "background_image_position": "cover",
             "media_height_mobile": "custom",
             "media_height_mobile_custom": 50,
@@ -2897,6 +2896,7 @@
         "button_YWtLHB",
         "spacer_Dt6MdL"
       ],
+      "disabled": true,
       "name": "t:names.hero",
       "settings": {
         "media_layout": "horizontal",
@@ -3656,6 +3656,7 @@
         "group_B8XJAj",
         "group_6zxPGc"
       ],
+      "disabled": true,
       "name": "Icons private label",
       "settings": {
         "content_direction": "row",
