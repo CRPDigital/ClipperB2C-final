@@ -1876,7 +1876,7 @@
             "color_scheme": "scheme-5",
             "background_media": "image",
             "video_position": "cover",
-            "background_image": "shopify://shop_images/profil-workwear.png",
+            "background_image": "shopify://shop_images/workwear.png",
             "background_image_position": "cover",
             "media_height_mobile": "auto",
             "media_height_mobile_custom": 40,
