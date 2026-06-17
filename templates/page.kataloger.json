@@ -929,6 +929,7 @@
         "group_BXxGTx",
         "group_aXbLe7"
       ],
+      "disabled": true,
       "name": "t:names.split_showcase",
       "settings": {
         "content_direction": "row",
@@ -1617,6 +1618,7 @@
         "group_WxbRFn",
         "group_crCQiw"
       ],
+      "disabled": true,
       "name": "t:names.split_showcase",
       "settings": {
         "content_direction": "row",
