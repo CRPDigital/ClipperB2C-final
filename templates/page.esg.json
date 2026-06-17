@@ -597,7 +597,6 @@
             "inherit_color_scheme": false,
             "color_scheme": "scheme-5",
             "background_media": "video",
-            "video": "shopify://files/videos/esg video.mp4",
             "video_position": "cover",
             "background_image_position": "cover",
             "media_height_mobile": "custom",
@@ -904,7 +903,7 @@
       "settings": {
         "media_layout": "horizontal",
         "media_type_1": "image",
-        "image_1": "shopify://shop_images/esg_hero.jpg",
+        "image_1": "shopify://shop_images/esg_2.png",
         "media_1_show_on_mobile": true,
         "media_type_2": "image",
         "media_2_show_on_mobile": true,
