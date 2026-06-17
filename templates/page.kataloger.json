@@ -2131,8 +2131,9 @@
             "custom_height": 100,
             "inherit_color_scheme": false,
             "color_scheme": "scheme-5",
-            "background_media": "video",
+            "background_media": "image",
             "video_position": "cover",
+            "background_image": "shopify://shop_images/esg_1.png",
             "background_image_position": "cover",
             "media_height_mobile": "custom",
             "media_height_mobile_custom": 60,
@@ -2179,6 +2180,7 @@
         "group_YT8yz3",
         "group_QiLCFG"
       ],
+      "disabled": true,
       "name": "t:names.split_showcase",
       "settings": {
         "content_direction": "row",
