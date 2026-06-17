@@ -670,7 +670,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/Design_uden_navn_4.jpg",
+            "image": "shopify://shop_images/care_guide.png",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
