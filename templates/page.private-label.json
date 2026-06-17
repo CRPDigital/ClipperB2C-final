@@ -605,7 +605,7 @@
           "static": true,
           "settings": {
             "media_type": "image",
-            "image": "shopify://shop_images/private_label_9.jpg",
+            "image": "shopify://shop_images/private_label.png",
             "link": "",
             "video_loop": true,
             "video_autoplay": false,
