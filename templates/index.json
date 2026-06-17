@@ -2897,13 +2897,13 @@
         "button_YWtLHB",
         "spacer_Dt6MdL"
       ],
-      "disabled": true,
       "name": "t:names.hero",
       "settings": {
         "media_layout": "horizontal",
         "media_type_1": "video",
         "media_1_show_on_mobile": true,
-        "media_type_2": "video",
+        "media_type_2": "image",
+        "image_2": "shopify://shop_images/forside_profilbeklaedning.png",
         "video_2": "shopify://files/videos/Hero billede (1200 x 1000 px) (2400 x 1000 px).mp4",
         "media_2_show_on_mobile": true,
         "link": "shopify://pages/profilbeklaedning",
@@ -3657,7 +3657,6 @@
         "group_B8XJAj",
         "group_6zxPGc"
       ],
-      "disabled": true,
       "name": "Icons private label",
       "settings": {
         "content_direction": "row",
