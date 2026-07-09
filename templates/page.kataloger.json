@@ -202,7 +202,7 @@
           "type": "text",
           "name": "t:names.heading",
           "settings": {
-            "text": "<p>Kataloger til ethvert behov, lige fra tidløse NOOS-styles til funktionel profilbeklædning og uniformer</p>",
+            "text": "<p>Strik til ethvert behov, lige fra tidløse NOOS-styles til funktionel profilbeklædning og uniformer</p>",
             "width": "fit-content",
             "max_width": "normal",
             "alignment": "left",
@@ -301,6 +301,7 @@
             "color_scheme": "scheme-5",
             "background_media": "image",
             "video_position": "cover",
+            "background_image": "shopify://shop_images/corporate.png",
             "background_image_position": "cover",
             "media_height_mobile": "auto",
             "media_height_mobile_custom": 40,
@@ -341,7 +342,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Wholesale</h2>",
+                "text": "<h2>Corporate wear</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -380,7 +381,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2><strong>Styleoverview</strong></h2>",
+                "text": "<h2><strong>Corporate wear, arbejdstøj & uniformer</strong></h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -419,7 +420,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>I dette styleoverview får du et hurtigt og enkelt overblik, over alt vores strik til herrer segmenteret efter kvaliteter.</p>",
+                "text": "<p>Se hele vores sortiment til alle brancher, til både herre og damer.</p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -516,6 +517,7 @@
             "color_scheme": "scheme-5",
             "background_media": "image",
             "video_position": "cover",
+            "background_image": "shopify://shop_images/care_guide.png",
             "background_image_position": "cover",
             "media_height_mobile": "auto",
             "media_height_mobile_custom": 40,
@@ -595,7 +597,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2><strong>Katalog</strong></h2>",
+                "text": "<h2><strong>NOOS wholesale</strong></h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -634,7 +636,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>I dette katalog får du et uddybende indblik i alt vores strik til herrer. Her er der imagebilleder og produkttekster til alle styles</p>",
+                "text": "<p>I dette styleoverview får du et enkelt overblik over hele vores NOOS sortiment til  herre.</p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -731,6 +733,7 @@
             "color_scheme": "scheme-5",
             "background_media": "image",
             "video_position": "cover",
+            "background_image": "shopify://shop_images/esg_1.png",
             "background_image_position": "cover",
             "media_height_mobile": "auto",
             "media_height_mobile_custom": 40,
@@ -771,7 +774,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2>Corporate wear</h2>",
+                "text": "<h2>ESG</h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -810,7 +813,7 @@
               "type": "text",
               "name": "t:names.heading",
               "settings": {
-                "text": "<h2><strong>Corporate wear, arbejdstøj & uniformer</strong></h2>",
+                "text": "<h2><strong>ESG rapport for ansvar & gennemsigtighed</strong></h2>",
                 "width": "fit-content",
                 "max_width": "normal",
                 "alignment": "left",
@@ -849,7 +852,7 @@
               "type": "text",
               "name": "t:names.text",
               "settings": {
-                "text": "<p>I dette styleoverview får du et enkelt overblik over hele vores sortiment til alle brancher, til både mænd og kvinder.</p>",
+                "text": "<p>Har kan du læse om vores arbejde mod en ansvarlig produktion.  </p>",
                 "width": "fit-content",
                 "max_width": "narrow",
                 "alignment": "left",
@@ -889,7 +892,7 @@
               "name": "t:names.button",
               "settings": {
                 "label": "se katalog",
-                "link": "https://issuu.com/clipper_as/docs/cc55_noos?fr=sZjRlMzkwODg0NjM",
+                "link": "https://issuu.com/clipper_as/docs/clipper_esg_2024_report?fr=xKAE9_zMzMw",
                 "open_in_new_tab": false,
                 "style_class": "button",
                 "width": "fit-content",
@@ -929,7 +932,6 @@
         "group_BXxGTx",
         "group_aXbLe7"
       ],
-      "disabled": true,
       "name": "t:names.split_showcase",
       "settings": {
         "content_direction": "row",
@@ -1902,6 +1904,7 @@
         "group_YADNNc",
         "group_HeAcMj"
       ],
+      "disabled": true,
       "name": "t:names.split_showcase",
       "settings": {
         "content_direction": "row",
