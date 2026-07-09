@@ -677,7 +677,7 @@
               "settings": {
                 "label": "se katalog",
                 "link": "https://issuu.com/clipper_as/docs/clipper_noos_catalogue",
-                "open_in_new_tab": false,
+                "open_in_new_tab": true,
                 "style_class": "button",
                 "width": "fit-content",
                 "custom_width": 100,
